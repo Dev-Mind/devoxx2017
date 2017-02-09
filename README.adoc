@@ -1,6 +1,6 @@
 = DevoxxFr 2017 - Optimiser les performances d'une webapp
 
-image:src/main/images/logo/logo_150O.png[Dev-Mind]
+image:src/main/images/logo/logo_1500.png[Dev-Mind]
 
 Le but de cette présentation
 
