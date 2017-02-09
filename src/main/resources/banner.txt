@@ -1,0 +1,18 @@
+${AnsiColor.WHITE}███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
+${AnsiColor.WHITE}███                                                                                                                                         ${AnsiColor.WHITE}███
+${AnsiColor.WHITE}███  ${AnsiColor.BLACK}██      ██  ██████  ██████       ${AnsiColor.BLUE}██████   ██████  ██████    ██████    ████    ██████    ██      ██    ██    ██    ██   ██████  ██████  ${AnsiColor.WHITE}███
+${AnsiColor.WHITE}███  ${AnsiColor.BLACK}██      ██  ██      ██   ██      ${AnsiColor.BLUE}██   ██  ██      ██   ██   ██      ██    ██  ██   ██   ████  ████  ██  ██  ████  ██  ██       ██      ${AnsiColor.WHITE}███
+${AnsiColor.WHITE}███  ${AnsiColor.BLACK}██  ██  ██  ████    ██████       ${AnsiColor.BLUE}██████   ████    ██████    ████    ██    ██  ██████    ██  ██  ██  ██████  ██ ██ ██  ██       ████    ${AnsiColor.WHITE}███
+${AnsiColor.WHITE}███  ${AnsiColor.BLACK}████  ████  ██      ██   ██      ${AnsiColor.BLUE}██       ██      ██   ██   ██      ██    ██  ██   ██   ██      ██  ██  ██  ██  ████  ██       ██      ${AnsiColor.WHITE}███
+${AnsiColor.WHITE}███  ${AnsiColor.BLACK}██      ██  ██████  ██████       ${AnsiColor.BLUE}██       ██████  ██    ██  ██        ████    ██    ██  ██      ██  ██  ██  ██   ███   ██████  ██████  ${AnsiColor.WHITE}███
+${AnsiColor.WHITE}███                                                                                                                                         ${AnsiColor.WHITE}███
+${AnsiColor.WHITE}███         ${AnsiColor.BRIGHT_BLACK} ██████   ██    ██     ${AnsiColor.BRIGHT_BLACK}██████    ████████  ██      ██          ██      ██  ██  ██    ██  ██████                                 ${AnsiColor.WHITE}███
+${AnsiColor.WHITE}███         ${AnsiColor.BRIGHT_BLACK} ██   ██    ██ ██      ${AnsiColor.BRIGHT_BLACK}██    ██  ██         ██    ██           ████  ████  ██  ████  ██  ██    ██                               ${AnsiColor.WHITE}███
+${AnsiColor.WHITE}███         ${AnsiColor.BRIGHT_BLACK} ██████      ██        ${AnsiColor.BRIGHT_BLACK}██    ██  ██████      ██  ██    ██████  ██  ██  ██  ██  ██ ██ ██  ██    ██                               ${AnsiColor.WHITE}███
+${AnsiColor.WHITE}███         ${AnsiColor.BRIGHT_BLACK} ██   ██     ██        ${AnsiColor.BRIGHT_BLACK}██    ██  ██           ████             ██      ██  ██  ██  ████  ██    ██                               ${AnsiColor.WHITE}███
+${AnsiColor.WHITE}███         ${AnsiColor.BRIGHT_BLACK} ██████      ██        ${AnsiColor.BRIGHT_BLACK}██████    ████████      ██              ██      ██  ██  ██   ███  ██████                                 ${AnsiColor.WHITE}███
+${AnsiColor.WHITE}███                                                                                                                                         ${AnsiColor.WHITE}███
+${AnsiColor.WHITE}███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
+${AnsiColor.WHITE}███  ${AnsiColor.BLACK} Running Spring Boot ${spring-boot.version}                                                                                                     ${AnsiColor.WHITE}███
+${AnsiColor.WHITE}███  ${AnsiColor.BLUE} http://www.dev-mind.fr ${AnsiColor.DEFAULT}                                                                                                               ${AnsiColor.WHITE}███
+${AnsiColor.WHITE}███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████

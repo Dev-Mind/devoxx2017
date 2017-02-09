@@ -12,12 +12,5 @@ __
 Nous verrons les différentes étapes pour améliorer la rapidité d'une application au premier chargement (load time), en mode offline, comment jouer sur le critical rendering...  Au niveau des solutions nous parlerons cache, asynchronisme, services workers...
 
 **Pour aller plus loin, vous pouvez suivre la https://www.dev-mind.fr/formation_optimiser.html[formation de Dev-Mind sur le sujet]. Cette session montre la théorie, la formation permet de mettre en pratique
-**
-
-[icons="src/main/images/logo/logo_450.png", caption="Note"]
-NOTE: This is my special note.
-
-
-image:src/main/images/logo/logo.svg[Dev-Mind]
-
+                                                        **
 

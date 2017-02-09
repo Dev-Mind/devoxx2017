@@ -1,0 +1,706 @@
+[ {
+  "idMember" : 10,
+  "login" : "Zenika Lyon",
+  "firstname" : "Hervé",
+  "lastname" : "JACOB",
+  "company" : "Zenika",
+  "logo" : "sponsors/logo-zenika.jpg",
+  "hash" : "21505effd9802ef69990e1d496938fc7",
+  "sessionType" : null,
+  "shortDescription" : "Spécialisé dans l'architecture informatique et les méthodes agiles, Zenika compte 200 collaborateurs répartis sur des domaines aussi variés que l'expertise Java, le BigData, le Web, la Mobilité, l'IoT, DevOps, le Craftsmanship et l'Agilité.",
+  "longDescription" : "Avec 200 Consultants, Zenika est l'un des principaux Cabinets français d'architecture informatique, de formation, de conseil et de développement spécialisés dans les technologies Java EE, le Web, l'Open Source, et les Méthodes Agiles.  Nous attachons une grande importance au partage de connaissances et à l'animation des communautés. Ainsi, sur Lyon et sa région, nous sommes fiers de sponsoriser le Mix-IT, le Lyon JUG, le CARA de Lyon, le LYAUG, l'Agile Grenoble, et d'aider plusieurs \"communautés meetups\" locales (Hadoop, Cassandra, Craftsmanship, Docker, Ansible, Scala ...).  \nLe groupe est implanté à Paris, Lyon, Rennes, Nantes, Lille et Bordeaux.  \nNous recrutons des talents confirmés ou en devenir, des personnes passionnées et porteuses de nos valeurs de partage, transparence et convivialité sur nos domaines de spécialisation.  \nZenika est 4ième au classement 2015 de Great Place to Work des entreprises de moins de 500 salariés ou il fait bon travailler.",
+  "userLinks" : [ {
+    "key" : "Le blog technique",
+    "value" : "http://blog.zenika.com"
+  }, {
+    "key" : "Les formations Inter à Lyon",
+    "value" : "http://www.zenika.com/Formation/prochaines-formations.html?agency=3"
+  }, {
+    "key" : "Formations - Le catalogue complet",
+    "value" : "http://www.zenika.com/Formation/notre-catalogue-formation.html"
+  }, {
+    "key" : "Zenika",
+    "value" : "http://www.zenika.com"
+  } ],
+  "interests" : [ "Partenariats", "recrutement", "relation clients", "Veille techno" ],
+  "sessions" : [ ],
+  "level" : [ {
+    "key" : "GOLD",
+    "value" : "2015-11-15T00:00"
+  } ],
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://www.mix-it.fr/api/member/10"
+  } ]
+}, {
+  "idMember" : 1661,
+  "login" : "Sopra Steria",
+  "firstname" : null,
+  "lastname" : "SOPRA STERIA",
+  "company" : "Sopra Steria",
+  "logo" : "sponsors/logo-soprasteria.jpg",
+  "hash" : "072b3333ef0be343b1bac3a88c9ebd83",
+  "sessionType" : null,
+  "shortDescription" : "Leader européen de la transformation numérique - Conseil, Intégration de systèmes, Edition de solutions métier et Business Process\nServices",
+  "longDescription" : "Sopra Steria propose l’un des portefeuilles d’offres les plus complets du marché : conseil, intégration de systèmes, édition de solutions métier et Business Process Services. Il apporte ainsi une réponse globale aux enjeux de développement et de compétitivité des grandes entreprises et organisations. Combinant valeur ajoutée et innovation dans les solutions apportées, ainsi que performance des services délivrés, Sopra Steria accompagne ses clients dans leurs programmes de transformation, aussi complexes soient-ils, et les aide à faire le meilleur usage du numérique. Fort de 35 000 collaborateurs dans plus de 20 pays, le Groupe Sopra Steria affiche un chiffre d’affaires pro forma 2013 de 3,1 milliards d’euros.\n\nLa région Rhône-Alpes Auvergne compte 1200 collaborateurs répartis sur 4 sites : Lyon; Grenoble, Annecy et Clermont-Ferrand.\nForts de nos grands projets de transformation autour des nouvelles technologies et de l’innovation, nos équipes accompagnent nos clients grands comptes sur des environnements sectoriels (Industrie, Énergie, Transport, Tertiaire…) et technologiques (JEE, .Net, SAP, BI, Mobilité, etc.) variés. \nAfin de répondre aux enjeux stratégiques de nos clients, nous souhaitons renforcer nos équipes de différents types de profils tels que :\n- Ingénieurs d'études Nouvelles Technologies (JEE / .net / PHP)\n- Consultants BI\n- Consultants SAP\n- Chefs/Directeurs de projet\n- Architectes\n- Consultants AMOA\n\nRetrouvez toutes nos opportunités sur http://www.soprasteria.com/fr/carrieres\n\nPour toutes questions : olivia.joubert@soprasteria.com",
+  "userLinks" : [ {
+    "key" : "Site Sopra Steria",
+    "value" : "http://www.soprasteria.com/fr/carrieres"
+  } ],
+  "interests" : [ ],
+  "sessions" : [ ],
+  "level" : [ {
+    "key" : "GOLD",
+    "value" : "2015-12-01T00:00"
+  } ],
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://www.mix-it.fr/api/member/1661"
+  } ]
+}, {
+  "idMember" : 5062,
+  "login" : "annick.challancin@esker.fr",
+  "firstname" : "Annick",
+  "lastname" : "ESKER",
+  "company" : "Esker",
+  "logo" : "sponsors/logo-esker.png",
+  "hash" : "e3f990d233ca8804d2dc2e922c952320",
+  "sessionType" : null,
+  "shortDescription" : "Editeur de logiciel lyonnais, Esker développe des solutions de dématérialisation en mode SaaS utilisées par plus de 11 000 clients dans le monde. Nos 7 équipes Agiles travaillent sur des problématiques de mobilité, de sécurité et de scalabilité.",
+  "longDescription" : "3ème éditeur de logiciel de la région Rhône-Alpes, nos solutions en mode SaaS permettent de dématérialiser et d’automatiser la gestion des flux documentaires des entreprises : factures, bons de commandes, demandes d’achat…\n\nPrès de 11 000 clients à travers le monde nous font déjà confiance, parmi lesquels Samsung, Starbucks, Hollister, Mars, Sanofi, Ford, McDonald’s ou HSBC.\n\nFondée il y a 30 ans, nous employons aujourd’hui près de 400 Eskériens à travers 12 filiales (Europe, Asie, Australie et USA), dont près de 200 personnes dans notre siège social, à Lyon. En croissance à 2 chiffres sur les 3 dernières années (+27% en 2015), notre chiffre d’affaires s’élève à 58,5 millions d’euros.\n\nEsker recherche des profils motivés, créatifs et passionnés d’innovation. Venez relever les nouveaux défis du Cloud, travailler au sein d’une équipe agile et dynamique et vous épanouir dans un environnement stimulant et international.",
+  "userLinks" : [ {
+    "key" : "Site web",
+    "value" : "http://www.esker.fr/corporate/who_we_are/about_esker.asp"
+  }, {
+    "key" : "LinkedIn",
+    "value" : "https://www.linkedin.com/company/esker-france"
+  }, {
+    "key" : "Twitter",
+    "value" : "https://twitter.com/EskerFrance"
+  }, {
+    "key" : "YouTube",
+    "value" : "https://www.youtube.com/channel/UCRNuK_jrg-GinCQy8B5oAnQ"
+  } ],
+  "interests" : [ ],
+  "sessions" : [ ],
+  "level" : [ {
+    "key" : "GOLD",
+    "value" : "2015-12-18T11:10:47"
+  } ],
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://www.mix-it.fr/api/member/5062"
+  } ]
+}, {
+  "idMember" : 168,
+  "login" : "VISEO",
+  "firstname" : "Viseo technologies",
+  "lastname" : "VISEO TECHNOLOGIES",
+  "company" : "VISEO",
+  "logo" : "sponsors/logo-viseo.png",
+  "hash" : "3e9ebfef1d53c3257ea31e0f5e3c218b",
+  "sessionType" : null,
+  "shortDescription" : "La BU VISEO Technologies conseille, accompagne, et délivre des projets agiles dans les architectures objet et web & mobiles, avec une présence à Paris, Lyon, Grenoble, et Toulouse.\n\n[Nos offres](http://www.viseo.com/fr/offre/business-technologies)",
+  "longDescription" : "Nous comptons dans nos effectifs quelques lyonnais actifs et visibles, tels que [Vincent THAVONEKHAM](https://www.mix-it.fr/member//590) et [Pierre FAUVEL](https://www.mix-it.fr/member//22) que vous aurez l'occasion de rencontrer pendant l'évènement, notamment à l'occasion d'une session intitulée [Tête à tête souple et musclé](https://www.mix-it.fr/session/2912/).\n\nNous sommes également fiers d'avoir partagé un morceaux de chemin avec certains organisateurs / fondateurs de Mix-IT Lyon, ainsi que des membres de [Ninja Squad](http://ninja-squad.fr/).\n\nA propos du [groupe VISEO](http://www.viseo.com/)\n\nEn s’appuyant sur ses expertises dans les domaines du digital, des technologies, des process et de la data, VISEO vous accompagne dans vos chantiers de transformation et vous aide à faire émerger de nouvelles idées, de nouvelles offres, de nouveaux modes de collaboration, de nouvelles manières de produire et de vendre.\n\nAvec 1 200 collaborateurs répartis sur quatre continents et un chiffre d'affaires supérieur à 110 millions d'euros, VISEO vous propose une alternative aux intégrateurs, agences et cabinets de conseil, en imposant une approche unique, souple, innovante et structurante.\nVISEO vous apporte ainsi une réponse globale et vous aide à mettre en œuvre des projets complexes pour faire face aux enjeux numériques qui impactent les systèmes d'information, les métiers ou les organisations.",
+  "userLinks" : [ {
+    "key" : "Blog",
+    "value" : "http://blog.viseo-bt.com/"
+  }, {
+    "key" : "LinkedIn",
+    "value" : "https://www.linkedin.com/company/objet-direct"
+  }, {
+    "key" : "Twitter",
+    "value" : "https://twitter.com/viseotech"
+  }, {
+    "key" : "Facebook",
+    "value" : "https://www.facebook.com/objetdirect/"
+  } ],
+  "interests" : [ "Xamarin", "Java", "Angular.js", "AMOA", "Azure", "Delivery Agile", "ionicframework", "JS", "Big Data", "Windows8", "iot", "gestion de projet", "iOS", "Transformation agile", "Android", "Web", "cordova", "HTML5", ".Net" ],
+  "sessions" : [ ],
+  "level" : [ {
+    "key" : "GOLD",
+    "value" : "2015-12-29T11:17:39"
+  } ],
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://www.mix-it.fr/api/member/168"
+  } ]
+}, {
+  "idMember" : 2971,
+  "login" : "WorldlineFrance",
+  "firstname" : "",
+  "lastname" : "WORLDLINE",
+  "company" : "Worldline",
+  "logo" : "sponsors/logo-worldline.jpg",
+  "hash" : "de901dee6ea6d695afcaa886f336f753",
+  "sessionType" : null,
+  "shortDescription" : "Worldline est le leader européen et un acteur mondial de référence dans le secteur des paiements et des services transactionnels.",
+  "longDescription" : "Worldline [Euronext : WLN] est le leader européen et un acteur mondial de référence dans le secteur des paiements et des services transactionnels.Worldline met en place des services nouvelle génération, permettant à ses clients d’offrir au consommateur final des solutions innovantes et fluides.Acteur clef du B2B2C, riche de 40 ans d’expérience, Worldline sert et contribue au succès de toutes les entreprises et administrations, dans un marché en perpétuelle évolution.Worldline propose un Business Model unique et flexible, construit autour d’un portefeuille d’offres évolutif et global permettant une prise en charge end-to-end. Les activités de Worldline sont organisées autour de trois axes : Merchant Services & Terminals, Mobility & eTransactional Services, Financial Processing & Software Licensing. Worldline emploie plus de 7200 collaborateurs dans le monde entier et a généré un revenu (pro-forma) de 1,12 milliard d’euros en 2013. Worldline est une entreprise du Groupe Atos.",
+  "userLinks" : [ {
+    "key" : "Website",
+    "value" : "http://fr.worldline.com/fr-fr/home.html"
+  }, {
+    "key" : "Facebook",
+    "value" : "https://www.facebook.com/WorldlineFrance"
+  } ],
+  "interests" : [ ],
+  "sessions" : [ ],
+  "level" : [ {
+    "key" : "GOLD",
+    "value" : "2016-02-08T22:03:59"
+  } ],
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://www.mix-it.fr/api/member/2971"
+  } ]
+}, {
+  "idMember" : 5812,
+  "login" : "Sword",
+  "firstname" : "Berthille",
+  "lastname" : "SELLIER",
+  "company" : "Sword",
+  "logo" : "sponsors/logo-sword.jpg",
+  "hash" : "75c9f1cb187e83fd6fcf55cdeafee794",
+  "sessionType" : null,
+  "shortDescription" : "Sword Services est spécialisé dans le développement et l'intégration de logiciels spécifiques. Technophiles avant tout, nos 180 collaborateurs Lyonnais seront représentés sur le MixIT que nous sommes fiers de sponsoriser pour la première année.",
+  "longDescription" : "Sword Services est la filiale Française de Sword Group qui représente 1400+ collaborateurs à l'international.\n\nExperts dans leurs domaines, nos 300 collaborateurs interviennent sur des prestations de conseil et d’intégration pour nos clients Grands Comptes, 80 % de notre activité est réalisée en mode projet de manière forfaitaire. \n\nNos domaines d'expertise sont les suivants : \n\n>Structuration de la donnée\n- Enterprise Content Management (ECM/GED) \n- Systèmes d'Information Géographique (SIG) \n- Search et Sémantique \n- Interopérabilité des SI – EAI / SOA \n\n>Gestion de la donnée\n- Portails, collaboration et réseau social \n- Communication client et Editique \n- CRM et marketing intéractif \n\n>Valorisation de la donnée \n- Business Intelligence / Analytique \n- Sword Insight & Intelligence Platform \n- Mobilité \n\nAu delà des technologies innovantes maîtrisées par nos collaborateurs, c'est aussi la qualité de vie chez Sword qui contribue à notre réussite : partage, convivialité et challenges techniques sont au rendez vous, mais pas que...\nVenez nous rencontrer le jour J pour partager avec nous et votre réseau des animations agiles, logiques et techniques!\nLes gagnants des challenges auront le privilège d’accompagner les équipes Sword en loge du Grand Stade Lyonnais le 30 avril…",
+  "userLinks" : [ {
+    "key" : "Site web",
+    "value" : "http://www.sword-services.com/fr/#"
+  }, {
+    "key" : "LinkedIn",
+    "value" : "https://www.linkedin.com/company/5079515?trk=hp-feed-company-name"
+  }, {
+    "key" : "Twitter",
+    "value" : "https://twitter.com/sword_group"
+  } ],
+  "interests" : [ "Application Web", "AngularJS", "Agilité", "Partenariats", "Qualité", "Backbone.js", "ElasticSearch", "JavaEE", "JavaScript", ".Net", "MongoDB", "recrutement", "Bootstrap", "culture du programmeur", "Apache Camel" ],
+  "sessions" : [ ],
+  "level" : [ {
+    "key" : "GOLD",
+    "value" : "2016-02-17T17:46:18"
+  } ],
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://www.mix-it.fr/api/member/5812"
+  } ]
+}, {
+  "idMember" : 2941,
+  "login" : "stormshield",
+  "firstname" : null,
+  "lastname" : "STORMSHIELD",
+  "company" : "stormshield.eu",
+  "logo" : "sponsors/logo-stormshield.jpg",
+  "hash" : "581d542afebb10f06ad073790e7cef18",
+  "sessionType" : null,
+  "shortDescription" : "Arkoon et Netasq, filiales à 100% d’Airbus Defence and Space, opèrent la marque Stormshield - éditeur de solutions de sécurité",
+  "longDescription" : "Arkoon et Netasq, filiales à 100% d’Airbus Defence and Space, opèrent la marque Stormshield et proposent tant en France qu’à l’international des solutions de sécurité de bout-en-bout innovantes pour protéger les réseaux (Stormshield Network Security), les postes de travail (Stormshield Endpoint Security) et les données (Stormshield Data Security).\nCes solutions de confiance de nouvelle génération, certifiées au plus haut niveau européen  (EU RESTRICTED, OTAN et ANSSI EAL4+), assurent la protection des informations stratégiques et sont déployées au travers d’un réseau de partenaires de distribution, d’intégrateurs et d’opérateurs dans des entreprises de toute taille, des institutions gouvernementales et des organismes de défense partout dans le monde.",
+  "userLinks" : [ {
+    "key" : "Site web corporate",
+    "value" : "http://www.stormshield.eu"
+  } ],
+  "interests" : [ ],
+  "sessions" : [ ],
+  "level" : [ {
+    "key" : "GOLD",
+    "value" : "2016-03-03T12:10:24"
+  } ],
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://www.mix-it.fr/api/member/2941"
+  } ]
+}, {
+  "idMember" : 1083,
+  "login" : "Redhat",
+  "firstname" : "Redhatopen",
+  "lastname" : "REDHATOPEN",
+  "company" : "Red Hat",
+  "logo" : "sponsors/logo-redhat.jpg",
+  "hash" : "c70cb1f364589cbcc7f8388ff2e63ff8",
+  "sessionType" : null,
+  "shortDescription" : "Red Hat® is the world's leading provider of open source solutions, using a community-powered approach.",
+  "longDescription" : "Red Hat® is the world's leading provider of open source solutions, using a community-powered approach to provide reliable and high-performing cloud, virtualization, storage, Linux®, and middleware technologies. Its Open Source and Standards team (community.redhat.com) supports upstream community projects.",
+  "userLinks" : [ {
+    "key" : "Website",
+    "value" : "http://www.redhat.com/"
+  }, {
+    "key" : "Open Source and Standards",
+    "value" : "http://community.redhat.com"
+  } ],
+  "interests" : [ ],
+  "sessions" : [ ],
+  "level" : [ {
+    "key" : "GOLD",
+    "value" : "2016-02-12T13:37:59"
+  } ],
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://www.mix-it.fr/api/member/1083"
+  } ]
+}, {
+  "idMember" : 2871,
+  "login" : "ERDF-Linky",
+  "firstname" : null,
+  "lastname" : "LINKY ERDF",
+  "company" : "ERDF",
+  "logo" : "sponsors/logo-erdf-linky.png",
+  "hash" : "52ebe0757e5a41f74ea880bf1b124674",
+  "sessionType" : null,
+  "shortDescription" : "Linky c'est le projet de compteurs communicants d'ERDF. Linky c'est aussi un SI, réalisé à Lyon par 200 passionnés !",
+  "longDescription" : "",
+  "userLinks" : [ {
+    "key" : "ERDF",
+    "value" : "http://www.erdf.fr"
+  } ],
+  "interests" : [ ],
+  "sessions" : [ ],
+  "level" : [ {
+    "key" : "SILVER",
+    "value" : "2015-12-15T00:00"
+  } ],
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://www.mix-it.fr/api/member/2871"
+  } ]
+}, {
+  "idMember" : 992,
+  "login" : "cgi",
+  "firstname" : "Cgi",
+  "lastname" : "CGI",
+  "company" : "CGI",
+  "logo" : "sponsors/logo-cgi.jpg",
+  "hash" : "bb56b6b99d33604a570aa572bd246e70",
+  "sessionType" : null,
+  "shortDescription" : "[CGI](http://www.cgi.fr), pour la troisième année, s’associe au Mix-IT pour promouvoir l’innovation, le développement, l’agilité et le plaisir",
+  "longDescription" : "Fondé en 1976, Groupe CGI inc. est la cinquième plus importante entreprise indépendante de services en technologies de l’information et en gestion des processus d’affaires au monde. Grâce à ses quelque 65 000 professionnels, CGI offre un portefeuille complet de services, y compris des services-conseils stratégiques en informatique et en management, des services d’intégration de systèmes, de développement et de maintenance d’applications informatiques, de gestion d’infrastructures technologiques ainsi que 150 solutions et services faisant appel à la propriété intellectuelle à des milliers de clients à l’échelle mondiale à partir de ses bureaux et centres mondiaux de prestation de services dans les Amériques, en Europe et en Asie-Pacifique. CGI génère des revenus annuels de plus de 10 milliards de dollars canadiens et la valeur de son carnet de commandes s’élève à plus de 20 milliards de dollars canadiens. Les actions de CGI sont inscrites à la Bourse de Toronto (GIB.A) ainsi qu’à la Bourse de New York (GIB). Site Web : www.cgi.com",
+  "userLinks" : [ {
+    "key" : "CGI Recrute",
+    "value" : "http://www.cgi-recrute.fr/"
+  }, {
+    "key" : "CGI sur LinkedIn",
+    "value" : "http://www.linkedin.com/company/cgi"
+  }, {
+    "key" : "CGI sur Viadéo",
+    "value" : "http://fr.viadeo.com/fr/company/cgi"
+  }, {
+    "key" : "CGI sur Facebook",
+    "value" : "https://fr-fr.facebook.com/CGIFrance"
+  } ],
+  "interests" : [ "Web", "DevOps", "développement", "Mobilité", "Agile" ],
+  "sessions" : [ ],
+  "level" : [ {
+    "key" : "SILVER",
+    "value" : "2015-12-17T00:00"
+  } ],
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://www.mix-it.fr/api/member/992"
+  } ]
+}, {
+  "idMember" : 663,
+  "login" : "sonarsource",
+  "firstname" : null,
+  "lastname" : "SONAR SOURCE",
+  "company" : "sonarsource",
+  "logo" : "sponsors/logo-sonarsource.png",
+  "hash" : "b2b9255bf0b9cb4546954e1372804c87",
+  "sessionType" : null,
+  "shortDescription" : "SonarSource provides applications and services for continuous inspection of code quality.",
+  "longDescription" : "SonarSource provides applications and services for continuous inspection of code quality. Its open source and commercial products help customers to perform development and long-term maintenance of software at a lower cost and with reduced risk. SonarSource solutions support development in many programming languages such as Java, C#, Javascript, PHP, ABAP, Cobol, PL/SQL and others. SonarSource has more than 200 customers worldwide, including Cisco Systems, Deutsche Bank, Bank of America, Michelin, Telefonica, BNP Paribas, and many others.",
+  "userLinks" : [ {
+    "key" : "Site commercial",
+    "value" : "http://www.sonarsource.com"
+  }, {
+    "key" : "Site communautaire",
+    "value" : "http://www.sonarsource.org"
+  }, {
+    "key" : "In Action",
+    "value" : "http://nemo.sonarsource.org"
+  } ],
+  "interests" : [ "Clean Code", "Java", "C++", "JavaScript", "Qualité", "Tests" ],
+  "sessions" : [ ],
+  "level" : [ {
+    "key" : "SILVER",
+    "value" : "2016-01-08T23:55:50"
+  } ],
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://www.mix-it.fr/api/member/663"
+  } ]
+}, {
+  "idMember" : 1031,
+  "login" : "econocom-osiatis",
+  "firstname" : null,
+  "lastname" : "ECONOCOM OSIATIS",
+  "company" : "Econocom",
+  "logo" : "sponsors/logo-econom.jpg",
+  "hash" : "6abd7959483b77e366623fa96238f93b",
+  "sessionType" : null,
+  "shortDescription" : "Acteur de référence des Services Numériques, leader dans la mise en œuvre de solutions globales, technologiques, financières et métier.",
+  "longDescription" : "Le marché du numérique au sens large se transforme sous nos yeux à très grande vitesse. Les cartes du jeu compétitif sont redistribuées et les ESN (Entreprises de Services du Numérique) gagnantes seront celles qui maitriseront et associeront les domaines de compétences qui sont au cœur de ce changement radical de décor : Transformation et optimisation des infrastructures,•cloud computing et nouvelles architectures,•mobilité et gestion des multi devices,•social networking et outils collaboratifs.Econocom-Osiatis est nativement bien placé pour relever ce challenge et devenir une référence en Europe. Intégrés au sein du groupe Econocom, nous sommes d’ores et déjà en capacité d’imaginer, de construire et d’opérer les solutions globales (besoins métiers + dimensions technologiques + approche financière) dont nos clients ont besoin. ",
+  "userLinks" : [ {
+    "key" : "Econocom-Osiatis",
+    "value" : "http://www.econocom-osiatis.com"
+  } ],
+  "interests" : [ ],
+  "sessions" : [ ],
+  "level" : [ {
+    "key" : "SILVER",
+    "value" : "2016-01-17T00:03:27"
+  } ],
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://www.mix-it.fr/api/member/1031"
+  } ]
+}, {
+  "idMember" : 3681,
+  "login" : "sourcingisr",
+  "firstname" : "Eric",
+  "lastname" : "DANIERE",
+  "company" : "ISR",
+  "logo" : "sponsors/logo-isr.jpg",
+  "hash" : "0d6f9ffae170cd61ae45dd38b2a42e38",
+  "sessionType" : null,
+  "shortDescription" : "Entreprise de service numérique, nous accompagnons nos clients dans l'évolution de leurs SI depuis 1996.",
+  "longDescription" : "Un positionnement historique régional et une stratégie de croissance mesurée nous apportent souplesse, adaptabilité et réactivité.\nLa confiance renouvelée de nos clients ainsi que celle de nos collaborateurs témoignent de la pertinence de nos choix.\nDepuis Août 2014 nous sommes aussi présents à SHANGHAI.",
+  "userLinks" : [ {
+    "key" : "Site ISR",
+    "value" : "http://www.isr.fr/"
+  }, {
+    "key" : "ISR VIADEO",
+    "value" : "http://www.viadeo.com/fr/company/isr-informatique-systemes-reseaux"
+  }, {
+    "key" : "Twitter",
+    "value" : "https://twitter.com/SourcingISR"
+  } ],
+  "interests" : [ ],
+  "sessions" : [ ],
+  "level" : [ {
+    "key" : "SILVER",
+    "value" : "2016-01-20T00:03:43"
+  } ],
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://www.mix-it.fr/api/member/3681"
+  } ]
+}, {
+  "idMember" : 1811,
+  "login" : "SII_rhonealpes",
+  "firstname" : null,
+  "lastname" : "SII RHÔNE-ALPES",
+  "company" : "Groupe SII",
+  "logo" : "sponsors/logo-sii.png",
+  "hash" : "a46568e2d4e3a7a2e55a3e877afd5456",
+  "sessionType" : null,
+  "shortDescription" : "SII Rhône Alpes: une agence dynamique et en plein développement",
+  "longDescription" : "Société d’ingénierie, de conseil et de formation en technologies, le Groupe SII accompagne les évolutions informatiques de nombreuses entreprises.\nSes équipes d’experts sont mobilisées pour créer et mettre en œuvre des solutions à forte valeur ajoutée pour leur permettre de relever le défi de l’innovation.\n\nAujourd'hui, le Groupe SII compte 4 850 collaborateurs dans 13 pays et 50 implantations dans le monde dont 9 agences en France : Aix en Provence, Ile de France, Lille, Lyon, Nantes, Rennes, Sophia Antipolis, Strasbourg, Toulouse.\n\nDepuis sa création en 1979, la société offre des réponses adaptées aux besoins de ses clients avec : \n·\tUne expertise métiers et sectorielle reconnue\n·\tDes solutions clés en main\n·\tL'intégration de solutions logicielles\n·\tDes modes d'intervention modulables et évolutifs\n\nSII propose ainsi différents types d'interventions pour couvrir l'intégralité du cycle d'un projet : \n·\tLe conseil et les études en amont\n·\tLa formation par des experts métiers\n·\tL'ingénierie de développement\n·\tLes tests, le déploiement et la maintenance",
+  "userLinks" : [ {
+    "key" : "Site SII Lyon",
+    "value" : "http://lyon.groupe-sii.com/fr/"
+  } ],
+  "interests" : [ ],
+  "sessions" : [ ],
+  "level" : [ {
+    "key" : "SILVER",
+    "value" : "2016-02-02T13:53:39"
+  } ],
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://www.mix-it.fr/api/member/1811"
+  } ]
+}, {
+  "idMember" : 6162,
+  "login" : "1338530083",
+  "firstname" : "Mehdi",
+  "lastname" : "LAHMAM",
+  "company" : "Craftsmen",
+  "logo" : "sponsors/logo-craftsmen.jpg",
+  "hash" : "1bc598b6d743e8d344f63fc9442ab521",
+  "sessionType" : null,
+  "shortDescription" : "Design et développement d'applications web.",
+  "longDescription" : "Design et développement d'applications web.",
+  "userLinks" : [ {
+    "key" : "Site web",
+    "value" : "http://craftsmen.io"
+  }, {
+    "key" : "Twitter",
+    "value" : "https://twitter.com/craftsmenhq"
+  }, {
+    "key" : "GitHub",
+    "value" : "https://github.com/craftsmen/"
+  } ],
+  "interests" : [ "development", "design" ],
+  "sessions" : [ ],
+  "level" : [ {
+    "key" : "SILVER",
+    "value" : "2016-03-06T22:45:54"
+  } ],
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://www.mix-it.fr/api/member/6162"
+  } ]
+}, {
+  "idMember" : 7182,
+  "login" : "stackoverflow",
+  "firstname" : "Stackoverflow",
+  "lastname" : "STACK OVERFLOW",
+  "company" : "Stack Overflow",
+  "logo" : "sponsors/logo-stackoverflow.jpg",
+  "hash" : "30335e379066a724a25b2315f60c28d8",
+  "sessionType" : null,
+  "shortDescription" : "Stack Overflow is the place where the world's developers go to learn, share their knowledge and advance their careers. Our Q&A site features over 10.2 million programming questions, and our job board offers positions with the most exciting employers.",
+  "longDescription" : "Stack Overflow is the place where millions of developers go to learn, share their knowledge and advance their careers. Founded in 2008 by Joel Spolsky and Jeff Atwood, the company was built on the premise that serving and enriching the developer community at large would lead to a better, smarter Internet. Stack Overflow now hosts nearly 40 million monthly visitors and 10.2 million programming questions.",
+  "userLinks" : [ {
+    "key" : "Site web",
+    "value" : "http://stackoverflow.com/"
+  }, {
+    "key" : "Twitter",
+    "value" : "https://twitter.com/StackOverflow"
+  }, {
+    "key" : "Site web",
+    "value" : "http://stackoverflow.com/jobs"
+  } ],
+  "interests" : [ "languages", "developer", "Forum" ],
+  "sessions" : [ ],
+  "level" : [ {
+    "key" : "SILVER",
+    "value" : "2016-03-08T00:02:12"
+  } ],
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://www.mix-it.fr/api/member/7182"
+  } ]
+}, {
+  "idMember" : 2291,
+  "login" : "alfene",
+  "firstname" : "Alain",
+  "lastname" : "PAYSANT",
+  "company" : "alfene",
+  "logo" : "sponsors/logo-alfene.png",
+  "hash" : "e0f63844cc69a088416f1522cb4d2fa2",
+  "sessionType" : null,
+  "shortDescription" : "alfene intervient en recherche de compétences et recrutements pour des clients (Hors SSII/ESN) Full France \net à l’étranger pour certains clients. IT, MOE, MOA, AMOA,  Innovation, Bigdata, Robotique, Drone ainsi\nque Supply Chain, Finance/Assurance.",
+  "longDescription" : "Nous recherchons des compétences qui souhaite intégrer des entreprises, startup pour des projets innovants.\nN'hésitez pas à nous contacter.\n\n\nAlain Paysant\n\nDirecteur associé\n\nalain.paysant@alfene.com",
+  "userLinks" : [ {
+    "key" : "alfene",
+    "value" : "http://www.alfene.com"
+  }, {
+    "key" : "Twitter",
+    "value" : "https://twitter.com/alpaysant"
+  } ],
+  "interests" : [ ],
+  "sessions" : [ ],
+  "level" : [ {
+    "key" : "SILVER",
+    "value" : "2016-03-09T13:15:38"
+  } ],
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://www.mix-it.fr/api/member/2291"
+  } ]
+}, {
+  "idMember" : 7322,
+  "login" : "amaris",
+  "firstname" : "Amaris",
+  "lastname" : "AMARIS",
+  "company" : "Amaris",
+  "logo" : "sponsors/logo-amaris.png",
+  "hash" : "ccedc3c82fc0303d14992823f4963552",
+  "sessionType" : null,
+  "shortDescription" : "Amaris est un cabinet indépendant et international de Conseil en Management et Technologies créé en 2007. Présent dans 45 pays, le Groupe accompagne ses clients tout au long du cycle de réalisation de leurs projets.",
+  "longDescription" : "Son expertise s’étend sur cinq domaines : Business et Management, IT/IS, Telecom, Ingénierie et Hautes Technologies, Biotechnologies et Pharmaceutiques. Fort de 60 bureaux dans le monde, le Groupe apporte un soutien de proximité à ses clients dans toutes ses implantations.\n\nEn 2016, Amaris entend atteindre les 140 millions d’euros de chiffre d’affaires et les 2650  employés. Fort de ce développement, le Groupe prévoit de tripler ses effectifs au cours des prochaines années et atteindre une position de leader international du conseil indépendant",
+  "userLinks" : [ {
+    "key" : "Site web",
+    "value" : "http://www.amaris.com"
+  }, {
+    "key" : "Twitter",
+    "value" : "https://twitter.com/Amaris"
+  }, {
+    "key" : "Google+",
+    "value" : "https://plus.google.com/+amaris"
+  } ],
+  "interests" : [ "conseil", "Management" ],
+  "sessions" : [ ],
+  "level" : [ {
+    "key" : "SILVER",
+    "value" : "2016-03-12T09:36:33"
+  } ],
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://www.mix-it.fr/api/member/7322"
+  } ]
+}, {
+  "idMember" : 7332,
+  "login" : "boot-start",
+  "firstname" : "Benjamin",
+  "lastname" : "HABEGGER",
+  "company" : "Boot-Start",
+  "logo" : "sponsors/logo-bootstart.png",
+  "hash" : "b7f72ab5121b3299941cba1af65833e9",
+  "sessionType" : null,
+  "shortDescription" : "Bootstrap your disruptive IT project in startup mode",
+  "longDescription" : "Boot-Start est une équipe d'experts à la fois scientifiques et techniques qui propose ses compétences en développement logiciel, son expertise en moteurs de recherche, recommandation et analytics aux porteur de projets disruptifs (startups ou projets internes des plus grande structures). Au delà de la technique, notre méthodologie de travail, inspirée des méthodes agiles et des approches lean business, nous permet de travailler efficacement sur des projets au contours non entièrement défini, ou d'apporter un regard différent orienté utilisateur d'abord.",
+  "userLinks" : [ {
+    "key" : "Site web",
+    "value" : "http://www.boot-start.com/"
+  }, {
+    "key" : "Twitter",
+    "value" : "https://twitter.com/boot_start"
+  }, {
+    "key" : "LinkedIn",
+    "value" : "https://www.linkedin.com/company/boot-start"
+  }, {
+    "key" : "Facebook",
+    "value" : "https://www.facebook.com/bootstart/"
+  } ],
+  "interests" : [ "moteurs de recherche", "moteurs de recommandation", "Machine Learning", "data analytics", "Startup" ],
+  "sessions" : [ ],
+  "level" : [ {
+    "key" : "SILVER",
+    "value" : "2016-03-12T09:36:28"
+  } ],
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://www.mix-it.fr/api/member/7332"
+  } ]
+},  {
+  "idMember" : 7202,
+  "login" : "hired",
+  "firstname" : "Hired",
+  "lastname" : "HIRED",
+  "company" : "Breaz",
+  "logo" : "sponsors/logo-breaz.png",
+  "hash" : "b55aa49830c753f48be29979ac3a5972",
+  "sessionType" : null,
+  "shortDescription" : "Avec Breaz recevez jusqu'à 15 propositions d'entretien des plus belles équipes tech en une semaine",
+  "longDescription" : null,
+  "userLinks" : [ {
+    "key" : "Site web",
+    "value" : "https://breaz.io/"
+  }, {
+    "key" : "Site web",
+    "value" : "https://hired.com/"
+  }, {
+    "key" : "Twitter",
+    "value" : "https://twitter.com/breazio"
+  } ],
+  "interests" : [ "recrutement" ],
+  "sessions" : [ ],
+  "level" : [ {
+    "key" : "LANYARD",
+    "value" : null
+  } ],
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://www.mix-it.fr/api/member/7202"
+  } ]
+}, {
+  "idMember" : 5902,
+  "login" : "onlylyon",
+  "firstname" : "Onlylyon",
+  "lastname" : "ONLYLYON",
+  "company" : "Only Lyon",
+  "logo" : "sponsors/logo-onlylyon.jpg",
+  "hash" : "9828d9aa9cbef7a1f78286894c0d094e",
+  "sessionType" : null,
+  "shortDescription" : "OnlyLyon a été créé en 2007 pour assurer la promotion internationale de Lyon.",
+  "longDescription" : "Issue de la gouvernance économique territoriale, cette démarche est pilotée par l’Aderly (Invest in Lyon) pour le compte de 19 [partenaires institutionnels et économiques](http://presse.onlylyon.org/#!/partenaires-prives). Pour développer l’image et la notoriété de Lyon, **ONLYLYON** s’appuie notamment sur des campagnes de communication dans les principaux médias et aéroports internationaux.  La dernière, en 2013, met en avant le côté cosmopolite de la ville à travers des portraits de décideurs ayant fait le choix de Lyon.\n\n* Capitale de la région Rhône-Alpes, 6e PIB européen\n* 1ère ville challenger de Paris pour son attractivité\n* 2e métropole de France avec 2 millions d'habitants\n* 135 00 entreprises, dont 1 500 centres de décisions\n* 15 000 créations d’entreprises chaque année\n* 130 000 étudiants, dont 13 000 étudiants étrangers (10%)\n* 3ème destination préférée des voyageurs internationaux",
+  "userLinks" : [ {
+    "key" : "Site web",
+    "value" : "http://www.onlylyon.com/"
+  }, {
+    "key" : "Twitter",
+    "value" : "https://twitter.com/OnlyLyon"
+  } ],
+  "interests" : [ ],
+  "sessions" : [ ],
+  "level" : [ {
+    "key" : "PARTY",
+    "value" : "2016-02-08T13:22:14"
+  } ],
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://www.mix-it.fr/api/member/5902"
+  } ]
+}, {
+  "idMember" : 5682,
+  "login" : "pivotal",
+  "firstname" : "Seb",
+  "lastname" : "DEL",
+  "company" : "Pivotal",
+  "logo" : "sponsors/logo-pivotal.svg",
+  "hash" : "5778521f67d80de0ee3b213e4f159a59",
+  "sessionType" : null,
+  "shortDescription" : "La Plateforme Agile pour les équipes Agiles, propulsé par Cloud Foundry.",
+  "longDescription" : "",
+  "userLinks" : [ {
+    "key" : "Site web",
+    "value" : "http://run.pivotal.io"
+  }, {
+    "key" : "Twitter",
+    "value" : "https://twitter.com/pivotalws"
+  } ],
+  "interests" : [ ],
+  "sessions" : [ ],
+  "level" : [ {
+    "key" : "HOSTING",
+    "value" : "2016-01-29T22:51:44"
+  } ],
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://www.mix-it.fr/api/member/5682"
+  } ]
+}, {
+  "idMember" : 7812,
+  "login" : "infoq",
+  "firstname" : "Infoq fr",
+  "lastname" : "INFOQ FR",
+  "company" : "InfoQ FR",
+  "logo" : "sponsors/logo-infoq.png",
+  "hash" : "14556ba344af2173a3fd9925838700c7",
+  "sessionType" : null,
+  "shortDescription" : "Diffuser les connaissances et l'innovation dans le développement logiciel d'entreprise",
+  "longDescription" : "Le logiciel transforme le monde. Notre mission : faciliter la diffusion des connaissances et des innovations dans le développement logiciel professionnel. Comment ? En toute objectivité, nous proposons à notre audience conférences et contenus à valeur ajoutée, animés au quotidien grâce à une communauté active de professionnels.",
+  "userLinks" : [ {
+    "key" : "Site web",
+    "value" : "http://www.infoq.com/fr/"
+  }, {
+    "key" : "Twitter",
+    "value" : "https://twitter.com/infoqfr?lang=fr"
+  } ],
+  "interests" : [ "Lean", "Java", "NoSQL", "DevOps", "HTML5", "Scala", "JavaScript", "Cloud", ".Net", "Big Data", "Mobile", "Agile" ],
+  "sessions" : [ ],
+  "level" : [ {
+    "key" : "VIDEO",
+    "value" : "2016-03-31T00:08:50"
+  } ],
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://www.mix-it.fr/api/member/7812"
+  } ]
+}, {
+  "idMember" : 7822,
+  "login" : "lyontechhub",
+  "firstname" : "Lyontechhub",
+  "lastname" : "LYONTECHHUB",
+  "company" : "Lyon Tech Hub",
+  "logo" : "sponsors/logo-lyontechhub.svg",
+  "hash" : "1b41d401bca30bbab1ef55b97a740dc9",
+  "sessionType" : null,
+  "shortDescription" : "Le hub des communautés IT/techniques lyonnaises",
+  "longDescription" : "Lyon Tech Hub c'est \n\n* Des communautés diverses et variées : des technos, des pratiques, des outils...à découvrir\n* Des experts passionnés : les participants et les organisateurs font de leur métier une passion\n* Un calendrier de tous les événements pour ne plus manquer un des événements !",
+  "userLinks" : [ {
+    "key" : "Site web",
+    "value" : "http://www.lyontechhub.org/"
+  } ],
+  "interests" : [ "Communauté" ],
+  "sessions" : [ ],
+  "level" : [ {
+    "key" : "COMMUNITY",
+    "value" : "2016-03-31T00:09:48"
+  } ],
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://www.mix-it.fr/api/member/7822"
+  } ]
+} ]

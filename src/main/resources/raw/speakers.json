@@ -1,0 +1,3865 @@
+[
+  {
+    "idMember": 389,
+    "login": "jhelou",
+    "firstname": "Jean",
+    "lastname": "HELOU",
+    "company": "Codamens",
+    "logo": null,
+    "hash": "75da740d43c5780539214f24ce1148a6",
+    "sessionType": null,
+    "shortDescription": "Freelance, Software Craftsman, Agiliste\nScala, Java, Javascript, \n\n\n\n\n\n\n\n",
+    "longDescription": "Jean Helou est développeur depuis 10 ans, passé Freelance lors de son arrivée à Lyon fin 2013. Avec un fort background en programmation impérative et objet, mais également de solides bases en programmations fonctionnelle il aime à combiner les deux approches. Curieux et passionné, il participait à l'organisation des Scala user groups parisiens et compte lancer leur équivalent lyonnais :)",
+    "userLinks": [
+      {
+        "key": "Github",
+        "value": "https://github.com/jeantil"
+      },
+      {
+        "key": "Blog",
+        "value": "http://blog.byjean.eu"
+      }
+    ],
+    "interests": [
+      "Lean",
+      "eXtrem Programming",
+      "Play! Framework",
+      "Guava",
+      "CSS",
+      "Scala",
+      "Agilité",
+      "jQuery",
+      "Web design",
+      "Rails",
+      "Photography",
+      "Jenkins",
+      "HTML5",
+      "Java8",
+      "Continuous Integration",
+      "Agile Testing",
+      "OpenSource",
+      "GTD",
+      "Transition vers l'agilité",
+      "Jigsaw",
+      "Programmation Fonctionnelle",
+      "Fest Assert",
+      "Algorithmes",
+      "JSON",
+      "GitHub",
+      "Craftsmanship",
+      "Web 2.0",
+      "Java 8",
+      "JavaScript",
+      ".Net",
+      "distributed programming",
+      "Ruby",
+      "Java",
+      "Enfants",
+      "échec",
+      "Backbone.js",
+      "Mobile",
+      "Git",
+      "CQRS",
+      "DevOps",
+      "JavaEE",
+      "IntelliJ IDEA",
+      "BDD",
+      "Maven",
+      "DDD",
+      "Eclipse",
+      "Performances",
+      "NodeJS",
+      "Kanban",
+      "AMQP",
+      "WebSockets",
+      "Story Mapping",
+      "Scrum",
+      "SonarQube",
+      "Partage et veille techno"
+    ],
+    "sessions": [
+      1041,
+      2692,
+      205,
+      365
+    ],
+    "level": [
+      {
+        "key": "",
+        "value": null
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/389"
+      }
+    ]
+  },
+  {
+    "idMember": 701,
+    "login": "clem",
+    "firstname": "Clément",
+    "lastname": "BOUILLIER",
+    "company": "DevLyon",
+    "logo": null,
+    "hash": "e187f8ea0d791446c5055882f0c597ee",
+    "sessionType": null,
+    "shortDescription": "Software Craftsman & Generalizing Specialist, intéressé par tous les aspects : fonctionnels, techniques et méthodologiques...",
+    "longDescription": "Co-organisateur de plusieurs communautés lyonnaises, développeur indépendant intervenant sur différents sujets pour aider des équipes dans leur démarche d'amélioration continue.",
+    "userLinks": [
+      {
+        "key": "Twitter",
+        "value": "http://twitter.com/clem_bouillier"
+      }
+    ],
+    "interests": [
+      "Lean",
+      "eXtrem Programming",
+      "Clean Code",
+      "Feature Flipping",
+      "Forum Ouvert",
+      "Agilité",
+      "Organisation",
+      "Tools",
+      "Domain Driven Design",
+      "Big Data",
+      "OOP",
+      "jQuery",
+      "Specflow",
+      "ajax",
+      "Linux",
+      "HTML5",
+      "Extreme Programming",
+      "Collaboration",
+      "Continuous Integration",
+      "OpenSource",
+      "Continuous Deployment",
+      "System Thinking",
+      "MongoDB",
+      "BigData",
+      "Veille techno",
+      "Transition vers l'agilité",
+      "Virtualization",
+      "Lean Startup",
+      "Best Practices",
+      "Software Architecture",
+      "Communauté",
+      "User Stories",
+      "Entrepreneuriat",
+      "Business Model",
+      "NoSQL",
+      "Open Space Technology",
+      "CARA",
+      "Rétrospective",
+      "Amélioration continue",
+      ".Net",
+      "méthodes",
+      "relation clients",
+      "Domain Specific Language",
+      "UX",
+      "Refactoring",
+      "Agile User Experience",
+      "TDD;Binômage",
+      "POO",
+      "Git",
+      "CQRS",
+      "DevOps",
+      "Scalabilité",
+      "MVC",
+      "Equipe",
+      "Sociologie",
+      "C#",
+      "BDD",
+      "Jeux Agiles",
+      "Gestion de produit",
+      "Design Patterns",
+      "Qualité",
+      "User Experience",
+      "Open Space",
+      "Beer",
+      "TDD",
+      "Kanban",
+      "Coding Dojo",
+      "SonarQube",
+      "architecture",
+      "Agile"
+    ],
+    "sessions": [
+      1041,
+      2692,
+      362
+    ],
+    "level": [
+      {
+        "key": "",
+        "value": null
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/701"
+      }
+    ]
+  },
+  {
+    "idMember": 704,
+    "login": "epecoul",
+    "firstname": "Emilien",
+    "lastname": "PECOUL",
+    "company": "DevLyon",
+    "logo": null,
+    "hash": "569a344428936ce3b601ee3c12d8a100",
+    "sessionType": null,
+    "shortDescription": "Freelance, aimerait devenir un bon développeur logiciel! Evangéliste agile, fervent défenseur du TDD et du BDD.",
+    "longDescription": "Become a software craftsman, or die trying",
+    "userLinks": [
+      {
+        "key": "blog",
+        "value": "http://ouarzy.azurewebsites.net/"
+      },
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/Ouarzy"
+      }
+    ],
+    "interests": [
+      "Agile User Experience",
+      "Agilité",
+      "TDD;Binômage",
+      "User Experience",
+      "Mobile",
+      "Tests",
+      "TDD",
+      "fail",
+      "Test",
+      "Agile Testing",
+      ".Net",
+      "fun",
+      "Agile"
+    ],
+    "sessions": [
+      1041,
+      2611,
+      2692,
+      362
+    ],
+    "level": [
+      {
+        "key": "",
+        "value": null
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/704"
+      }
+    ]
+  },
+  {
+    "idMember": 5262,
+    "login": "118364032246803210315",
+    "firstname": "Florent",
+    "lastname": "PELLET",
+    "company": "DevLyon",
+    "logo": null,
+    "hash": "33dccded6958d1dd29336c63c1fd0624",
+    "sessionType": null,
+    "shortDescription": "DDD Addict, Software Craftsman",
+    "longDescription": "DDD Addict, Software Craftsman",
+    "userLinks": [
+      {
+        "key": "Site web",
+        "value": "https://www.florentpellet.fr/"
+      },
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/florentpellet"
+      }
+    ],
+    "interests": [
+      "CQRS",
+      "event sourcing",
+      "DDD",
+      "software  craftsmanship",
+      "EventStorming",
+      "JavaScript",
+      "Craftsmanship",
+      "F#",
+      "Event Driven Architecture",
+      "C#"
+    ],
+    "sessions": [
+      2692
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/5262"
+      }
+    ]
+  },
+  {
+    "idMember": 5442,
+    "login": "59873349",
+    "firstname": "Gregory",
+    "lastname": "ESTRADE",
+    "company": "Lyra Network",
+    "logo": null,
+    "hash": "139cef776cb4aaa6d385b7dbeb014fcc",
+    "sessionType": null,
+    "shortDescription": "Coder, reverse-engineer, hardware hacker. Formerly development director of a 50+ engineering team @LyraNetwork, now #gentleman #innovateur.",
+    "longDescription": "Coder, reverse-engineer, hardware hacker. Formerly development director of a 50+ engineering team @LyraNetwork, now #gentleman #innovateur.\n@Torlus on GitHub, LinkedIn, Twitter...",
+    "userLinks": [
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/Torlus"
+      },
+      {
+        "key": "LinkedIn",
+        "value": "https://fr.linkedin.com/in/torlus"
+      },
+      {
+        "key": "Site web",
+        "value": "http://lvt.tl/"
+      }
+    ],
+    "interests": [
+      "innovation",
+      "Software Development",
+      "UX",
+      "hacking",
+      "Hardware",
+      "electronic music",
+      "Management",
+      "Philosophie",
+      "Lean Startup",
+      "Startup"
+    ],
+    "sessions": [
+      2702
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/5442"
+      }
+    ]
+  },
+  {
+    "idMember": 5152,
+    "login": "21621323",
+    "firstname": "Mehdi",
+    "lastname": "LAHMAM",
+    "company": "Craftsmen",
+    "logo": null,
+    "hash": "c9709e47baec733197975e8fe5abea82",
+    "sessionType": null,
+    "shortDescription": "Je construis des produits Web à Craftsmen (http://craftsmen.io)",
+    "longDescription": "Mehdi Lahmam design et développe des produits web pour des startups avec son équipe au sein de Craftsmen, entreprise qu’il a co-fondée il y a 6 ans.\nC’est un amoureux de la qualité et des projets qui la mettent en avant. Il est un utilisateur assidu de Ruby et Ruby on Rails ainsi que d’autres technologies open source, auxquelles il n’hésite pas à contribuer. Son leitmotiv étant de rendre à l’open source un peu de ce qu’il en a retiré.\nVous le croiserez volontiers au sein de meetups Stéphanois ou Lyonnais (Web en Vert, Lyon.rb …), conférences nationales, mais surtout sur twitter (@mehlah).",
+    "userLinks": [
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/mehlah"
+      },
+      {
+        "key": "GitHub",
+        "value": "https://github.com/mehlah"
+      },
+      {
+        "key": "Site web",
+        "value": "http://craftsmen.io"
+      }
+    ],
+    "interests": [
+      "Application Web",
+      "Rails",
+      "UI",
+      "Ruby",
+      "Startup"
+    ],
+    "sessions": [
+      2712
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/5152"
+      }
+    ]
+  },
+  {
+    "idMember": 5462,
+    "login": "100764776730700311542",
+    "firstname": "Allan",
+    "lastname": "KELLY",
+    "company": "Software Strategy Ltd.",
+    "logo": null,
+    "hash": "bad01fc49be5270e189eed1a25f37f62",
+    "sessionType": null,
+    "shortDescription": "Allan Kelly helps companies and teams make software in a better way. Usually this goes by the name of Agile or Lean but ultimately its about making work practices and processes better.",
+    "longDescription": "Allan Kelly helps companies and teams make software in a better way. He works with developers, managers, analysts and everyone else to make the making better. Usually this goes by the name of Agile or Lean but ultimately its about making work practices and processes better. He mostly works with software intensive companies and companies whose very business depends on software.\n\nWhen he is not with clients he writes far too much. He is the author of three books: \"Xanpan - team centric Agile Software Development\", \"Business Patterns for Software Developers\" and “Changing Software Development: Learning to be Agile”; the originator of [Retrospective Dialogue Sheets](http://www.dialoguesheets.com) and a regular conference speaker. More about on [his website](http://www.allankelly.net) and on [Twitter as @allankellynet](http://twitter.com/allankellynet).",
+    "userLinks": [
+      {
+        "key": "Site web",
+        "value": "http://www.allankelly.net"
+      },
+      {
+        "key": "Blog",
+        "value": "http://blog.allankelly.net"
+      },
+      {
+        "key": "Software Strategy Ltd",
+        "value": "https://www.softwarestrategy.co.uk/"
+      },
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/allankellynet"
+      }
+    ],
+    "interests": [],
+    "sessions": [
+      2722
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/5462"
+      }
+    ]
+  },
+  {
+    "idMember": 4,
+    "login": "franck",
+    "firstname": "Franck",
+    "lastname": "DEPIERRE",
+    "company": "Stormshield",
+    "logo": null,
+    "hash": "4d294402a9548a1ffdfc49fa4d777b10",
+    "sessionType": null,
+    "shortDescription": "Passionate about learning, enjoy collaboration and love building products.",
+    "longDescription": "Franck used to be a globe trotter in Automation and for the last 10 years, he has been creating software products. Passionate about themes like Lean Startup movement, product management flow, design thinking and trust space creation, Franck uses these principles in his current product innovation management job. In order to promote the agile methodologies, he is a member of the Club Agile Rhône-Alpes and an ALE hangout co-organiser.",
+    "userLinks": [
+      {
+        "key": "Looking For Answers",
+        "value": "http://blog.lookingforanswers.me/"
+      },
+      {
+        "key": "Simplifiez vous la vie",
+        "value": "http://fun.lookingforanswers.me"
+      }
+    ],
+    "interests": [
+      "NodeJS",
+      "jQuery",
+      "TDD",
+      "DevOps",
+      "Kanban",
+      "HTML5",
+      "JavaEE",
+      "JavaScript",
+      "Cloud",
+      "Collaboration",
+      "System Thinking",
+      "Scrum",
+      "Lean Startup",
+      "Deming"
+    ],
+    "sessions": [
+      2742
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/4"
+      }
+    ]
+  },
+  {
+    "idMember": 5472,
+    "login": "13047322",
+    "firstname": "Yves",
+    "lastname": "HANOULLE",
+    "company": "PairCoaching",
+    "logo": null,
+    "hash": "54759dada3c761878875100d13dac670",
+    "sessionType": null,
+    "shortDescription": "Being agile since 1971\nTrying to inspire a lot of people, mostly myself and my kids. \nBelgium person that does not drink alcohol.\nTreating every challenge I have as a community\nSpeaks and reads French, writes English.",
+    "longDescription": "too many places for a bio www.hanoulle.be/yves of an up to date version",
+    "userLinks": [
+      {
+        "key": "Site web",
+        "value": "http://www.anguis.be"
+      },
+      {
+        "key": "Twitter",
+        "value": "https://www.twitter.com/YvesHanoulle"
+      }
+    ],
+    "interests": [],
+    "sessions": [
+      2742
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/5472"
+      }
+    ]
+  },
+  {
+    "idMember": 5112,
+    "login": "arthru",
+    "firstname": "Arthur",
+    "lastname": "VUILLARD",
+    "company": "Hashbang",
+    "logo": null,
+    "hash": "c8c826f53f65be736a49b6dedb7e6197",
+    "sessionType": null,
+    "shortDescription": "Je suis développeur Python, administrateur GNU/Linux et fondateur d'Hashbang, société proposant des services pour les entrepreneurs et PME du web. J'interviens principalement sur des projets de systèmes d'informations et de développements webs.",
+    "longDescription": "Je suis particulièrement attiré par GNU/Linux, Python, le logiciel libre, l'expérience utilisateur et l'utilité des applications réalisées.\n\nJe suis investi dans l'AFPy en tant que trésorier et organisateur de rencontres régulières à Lyon. J'ai également participé aux organisations des conférences PyConFr 2014, PyConFr 2015 et Pytong 2015.\n\nQuand je ne suis pas devant mon ordinateur, vous pourrez me croiser lors de courses à pied, en montagne, ou en terrasse !",
+    "userLinks": [
+      {
+        "key": "Blog",
+        "value": "https://hashbang.fr"
+      },
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/arthru_vuillrad"
+      }
+    ],
+    "interests": [
+      "Web",
+      "DevOps",
+      "Python"
+    ],
+    "sessions": [
+      2752
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/5112"
+      }
+    ]
+  },
+  {
+    "idMember": 5662,
+    "login": "87923337",
+    "firstname": "Youmna",
+    "lastname": "OVAZZA",
+    "company": "Teen-Code (en cours de création)",
+    "logo": null,
+    "hash": "fd0cb9e41d9161f17c9d9a32253e32ed",
+    "sessionType": null,
+    "shortDescription": "Je suis une ex- Chief Digital Officer, en cours de création d'un projet dans le secteur des Ed Tech visant à l'enseignement du codage informatique aux adolescents.",
+    "longDescription": "Marketeuse spécialiste du digital, ex-Chief Digital Officer d'un groupe international de communication, et DGA d'agence.\n\nLa transformation digitale des entreprises m'a amenée à l'éducation numérique et à l'apprentissage du développement web, à travers un parcours d'apprentissage et d'exploration initié par des recherches et des questionnements autour de l'éducation de mes 3 enfants dans une société de plus en plus numérique.\n\nJ'écris sur l'innovation digitale, la transformation digitale et l'éducation numérique sur mon blog, Butter Cake (www.butter-cake.com).\n\nJ'écris également sur ma formation au codage: momslearningtocode.com (GitHub: MomCoding). \n\nEbook: \"Comment construire une stratégie digitale\" (Creative Commons, 2011).",
+    "userLinks": [
+      {
+        "key": "LinkedIn",
+        "value": "http://www.linkedin.com/in/youmnaovazza"
+      },
+      {
+        "key": "Blog",
+        "value": "http://www.butter-cake.com"
+      },
+      {
+        "key": "Blog",
+        "value": "http://www.momslearningtocode.com"
+      },
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/youmnaovazza"
+      }
+    ],
+    "interests": [],
+    "sessions": [
+      2762
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/5662"
+      }
+    ]
+  },
+  {
+    "idMember": 5632,
+    "login": "105295204775499526367",
+    "firstname": "Manuel",
+    "lastname": "VACELET",
+    "company": "Enalean",
+    "logo": null,
+    "hash": "e7b95a72606d8a2921d044784111375e",
+    "sessionType": null,
+    "shortDescription": "CTO et co-fondateur d'Enalean, éditeur du Tuleap OpenALM. Fan de Docker et de Gerrit.",
+    "longDescription": "La culture de notre société prend ses racines dans les Logiciels Libres et l'Agilité. Au delà d'une approche Agile de nos projets, nous travaillons tous les jours à rendre Agile le fonctionnement de global de l'entreprise (relation client, recrutement, communication, etc).\n\nMembre du conseil d'administration du CARA, et du comité d'organisation d'Agile Grenoble, j'interviens régulièrement dans les conférences Agiles et/ou Libres pour partager nos expériences et peut-être permettre à d'autres de s'en inspirer.",
+    "userLinks": [
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/vaceletm"
+      },
+      {
+        "key": "LinkedIn",
+        "value": "https://fr.linkedin.com/in/manuel-vacelet-3715806"
+      },
+      {
+        "key": "Site web",
+        "value": "https://tuleap.org"
+      }
+    ],
+    "interests": [],
+    "sessions": [
+      2772
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/5632"
+      }
+    ]
+  },
+  {
+    "idMember": 765,
+    "login": "colin.puy",
+    "firstname": "Colin",
+    "lastname": "PUY",
+    "company": "Bonitasoft",
+    "logo": null,
+    "hash": "f2bacefba1f2de03a4f7f2940a41ad64",
+    "sessionType": null,
+    "shortDescription": "Développeur fullstack @Bonitasoft",
+    "longDescription": "",
+    "userLinks": [],
+    "interests": [
+      "Beer",
+      "Angular.js",
+      "ajax",
+      "Agile Testing",
+      "Coding Dojo",
+      "BigData",
+      "Backbone.js",
+      "architecture",
+      "BPM"
+    ],
+    "sessions": [
+      2782
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/765"
+      }
+    ]
+  },
+  {
+    "idMember": 5672,
+    "login": "103137798815770242196",
+    "firstname": "Vincent",
+    "lastname": "ELCRIN",
+    "company": "Bonitasoft",
+    "logo": null,
+    "hash": "1b13dc25e6ca48e72ae11d7c9634b4ed",
+    "sessionType": null,
+    "shortDescription": "Software engineer at Bonitasoft. I work on back and front end stack. Currently having a lot of interest for Web development & methodology.",
+    "longDescription": "Software engineer at Bonitasoft where I work with technologies such as Angular, Node, Spring, Java, Javascript, ...\nI currently focus on WEB development and UX experience.",
+    "userLinks": [],
+    "interests": [
+      "Java",
+      "UX",
+      "Angular.js",
+      "GitHub",
+      "User Experience",
+      "Node.js",
+      "React",
+      "microservices",
+      "Spring",
+      "Git",
+      "CQRS",
+      "event sourcing",
+      "Web",
+      "UI",
+      "JavaScript",
+      "Agile Testing"
+    ],
+    "sessions": [
+      2782
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/5672"
+      }
+    ]
+  },
+  {
+    "idMember": 5782,
+    "login": "1493071",
+    "firstname": "Mary rose",
+    "lastname": "COOK",
+    "company": "",
+    "logo": null,
+    "hash": "bfb7553ad3a564727391fa9be2352546",
+    "sessionType": null,
+    "shortDescription": "I’m making [a game programming environment for beginners](http://codelauren.com). I've written an implementation of [Git in JS](http://gitlet.maryrosecook.com) and two games: [Empty Black](http://emptyblack.com), [Pistol Slut](http://pistolslut.com).",
+    "longDescription": "[Code Lauren](http://codelauren.com) is a game programming environment for beginners.  It helps the user learn syntax and APIs.  It helps them understand how their program works or why it's broken.\n\n[Gitlet](http://gitlet.maryrosecook.com) is an implementation of Git in 1000 lines of JavaScript. I wrote it to show how Git works under the covers. I wrote it to be readable and commented the code heavily. I used what I learned to write an [essay](http://maryrosecook.com/blog/post/git-from-the-inside-out) and [talk](https://www.youtube.com/watch?v=fCtZWGhQBvo) on the innards of Git.\n\n[Empty Black](http://emptyblack.com) is a 2D puzzle platform shooter. Throw crates, set off bombs, fire missiles, stab with your sword. Featured in Kill Screen and PC Gamer.\n\n[Coquette](http://coquette.maryrosecook.com) is a micro framework for JavaScript games. It handles collisions, the update loop, canvas rendering and input.\n\n[Pistol Slut](http://pistolslut.com) is a 2D platform shooter. It has guns, grenades, parallax scrolling, particle effects and the enemies work in teams.",
+    "userLinks": [
+      {
+        "key": "Website",
+        "value": "http://maryrosecook.com"
+      },
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/maryrosecook"
+      }
+    ],
+    "interests": [],
+    "sessions": [
+      2792,
+      3552
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/5782"
+      }
+    ]
+  },
+  {
+    "idMember": 5272,
+    "login": "14898705",
+    "firstname": "Romain",
+    "lastname": "VUILLEMOT",
+    "company": "Université d'Harvard",
+    "logo": null,
+    "hash": "3a1acea6c19ab622667ad074d523f789",
+    "sessionType": null,
+    "shortDescription": "Depuis 2013, je suis Data Visualization Fellow à l’université de Harvard aux États Unis. J'y enseigne la visualisation de données et conçois de nouvelles visualisations pour les données économiques de nombreux pays (Colombie, Mexique, Albanie, ..).",
+    "longDescription": "Je suis passionné de visualisation de données, domaine dans lequel j'effectue ma recherche [http://romain.vuillemot.net/publications/](http://romain.vuillemot.net/publications/) et expérimente constamment de nouvelles visualisations [http://romain.vuillemot.net/projects/](http://romain.vuillemot.net/projects/)\n\nJe suis le principal dévelopeur de visualization des sites suivants :\n\nAtlas of Economic Complexity à Harvard [http://atlas.cid.harvard.edu/](http://atlas.cid.harvard.edu/)\n\nAtlas Open Data du Mexique [http://complejidad.datos.gob.mx/](http://complejidad.datos.gob.mx/)\n\nAtlas Open Data de la Colombie [http://atlas-colombia-harvard.cid-labs.com/](http://atlas-colombia-harvard.cid-labs.com/)",
+    "userLinks": [
+      {
+        "key": "Site web",
+        "value": "http://romain.vuillemot.net/"
+      },
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/romsson"
+      },
+      {
+        "key": "LinkedIn",
+        "value": "https://www.linkedin.com/in/romainvuillemot"
+      },
+      {
+        "key": "GitHub",
+        "value": "https://github.com/romsson"
+      }
+    ],
+    "interests": [
+      "design",
+      "data visualization",
+      "visualisation d'information"
+    ],
+    "sessions": [
+      2802
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/5272"
+      }
+    ]
+  },
+  {
+    "idMember": 933,
+    "login": "ndeverge",
+    "firstname": "Nicolas",
+    "lastname": "DEVERGE",
+    "company": "ekito",
+    "logo": null,
+    "hash": "da81db67118a58d77d85d854d40161ff",
+    "sessionType": null,
+    "shortDescription": "Founder of @TeamMood. \nLean Startuper & Programmer @ekito.",
+    "longDescription": "Programmeur tombé dans la marmite de la création de produits, je lance régulièrement de nouveaux mini projets en m'appuyant sur le Lean Startup.\nC'est en apprenant sur mes propres projets que je peux accompagner des entrepreneurs et éviter de jouer aux apprentis sorciers avec leurs projets.",
+    "userLinks": [
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/ndeverge"
+      },
+      {
+        "key": "Site web",
+        "value": "https://teammood.com"
+      }
+    ],
+    "interests": [
+      "Scala",
+      "Agilité",
+      "Impact Mapping",
+      "simple",
+      "TDD",
+      "Web",
+      "WebSockets",
+      "Agile Testing",
+      "Scrum",
+      "Transition vers l'agilité",
+      "Programmation Fonctionnelle",
+      "Startup",
+      "Agile",
+      "imprimante 3D"
+    ],
+    "sessions": [
+      2812
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/933"
+      }
+    ]
+  },
+  {
+    "idMember": 113,
+    "login": "Angelique",
+    "firstname": "Angélique",
+    "lastname": "HENRY",
+    "company": "Worldline",
+    "logo": null,
+    "hash": "c9306cebd4c6e1b62ccdff8e45b3bd7b",
+    "sessionType": null,
+    "shortDescription": "Mac Gyver de l'IT, je suis curieuse et touche à tout, j'aime mixer les outils pour arriver à mes fins.",
+    "longDescription": "Chez Worldline depuis 2006, je développe et maintient des applications en production. Je me suis pendant quelques années spécialisée dans le développement d'applications mobiles Android et iPhone avant de revenir vers les applications J2ee. J'ai maintenant un rôle transversal sur plusieurs équipes projets et j'apporte ma contribution et mon aide à la fois sur les phases de développement (qualité de code, intégration continue, tests unitaires, tests fonctionnels, outils de développement...) que sur la production (performances, analyse et correction des points de contentions, amélioration du monitoring...).",
+    "userLinks": [
+      {
+        "key": "Github",
+        "value": "https://github.com/AngeliqueH"
+      }
+    ],
+    "interests": [
+      "eXtrem Programming",
+      "JVM",
+      "Java",
+      "Agilité",
+      "Eclipse",
+      "Tools",
+      "iOS",
+      "Mobile",
+      "Web",
+      "HTML5",
+      "JavaEE",
+      "JavaScript",
+      "Continuous Integration",
+      "Scrum",
+      "Transition vers l'agilité"
+    ],
+    "sessions": [
+      2852,
+      1381,
+      2822,
+      3322
+    ],
+    "level": [
+      {
+        "key": "",
+        "value": null
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/113"
+      }
+    ]
+  },
+  {
+    "idMember": 1150,
+    "login": "villard.claire",
+    "firstname": "Claire",
+    "lastname": "VILLARD",
+    "company": "Sopra Stéria",
+    "logo": null,
+    "hash": "a96930423a79b68f2820af9d35876b62",
+    "sessionType": null,
+    "shortDescription": "Architecte Java Junior chez Sopra Stéria. Membre des Duchess France et de la team du LyonJUG.",
+    "longDescription": "Je suis développeur Java depuis 4 ans chez Sopra Stéria Group. \n\nParmi les multiples facettes de mon métier, j’aime considérer le cycle de vie complet des applications que je contribue à construire : performances, packaging, déploiement (automatisé de préférence !), exploitation… \n\nAu delà de la technique je suis particulièrement intéressée par le partage de la connaissance et des expériences au sein des communautés, technologiques ou non. Et parce que développeur se conjugue aussi au féminin, j’essaie de transmettre la fibre du développement, de l’IT et des métiers techniques et scientifiques à d’autres femmes et jeunes filles, via les Duchess ( http://www.duchess-france.org/ ) et l’association Objectif Pour l’Emploi ( http://objectif-pour-emploi.fr/itd/action-itd/ ). Parce que je crois que plus on est de fous différents, plus on rit !\n\nTwitter : @leneurone_eu ( https://twitter.com/Leneurone_eu )\nLinkedIn : https://fr.linkedin.com/in/clairevillard",
+    "userLinks": [
+      {
+        "key": "Site web",
+        "value": "https://github.com/leneurone"
+      },
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/leneurone_eu"
+      },
+      {
+        "key": "LinkedIn",
+        "value": "https://fr.linkedin.com/in/clairevillard"
+      }
+    ],
+    "interests": [],
+    "sessions": [
+      2852,
+      2822,
+      2672
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/1150"
+      }
+    ]
+  },
+  {
+    "idMember": 2171,
+    "login": "hsablonniere",
+    "firstname": "Hubert",
+    "lastname": "SABLONNIÈRE",
+    "company": "INEAT Conseil",
+    "logo": null,
+    "hash": "f7b7503324cbfd2a59aeb3540fa17bb1",
+    "sessionType": null,
+    "shortDescription": "Développeur Web curieux et passionné, je bidouille avec toutes les technos qui m'intéressent pour rendre service à mes utilisateurs.",
+    "longDescription": "Hubert est développeur Web et passionné d’HTML, CSS et JavaScript. Il travaille depuis 7 ans chez INEAT Conseil et passe une bonne partie de sa semaine à développer sur des projets. Il intervient de temps en temps chez d'autres clients pour du conseil et de l'audit.\n\nIl a travaillé avec du PHP, du Java et beaucoup de JavaScript pour des sites et webapp Intranet/Internet, mobile/tablettes et desktop. Il a également une casquette CSS/intégration.\n\nSur son temps libre, il bidouille beaucoup avec les dernières technologies pour essayer de trouver des nouveaux usages pour ses utilisateurs et des facilités pour les développeurs.",
+    "userLinks": [
+      {
+        "key": "Mes autres présentations",
+        "value": "http://lanyrd.com/profile/hsablonniere/"
+      },
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/hsablonniere"
+      },
+      {
+        "key": "Site web",
+        "value": "http://hsablonniere.com"
+      },
+      {
+        "key": "Site web",
+        "value": "https://github.com/hsablonniere"
+      }
+    ],
+    "interests": [
+      "Web",
+      "CSS",
+      "JavaScript",
+      "HTML",
+      "performance"
+    ],
+    "sessions": [
+      1461,
+      2832
+    ],
+    "level": [
+      {
+        "key": "",
+        "value": null
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/2171"
+      }
+    ]
+  },
+  {
+    "idMember": 5,
+    "login": "romain",
+    "firstname": "Romain",
+    "lastname": "COUTURIER",
+    "company": "Terre d'Agile",
+    "logo": null,
+    "hash": "918e67363e4361447d7a01c11da8a767",
+    "sessionType": null,
+    "shortDescription": "Prenez une équipe, un projet, quelques bonnes pratiques, et saupoudrez d'agilité (sans modération)",
+    "longDescription": "Romain Couturier est coach agile, formateur et conférencier. En tant qu’artisan du changement, il accompagne les équipes et les organisations dans leur transition et évolution vers l’agilité dans les milieux IT. \nD’abord développeur chez un éditeur puis directeur technique dans une startup, il est confronté à la dure réalité des cycles de production logicielle, de la vision produit jusqu’au déploiement chez les utilisateurs. Alors organisé en méthodes traditionnelles de gestion de projet, il devient un véritable goulet d’étranglement pour les autres. En 2007, il tombe par hasard sur « l’agilité » et y trouvera enfin des réponses pour structurer de manière collaborative la production de livrable grâce à l’implication de ses équipes\nDébut 2012, Romain Couturier fonde Terre d’Agile. Il travaille désormais à unifier les équipes, trouver et développer de la valeur ajoutée produit avec les responsables métier et encourager les managers à déployer des contextes d'amélioration continue \n\nMembre actif du CARA Lyon et co-fondateur de Mix-IT, il est également activement impliqué dans les actions de diffusion et de promotion de l’agilité principalement à Lyon et en Rhône-Alpes. En 2012, il rejoint la Fédération Agile. ",
+    "userLinks": [
+      {
+        "key": "Terre d'Agile",
+        "value": "http://www.terredagile.com"
+      },
+      {
+        "key": "Blog",
+        "value": "http://www.talondagile.fr"
+      },
+      {
+        "key": "CARA Lyon",
+        "value": "http://lyon.clubagilerhonealpes.org"
+      },
+      {
+        "key": "CARA",
+        "value": "http://clubagilerhonealpes.org"
+      }
+    ],
+    "interests": [
+      "Lean",
+      "eXtrem Programming",
+      "UX",
+      "Agilité",
+      "Organisation",
+      "Management",
+      "Mobile",
+      "Web",
+      "DevOps",
+      "HTML5",
+      "Cloud",
+      "Collaboration",
+      "Continuous Integration",
+      "System Thinking",
+      "Transition vers l'agilité",
+      "Lean Startup",
+      "Deming",
+      "BDD",
+      "Product Owner",
+      "Gestion de produit",
+      "Legacy",
+      "Coaching",
+      "iOS",
+      "TDD",
+      "Kanban",
+      "Gouvernance",
+      "Ergonomie",
+      "Scrum",
+      "SonarQube"
+    ],
+    "sessions": [
+      1121,
+      2842,
+      1131
+    ],
+    "level": [
+      {
+        "key": "",
+        "value": null
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/5"
+      }
+    ]
+  },
+  {
+    "idMember": 5382,
+    "login": "116064693184702499044",
+    "firstname": "Marion",
+    "lastname": "FELIX",
+    "company": null,
+    "logo": null,
+    "hash": "919767247c8233a7407836d12bb4a9dc",
+    "sessionType": null,
+    "shortDescription": "Développeuse web",
+    "longDescription": "Développeuse JAVA et Lyonnaise depuis deux ans, je viens de Montpellier ou j'ai fait deux ans de .NET.\nPassionnée de nouvelles technologies et d'entrepreneuriat, j'aime découvrir de nouvelles choses. Particulièrement Sensible à la valorisation des femmes dans le milieu de l'informatique, je fait partie des Duchess et du groupe QFDN.",
+    "userLinks": [
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/MarionFlex"
+      },
+      {
+        "key": "LinkedIn",
+        "value": "https://www.linkedin.com/in/marion-felix-86757833?trk=hp-identity-name"
+      }
+    ],
+    "interests": [],
+    "sessions": [
+      2852
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/5382"
+      }
+    ]
+  },
+  {
+    "idMember": 62,
+    "login": "brian.clozel",
+    "firstname": "Brian",
+    "lastname": "CLOZEL",
+    "company": "Pivotal Inc.",
+    "logo": null,
+    "hash": "7f6b3d65ae30e6fec52287f34e22dcb0",
+    "sessionType": null,
+    "shortDescription": "Spring Framework team member.",
+    "longDescription": "Spring Framework core committer, focusing on web and messaging.\nLead developer of Sagan, the Spring reference app that powers http://spring.io",
+    "userLinks": [
+      {
+        "key": "github",
+        "value": "https://github.com/bclozel"
+      },
+      {
+        "key": "spring team",
+        "value": "http://spring.io/team"
+      },
+      {
+        "key": "linkedin",
+        "value": "http://www.linkedin.com/in/brianclozel"
+      }
+    ],
+    "interests": [
+      "JVM",
+      "Java",
+      "rest",
+      "Spring",
+      "Java 8",
+      "Kotlin",
+      "NodeJS",
+      "Symfony 2",
+      "reactive programming",
+      "ElasticSearch",
+      "HTML5",
+      "Java8",
+      "JavaScript",
+      "WebSockets",
+      "OpenSource",
+      "MVC",
+      "IntelliJ IDEA"
+    ],
+    "sessions": [
+      2081,
+      2451,
+      485,
+      2872
+    ],
+    "level": [
+      {
+        "key": "",
+        "value": null
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/62"
+      }
+    ]
+  },
+  {
+    "idMember": 160,
+    "login": "Vincent Daviet",
+    "firstname": "Vincent",
+    "lastname": "DAVIET",
+    "company": "Zenika",
+    "logo": null,
+    "hash": "5320948275e14a08565d1a23e0f84d3f",
+    "sessionType": null,
+    "shortDescription": "Coach agile, Scrum Master, facilitateur, formateur, et joueur (Innovation Games, Agile Games, Collaborative Games)",
+    "longDescription": "Membre actif et passionné du [Club Agile Rhône-Alpes](http://clubagilerhonealpes.org) depuis 2009.\nIl s'investit dans la vie associative agile : facilitation des soirées mensuelles sur Lyon, création d’ [Agile Lyon](http://lyon.clubagilerhonealpes.org/activites/activites-passees/saison-2013-2014/agile-lyon-2013), speaker dans les conférences agiles nationales, coding dojos, code retreat.\n\nIl a été pendant __3 ans Product Owner et ScrumMaster__ en agence web chez [Agence Interactive](http://agenceinteractive.com).\nPuis, il est tour à tour pendant __3 ans Développeur agile, Scrum Master, et Coach'Agile__ en SSII chez [Econocom-Osiatis](http://www.osiatis.fr/), avec des activités principalement pour le compte d’Orange France Télécom. __Depuis 2014, Consultant Agile__ chez [Zenika](http://www.zenika.com) & [Rupture(21](http://rupture21.com/) il accompagne les équipes de réalisation dans leur passage à l'agilité, aussi bien au niveau équipe que direction d'entreprise.\nParmi ses autres activités : __il forme et facilite__ lors de rassemblement d'équipes de réalisation, de comités de direction, de séminaires, ou de conférences.\n\nSa spécialité : faire collaborer les individus grâce aux __jeux agiles, d’innovation, et de collaboration.__\nIl les utilise, les détourne, les combine, et en crée sur-mesure, pour toutes les phases des activités entrepreneuriales : définition de vision, avant-vente, kick-off, mode projet, recrutement, séminaire, etc.",
+    "userLinks": [
+      {
+        "key": "babagile",
+        "value": "http://babagile.wordpress.com"
+      }
+    ],
+    "interests": [
+      "Lean",
+      "Forum Ouvert",
+      "Agilité",
+      "Validate Influencing",
+      "Impact Mapping",
+      "Management",
+      "jQuery",
+      "Collaboration",
+      "Continuous Integration",
+      "System Thinking",
+      "Transition vers l'agilité",
+      "Lean Startup",
+      "fun",
+      "Best Practices",
+      "imprimante 3D",
+      "Communauté",
+      "Algorithmes",
+      "User Stories",
+      "CDI",
+      "Entrepreneuriat",
+      "Coaching",
+      "Web 2.0",
+      "iOS",
+      "Business Model",
+      "CARA",
+      "UI",
+      "Feedback",
+      "Rétrospective",
+      "Ergonomie",
+      "Amélioration continue",
+      "Communication",
+      "UX",
+      "Agile User Experience",
+      "motivational design (gamification)",
+      "Stress",
+      "google",
+      "Mobile",
+      "Web",
+      "DevOps",
+      "Cloud",
+      "Startup",
+      "Jeux Agiles",
+      "Product Owner",
+      "Gestion de produit",
+      "Respect",
+      "Design Patterns",
+      "User Experience",
+      "Open Space",
+      "Adoption",
+      "TDD",
+      "pair programming",
+      "Kanban",
+      "Gouvernance",
+      "Planning Poker",
+      "Story Mapping",
+      "Coding Dojo",
+      "Scrum",
+      "Jeux",
+      "Agile",
+      "La psychologie du travail"
+    ],
+    "sessions": [
+      562,
+      277,
+      568,
+      556,
+      2892,
+      1581
+    ],
+    "level": [
+      {
+        "key": "",
+        "value": null
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/160"
+      }
+    ]
+  },
+  {
+    "idMember": 6242,
+    "login": "Christiandh",
+    "firstname": "Christian",
+    "lastname": "DEN HARTIGH",
+    "company": "Education Nationale",
+    "logo": null,
+    "hash": "6645b03ed3dd93d4705154ddab41ebe5",
+    "sessionType": null,
+    "shortDescription": "Professeur de Français en Collège REP.",
+    "longDescription": "En cheminement dans et vers l'Agilité. Recherche d'efficacité dans l'organisation des connaissances. Influencé par le biomimétisme.",
+    "userLinks": [
+      {
+        "key": "Blog",
+        "value": "https://pedagogieagile.com"
+      },
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/cdenhartigh"
+      }
+    ],
+    "interests": [],
+    "sessions": [
+      2902
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/6242"
+      }
+    ]
+  },
+  {
+    "idMember": 22,
+    "login": "pierre_fauvel",
+    "firstname": "Pierre",
+    "lastname": "FAUVEL",
+    "company": "VISEO Technologies",
+    "logo": null,
+    "hash": "1f997170569f6150ae82919e4f2e3659",
+    "sessionType": null,
+    "shortDescription": "Consultant et *coach* en méthodes agiles.\nJ'oscille maintenant entre l'opérationnel (Scrum Master, Delivery manager) et l'accompagnement (Coach Agile).",
+    "longDescription": "J'ai commencé l'agilité en 2006 par les pratiques d'ingéniérie, notamment avec l'intégration continue, TDD & fitNesse,\npuis avec le \"processus\" Scrum comme Scrum Master,\npuis comme Coach Agile (process, besoins, ingéniérie).\nJ'oscille maintenant entre l'opérationnel (Scrum Master, Delivery manager) et l'accompagnement (Coach Agile).\nJe m'intéresse tout particulièrement aux entretiens de supervision, de coaching, de management one to one et les improvement dialogues.\nUne actualité récente : publication de \"Engagement\", ma traduction de \"Commitment: Novel about Managing Project Risk\" (lien ci dessous)",
+    "userLinks": [
+      {
+        "key": "Blog",
+        "value": "http://pierrefauvel.wordpress.com"
+      },
+      {
+        "key": "CV de manager",
+        "value": "http://pierrefauvel.info"
+      },
+      {
+        "key": "Tête a tête digitaux",
+        "value": "https://pierrefauvel.wordpress.com/tete-a-tete-digitaux/"
+      },
+      {
+        "key": "Engagement",
+        "value": "http://www.amazon.fr/Engagement-roman-gestion-risques-projet/dp/9462410046"
+      }
+    ],
+    "interests": [
+      "BDD",
+      "Lean",
+      "eXtrem Programming",
+      "Java",
+      "Gestion de produit",
+      "Agilité",
+      "Organisation",
+      "Eclipse",
+      "Management",
+      "Coaching",
+      "TDD",
+      "Web",
+      "DevOps",
+      "Kanban",
+      "Social software",
+      "Projet",
+      "Cloud",
+      "Collaboration",
+      "System Thinking",
+      "Scrum",
+      "Bytecode",
+      "Transition vers l'agilité",
+      "Deming"
+    ],
+    "sessions": [
+      2912
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/22"
+      }
+    ]
+  },
+  {
+    "idMember": 597,
+    "login": "morlhon",
+    "firstname": "Jean-laurent",
+    "lastname": "DE MORLHON",
+    "company": "Docker",
+    "logo": null,
+    "hash": "649d3668d3ba68e75a3441dec9eac26e",
+    "sessionType": null,
+    "shortDescription": "Crafting code @Docker",
+    "longDescription": "J'ai rejoint Docker à Paris, je bosse sur docker-machine, le produit open source de docker qui installe docker sur n'importe quel hôte, distant ou local.",
+    "userLinks": [
+      {
+        "key": "Site web",
+        "value": "https://github.com/docker/machine"
+      }
+    ],
+    "interests": [
+      "BDD",
+      "Java",
+      "JSON",
+      "GitHub",
+      "Legacy",
+      "Craftsmanship",
+      "NodeJS",
+      "CoffeeScript",
+      "Linux",
+      "Java8",
+      "JavaScript",
+      "MongoDB",
+      "API",
+      "Equipe"
+    ],
+    "sessions": [
+      2161,
+      388,
+      389,
+      248,
+      2922
+    ],
+    "level": [
+      {
+        "key": "",
+        "value": null
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/597"
+      }
+    ]
+  },
+  {
+    "idMember": 991,
+    "login": "dgageot",
+    "firstname": "David",
+    "lastname": "GAGEOT",
+    "company": "",
+    "logo": null,
+    "hash": "f0887bf6175ba40dca795eb37883a8cf",
+    "sessionType": null,
+    "shortDescription": "I used to be Java Champion. Now, I'm a GoNoob @Docker. I run Docker in Docker in Docker... recursively",
+    "longDescription": "Bonjour, je suis David Gageot, développeur indépendant. Ma passion ? L'écriture de logiciels pointus mais simples. J'ai pour leitmotiv d'être un facilitateur qui, par ma créativité et mon expertise, aide les équipes à être plus innovantes et plus efficaces.\n\nJe participe à des projets Java depuis 1998, comme responsable R&D chez l'éditeur Adesoft puis directeur technique chez Valtech Technology, CTO chez Algodeal, un fond d'investissement quantitatif puis développeur chez SonarSource, la société derrière Sonar.\n\nVous suivez peut-être mon blog JavaBien! depuis 2004.",
+    "userLinks": [
+      {
+        "key": "Blog",
+        "value": "http://blog.javabien.net/"
+      }
+    ],
+    "interests": [
+      "kitten",
+      "Docker",
+      "Tests"
+    ],
+    "sessions": [
+      388,
+      2922,
+      543
+    ],
+    "level": [
+      {
+        "key": "",
+        "value": null
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/991"
+      }
+    ]
+  },
+  {
+    "idMember": 6402,
+    "login": "10650562",
+    "firstname": "Patrick",
+    "lastname": "CHANEZON",
+    "company": "Docker, Inc.",
+    "logo": null,
+    "hash": "b662de358d61299eb2ea042752b96760",
+    "sessionType": null,
+    "shortDescription": "Boucle d’or et les conteneurs Docker",
+    "longDescription": "Les conteneurs Linux ont revolutionnes la maniere dont les developpeurs et les equipes d’exploitation construisent, deploient et exploitent les applications, leur permettant d’utiliser les dernieres avancees en matiere de developpement logiciel: le style d’architecture microservices, le style de deploiement d’infrastructure immuable, et le modele culturel devops.\nComme dans l’histoire de Boucle d’or et des trois ours, les couches de logiciel existantes ne sont pas adaptees a ces tendances: l’infrastructure en tant que service (IaaS) est de trop bas niveau; la plateforme en tant que service (PaaS) de trop haut niveau; le Conteneur en tant que service (CaaS) est tout a fait juste: les images de conteneurs correspondent au bon niveau d’abstraction pour une demarche devops, permettant au developpeur de specifier toutes ses dependances a la construction, de tester un artefact qui, une fois pret, sera envoye en production. CaaS fournit aux equipes d’exploitation les outils pour faire tourner ces programmes efficacement en garantissant leur securite, tout en fournissant une couche de portabilite entre les different fournisseurs d’informatique en nuage et leurs deploiements internes.\n\nCet expose passera en revue les 4 couches de l’ecosysteme Docker qui permettent le CaaS: les standards, l’infrastructure, la plateforme et les services. Je terminerai par une demo utilisant les outils Docker les plus recents pour construire une application microservice utilisant le framework Java Spring Boot et la deployer sur un cluster Swarm dans un reseau overlay specifique a l’application.",
+    "userLinks": [
+      {
+        "key": "Presentation",
+        "value": "http://www.slideshare.net/chanezon/container-as-a-service-with-docker"
+      },
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/chanezon"
+      },
+      {
+        "key": "LinkedIn",
+        "value": "https://www.linkedin.com/in/chanezon"
+      },
+      {
+        "key": "Github",
+        "value": "https://github.com/chanezon/docker-tips/tree/master/orchestration-networking"
+      }
+    ],
+    "interests": [
+      "Java",
+      "DevOps",
+      "Linux",
+      "Cloud",
+      "Docker",
+      "Agile"
+    ],
+    "sessions": [
+      2942
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/6402"
+      }
+    ]
+  },
+  {
+    "idMember": 6412,
+    "login": "15672389",
+    "firstname": "Frederic",
+    "lastname": "VERGEZ",
+    "company": "Ilem S.A.",
+    "logo": null,
+    "hash": "c0c5e64175d6bf3257a3a7d6366df715",
+    "sessionType": null,
+    "shortDescription": "Yet Another Software Architect\n\nCurrently: swiss knife @ RTSInfo",
+    "longDescription": "- Former and repentant Java-ist, but still secretly in love with the JVM,\n- Ex mobile-fanboy,\n- Unix Veteran,\n- Lambda practitioner and (lisper), \n- Machine-learning hobbyist,\n- Data-monger,\n- A bit of robotic here and there,\n- Assumed Geek,\n\n\"SQL is not an insult\"",
+    "userLinks": [
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/ikarius"
+      },
+      {
+        "key": "LinkedIn",
+        "value": "https://fr.linkedin.com/in/fredericvergez"
+      }
+    ],
+    "interests": [
+      "data visualization",
+      "Mobile",
+      "Programmation Fonctionnelle"
+    ],
+    "sessions": [
+      2952
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/6412"
+      }
+    ]
+  },
+  {
+    "idMember": 5592,
+    "login": "114440012527335774821",
+    "firstname": "Mija",
+    "lastname": "RABEMANANJARA",
+    "company": "Goood!",
+    "logo": null,
+    "hash": "378cf6e11d79f188366ed7072889e84f",
+    "sessionType": null,
+    "shortDescription": "Agilitatrice apprenante",
+    "longDescription": "Accompagner les organisations pour libérer le potentiel de chacune des personnes de cette organisation ; aider à mettre en place le cadre propice à l'expression de chacun dans la confiance, la contribution et le développement de ses compétences.\nTout cela m'inspire, m'apprend plein de nouvelles choses et me motive. \nA bientôt !",
+    "userLinks": [
+      {
+        "key": "LinkedIn",
+        "value": "https://fr.linkedin.com/in/mrabeman"
+      },
+      {
+        "key": "Site web",
+        "value": "http://goood.pro/"
+      }
+    ],
+    "interests": [
+      "Lean",
+      "liberté",
+      "Agilité",
+      "developpement personnel"
+    ],
+    "sessions": [
+      2962
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/5592"
+      }
+    ]
+  },
+  {
+    "idMember": 13,
+    "login": "alfred.almendra",
+    "firstname": "Alfred",
+    "lastname": "ALMENDRA",
+    "company": "Freelance",
+    "logo": null,
+    "hash": "2be1fd2878821cca9006d3a5181700a7",
+    "sessionType": null,
+    "shortDescription": "Consultant indépendant en agilité, management, Scrum, Kanban, innovation, et Lean Startup.",
+    "longDescription": "Je forme et j'accompagne les individus, les équipes, et les entreprises de toutes tailles (de l'entrepreneur à la multinationale) et de tous secteurs (pharmacie, énergie, cosmétique, assurance, hospitalier, édition de logiciel, etc.).\n\n",
+    "userLinks": [
+      {
+        "key": "CARA Lyon",
+        "value": "http://lyon.clubagilerhonealpes.org/"
+      },
+      {
+        "key": "Blog",
+        "value": "http://atelierlogiciel.wordpress.com"
+      },
+      {
+        "key": "LinkedIn",
+        "value": "https://www.linkedin.com/in/alfredalmendra"
+      },
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/alfredalmendra"
+      }
+    ],
+    "interests": [
+      "Jeux Agiles",
+      "Lean",
+      "eXtrem Programming",
+      "innovation",
+      "Communauté",
+      "Gestion de produit",
+      "Forum Ouvert",
+      "Apprentissage",
+      "Agilité",
+      "Entrepreneuriat",
+      "User Experience",
+      "Coaching",
+      "TDD",
+      "Kanban",
+      "CARA",
+      "Ergonomie",
+      "Collaboration",
+      "Amélioration continue",
+      "Scrum",
+      "Transition vers l'agilité",
+      "Communication",
+      "Lean Startup",
+      "Agile"
+    ],
+    "sessions": [
+      3,
+      565,
+      1051,
+      2972,
+      1021,
+      239
+    ],
+    "level": [
+      {
+        "key": "",
+        "value": null
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/13"
+      }
+    ]
+  },
+  {
+    "idMember": 6522,
+    "login": "115190943418300876553",
+    "firstname": "Manon",
+    "lastname": "GRUAZ",
+    "company": "Arcbees",
+    "logo": null,
+    "hash": "c07f32b594de25c446662eaed35ae262",
+    "sessionType": null,
+    "shortDescription": "Créer des produits permettant à nos clients, nos abeilles et la communauté de développeurs d'optimiser leurs processus, habitudes et façons de penser, en créant continuellement de la valeur et en transformant la façon dont ils travaillent. #gwtp #gwt",
+    "longDescription": "DESIGNER SENIOR ET STRATÈGE DE MARQUE",
+    "userLinks": [
+      {
+        "key": "Site web",
+        "value": "http://www.arcbees.com/"
+      },
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/manongruaz"
+      }
+    ],
+    "interests": [
+      "UI",
+      "Design graphique",
+      "Interfaces",
+      "Marques"
+    ],
+    "sessions": [
+      2982
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/6522"
+      }
+    ]
+  },
+  {
+    "idMember": 5072,
+    "login": "230222279",
+    "firstname": "Damien",
+    "lastname": "CAVAILLÈS",
+    "company": "jeChercheUnDev.fr",
+    "logo": null,
+    "hash": "455b81857aea0a5c6ca63f4ba67c4cfd",
+    "sessionType": null,
+    "shortDescription": "Hello ! Je suis un développeur super enthousiaste au sujet de la mobilité et de la connectivité.\nJe suis aussi entrepreneur et très impliqué dans le mouvement Startup Weekend =D",
+    "longDescription": "Roooh ! C'est dur de parler de soi à la troisième personne et tout ça.\nSinon, je suis super content qu'on se rencontre bientôt. J'espère qu'on va passer un bon moment.\nJe suis assez gastronome. Si tu veux on parlera de Welsh. Tu connais le Welsh ? J'adore le Welsh.\nEn fait, tu prend un ramequin, un genre de bol ou un récipient assez creux. Tu mets une tranche de pain imbibée dans de la bière. Tu rajoutes de la moutarde dessus et une tranche de jambon (y'en a qui l'aime bien épais, d'autres qui préfère quand il se déchire). Ensuite, dans une grosse poêle ou un fais-tout, tu fais réduire du cheddar (de préférences du Galloway bien orange). Tu vas mettre de la bière pour pas qu'il cuise, pas que ca accroche ou ça brule. Faut que ca devienne assez liquide. Pas une soupe, mais assez liquide pour y tremper ta frite.\nTu vas verser 200gr de cette élixir dans les ramequins.\nCertains rajoutent un oeuf, mais ils sont chelous.",
+    "userLinks": [
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/TheDamfr"
+      },
+      {
+        "key": "Facebook",
+        "value": "https://www.facebook.com/thedamfr"
+      },
+      {
+        "key": "Site web",
+        "value": "http://jechercheundev.fr/"
+      },
+      {
+        "key": "Site web",
+        "value": "https://medium.com/@thedamfr/"
+      }
+    ],
+    "interests": [
+      "Bluetooth",
+      "iBeacon",
+      "iot",
+      "Food",
+      "iOS",
+      "Mobile",
+      "Android",
+      "Beacon"
+    ],
+    "sessions": [
+      3642,
+      2992
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/5072"
+      }
+    ]
+  },
+  {
+    "idMember": 5372,
+    "login": "106623867411158151177",
+    "firstname": "Maxime",
+    "lastname": "SANGLAN-CHARLIER",
+    "company": "Freelance",
+    "logo": null,
+    "hash": "543c1a2d201c55419623b85b2151249a",
+    "sessionType": null,
+    "shortDescription": "Architecte / Développeur / Speaker / Blogger / Formateur / Organisateur / Facilitateur / Recruteur / Bagger",
+    "longDescription": "Plus de 15 ans dans l'informatique et pas une ride (ou presque). Curieux de nature, je suis toujours à la recherche de tout ce qui peut nous rendre plus efficients en tant qu'individu, en équipe ou au sein d'une organisation.",
+    "userLinks": [
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/__MaxS__"
+      },
+      {
+        "key": "Blog",
+        "value": "https://onehundredacorns.wordpress.com/"
+      }
+    ],
+    "interests": [],
+    "sessions": [
+      3002
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/5372"
+      }
+    ]
+  },
+  {
+    "idMember": 5882,
+    "login": "8885582",
+    "firstname": "Rui",
+    "lastname": "CARVALHO",
+    "company": "ArtOfNet",
+    "logo": null,
+    "hash": "20de1bd6180967b4b35117cdfe22be34",
+    "sessionType": null,
+    "shortDescription": "Artisan logiciel du coté obscur de la force, créateur de la conférence [Ncrafts](http://ncrafts.io)",
+    "longDescription": "Malgré presque 20 ans de développement autour des technos Microsoft web, Rui continue de défendre les bonnes pratiques, l'open source et l'échange au sein de cet écosystème. \n\nIl anime pour cela la communauté [Alt.Net France](http://meetup.com/altnetfr) et organise une conférence internationale de référence sur Paris autour du software craftsmanship, du design et des meilleures pratiques de développement logiciel, [Ncrafts](http://ncrafts.io). La prochaine édition a lieu en mai mais vous pouvez avoir un aperçu de l'année précédente [ici](http://videos.ncrafts.io).\n\nSi vous avez des questions autour du développement moderne .Net+web, n'hésitez pas à venir le voir!",
+    "userLinks": [
+      {
+        "key": "Blog",
+        "value": "http://rui.io"
+      },
+      {
+        "key": "Blog",
+        "value": "http://rui.fr"
+      },
+      {
+        "key": "Site web",
+        "value": "http://ncrafts.io"
+      },
+      {
+        "key": "Twitter",
+        "value": "http://twitter.com/rhwy"
+      }
+    ],
+    "interests": [
+      "Web",
+      "software  craftsmanship",
+      "database",
+      "design",
+      "JavaScript",
+      "Agilité",
+      ".Net",
+      "C#",
+      "Tests"
+    ],
+    "sessions": [
+      3012,
+      3002
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/5882"
+      }
+    ]
+  },
+  {
+    "idMember": 6582,
+    "login": "22386062",
+    "firstname": "Steve",
+    "lastname": "KLABNIK",
+    "company": "Mozilla",
+    "logo": null,
+    "hash": "233c279c012ebac792aaa805f966cbc7",
+    "sessionType": null,
+    "shortDescription": "Steve is a prolific open source contributor, hypermedia enthusiast, and is on the Rust core team. He’s the author of “The Rust Programming Language,” “Rails 4 in Action”, and “Designing Hypermedia APIs.",
+    "longDescription": "Steve is a prolific open source contributor, hypermedia enthusiast, and is on the Rust core team. He’s the author of “The Rust Programming Language,” “Rails 4 in Action”, and “Designing Hypermedia APIs.",
+    "userLinks": [
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/steveklabnik"
+      },
+      {
+        "key": "Site web",
+        "value": "http://www.steveklabnik.com/"
+      }
+    ],
+    "interests": [],
+    "sessions": [
+      3022
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/6582"
+      }
+    ]
+  },
+  {
+    "idMember": 6312,
+    "login": "2361749713",
+    "firstname": "Olivier",
+    "lastname": "MY",
+    "company": "Goood!",
+    "logo": null,
+    "hash": "9dc20eda13e6738df9e02d28fa6fb16d",
+    "sessionType": null,
+    "shortDescription": "Olivier est Coach Agile chez Goood!. Convaincu que bien-être et performance sont intimement liés, il diffuse les valeurs prônées par l'Agilité l'organisation d'événements et la traduction de contenu étranger.",
+    "longDescription": "Coach Agile chez Goood!, Olivier accompagne ses clients dans leur transformation digitale en travaillant avec leur richesse la plus précieuse : leurs équipes.\nDe nature profondément humaniste (et parfois un peu idéaliste), il intervient avec la conviction que bien-être et performance sont intimement liés et que c’est une combinaison clé pour un épanouissement autant professionnel que personnel.\n\nCoach professionnel ICF en devenir, sa démarche est centrée sur l’ouverture du champ d’options des personnes, la valorisation de leurs apprentissages et le regain de sens dans leurs actions.\n\nEditeur InfoQ et membre actif de la communauté Agile française, il aide à promouvoir et diffuser les valeurs Agile par l’organisation d’événements et la traduction de contenu anglo-saxons : la langue ne devrait pas être un frein à l’apprentissage ! ??",
+    "userLinks": [
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/OyoMy"
+      },
+      {
+        "key": "LinkedIn",
+        "value": "https://fr.linkedin.com/in/oliviermy"
+      },
+      {
+        "key": "Blog",
+        "value": "http://oyomy.fr/"
+      }
+    ],
+    "interests": [
+      "Facilitation",
+      "Kanban",
+      "Collaboration",
+      "valeurs",
+      "partage",
+      "Coaching",
+      "Agile"
+    ],
+    "sessions": [
+      3032
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/6312"
+      }
+    ]
+  },
+  {
+    "idMember": 645,
+    "login": "david",
+    "firstname": "David",
+    "lastname": "LARLET",
+    "company": "scopyleft",
+    "logo": null,
+    "hash": "daac2028dd52a4cda7c9133b5c22a0db",
+    "sessionType": null,
+    "shortDescription": "Artisan, geek & citoyen.",
+    "longDescription": "Hi, I’m David. My job is to embrace complexity to deliver as much value as I can.\n\nIt requires simple skills: communication, empathy and reactivity. My role is to combine user experience and developer experience into the same product. From a vision to a dream, from individuals to a team.\n\nI know HTML, CSS and JavaScript. I code, we review, I teach, we learn, I share, we iterate. I picture myself as a catalyzer, being where the action takes place to ease it.\n\nTL;DR: Let’s have fun together and create pertinent, minimalist and aesthetic things.",
+    "userLinks": [
+      {
+        "key": "Identité",
+        "value": "https://larlet.fr/david/"
+      },
+      {
+        "key": "Cadre de travail",
+        "value": "http://scopyleft.fr/"
+      },
+      {
+        "key": "Projet actuel",
+        "value": "https://www.data.gouv.fr/fr/"
+      }
+    ],
+    "interests": [
+      "SocketIO",
+      "eXtrem Programming",
+      "UX",
+      "Agilité",
+      "rest",
+      "TDD;Binômage",
+      "web semantique",
+      "POO",
+      "Photography",
+      "RabbitMQ",
+      "Neo4J",
+      "Django",
+      "Equipe",
+      "Transition vers l'agilité",
+      "Philosophie",
+      "Sociologie",
+      "Programmation Fonctionnelle",
+      "Jeux Agiles",
+      "Mercurial",
+      "Meditation",
+      "hypermedia",
+      "Craftsmanship",
+      "NodeJS",
+      "running",
+      "NoSQL",
+      "RDF",
+      "UI",
+      "WebSockets",
+      "Python",
+      "Coding Dojo",
+      "Twitter Bootstrap",
+      "Partage et veille techno",
+      "architecture",
+      "éducation"
+    ],
+    "sessions": [
+      3042,
+      229,
+      206
+    ],
+    "level": [
+      {
+        "key": "",
+        "value": null
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/645"
+      }
+    ]
+  },
+  {
+    "idMember": 105,
+    "login": "Swiip",
+    "firstname": "Matthieu",
+    "lastname": "LUX",
+    "company": "Zenika",
+    "logo": null,
+    "hash": "27bd774790e70807a5489b31f668a71e",
+    "sessionType": null,
+    "shortDescription": "Dev & Formateur @ Zenika Lyon, fan du Web & JS (Angular, Gulp, Node), administrateur du LyonJS",
+    "longDescription": "Développeur, formateur et responsable de l'offre Web au sein de l'agence lyonnaise de Zenika.\n\nAprès une solide expérience dans le monde Java, je suis focalisé aujourd'hui sur le monde du Web et du JavaScript. Plus précisément, mes technologies de prédilection sont actuellement Angular, Gulp, Yeoman, Node et React.\n\nJ'ai également donné un certain nombre de talks sur Angular au MixIt, mais aussi au DevoxxFR et même au [ngEurope](https://www.youtube.com/watch?v=Mk2WwSxK218)\n\nJ'organise également le LyonJS, le meetup JavaScript de Lyon [http://www.meetup.com/LyonJS/](http://www.meetup.com/LyonJS/)\n\nJ'ai enfin crée un générateur Yeoman [generator-gulp-angular](https://github.com/Swiip/generator-gulp-angular) qui propose le démarrage de projets basées sur les technologies Angular & Gulp.",
+    "userLinks": [
+      {
+        "key": "Generator gulp-angular",
+        "value": "https://github.com/Swiip/generator-gulp-angular"
+      }
+    ],
+    "interests": [
+      "Hibernate",
+      "JVM",
+      "Java",
+      "ES6",
+      "GitHub",
+      "React",
+      "Spring",
+      "Mobile",
+      "POO",
+      "NodeJS",
+      "Git",
+      "jQuery",
+      "Web",
+      "CoffeeScript",
+      "HTML5",
+      "JavaScript",
+      "Cloud",
+      "Continuous Integration",
+      "MongoDB",
+      "Dart"
+    ],
+    "sessions": [
+      149,
+      1991,
+      424,
+      3052
+    ],
+    "level": [
+      {
+        "key": "",
+        "value": null
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/105"
+      }
+    ]
+  },
+  {
+    "idMember": 114,
+    "login": "Cuicui",
+    "firstname": "Nicolas",
+    "lastname": "CUILLERY",
+    "company": "Zenika",
+    "logo": null,
+    "hash": "b08fd9671af78445d19048228a8f3d59",
+    "sessionType": null,
+    "shortDescription": "Consultant formateur JS @ Zenika et contributeur open-source compulsif",
+    "longDescription": "Développeur Java à la base, j'ai glissé aujourd'hui vers le développement JavaScript / Web. J'ai embrassé les différents frameworks qui ont marqué l'écosystème Front (GWT, Flex, jQuery, Backbone, AngularJS) jusqu'à faire aujourd'hui du React en mission depuis plus d'un an chez M6web pour la refonte de http://www.6play.fr",
+    "userLinks": [
+      {
+        "key": "Site web",
+        "value": "http://www.cuillery.com"
+      }
+    ],
+    "interests": [
+      "AngularJS",
+      "JavaScript",
+      "OpenSource",
+      "React",
+      "NodeJS"
+    ],
+    "sessions": [
+      1991,
+      3052,
+      1981
+    ],
+    "level": [
+      {
+        "key": "",
+        "value": null
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/114"
+      }
+    ]
+  },
+  {
+    "idMember": 6262,
+    "login": "424093859",
+    "firstname": "Olivier",
+    "lastname": "COMBE",
+    "company": "Holimetrix",
+    "logo": null,
+    "hash": "ed5bfe517fe4cf235b9d6f6ee99f80bb",
+    "sessionType": null,
+    "shortDescription": "Dev front-end @ Holimetrix, panelist @ Angular Air, JS lover, CSS enthusiast",
+    "longDescription": "Olivier is a passionate web developer who loves interacting with the community by doing open source projects (ocLazyLoad, ng2-translate...), being a panelist at Angular-Air, giving talks or just chatting on Twitter.\nHe's always looking for a good joke so don't hesitate if you have one!",
+    "userLinks": [
+      {
+        "key": "LinkedIn",
+        "value": "https://fr.linkedin.com/in/oliviercombe"
+      },
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/OCombe"
+      },
+      {
+        "key": "Site web",
+        "value": "http://github.com/ocombe/"
+      }
+    ],
+    "interests": [],
+    "sessions": [
+      3062
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/6262"
+      }
+    ]
+  },
+  {
+    "idMember": 558,
+    "login": "sylvain.chabert",
+    "firstname": "Sylvain",
+    "lastname": "CHABERT",
+    "company": "Néovia",
+    "logo": null,
+    "hash": "409675b674a9ef6952453b2fa58e3d69",
+    "sessionType": null,
+    "shortDescription": "Développeur (java)script",
+    "longDescription": "Chez Neovia (une NoSSII) depuis 6 ans, et chez Stormshield depuis bientôt 3 ans, je suis un développeur java reconverti au javascript :)\n\nJ'aime tout ce qui tourne autour de la qualité du code et du produit, que ce soit via le mode d'organisation (agilité) ou les bonnes pratiques (software craftmanship).",
+    "userLinks": [
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/ChabertSylvain"
+      },
+      {
+        "key": "LinkedIn",
+        "value": "https://www.linkedin.com/in/sylvainchabert"
+      },
+      {
+        "key": "Site web",
+        "value": "http://www.neovia.fr/"
+      }
+    ],
+    "interests": [
+      "Lean",
+      "eXtrem Programming",
+      "Hibernate",
+      "Human",
+      "Java",
+      "Play! Framework",
+      "Guava",
+      "Forum Ouvert",
+      "Agile User Experience",
+      "Agilité",
+      "rest",
+      "Mobile",
+      "Git",
+      "jQuery",
+      "DevOps",
+      "Jenkins",
+      "HTML5",
+      "JavaEE",
+      "Cloud",
+      "Collaboration",
+      "Continuous Integration",
+      "Agile Testing",
+      "MongoDB",
+      "API",
+      "Equipe",
+      "Transition vers l'agilité",
+      "Dart",
+      "Lean Startup",
+      "Jeux Agiles",
+      "Angular.js",
+      "Apprentissage",
+      "GitHub",
+      "Eclipse",
+      "Craftsmanship",
+      "Google App Engine",
+      "Web 2.0",
+      "Java 8",
+      "ElasticSearch",
+      "NoSQL",
+      "Kanban",
+      "CARA",
+      "JavaScript",
+      "Ergonomie",
+      "Communication"
+    ],
+    "sessions": [
+      3072
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/558"
+      }
+    ]
+  },
+  {
+    "idMember": 6692,
+    "login": "102885215588683684789",
+    "firstname": "Anne",
+    "lastname": "MATRAY",
+    "company": "Stormshield",
+    "logo": null,
+    "hash": "9c4b427242f379207804632ac6099b89",
+    "sessionType": null,
+    "shortDescription": "Manager R&D chez Stormshield, éditeur européen de solutions de cybersécurité",
+    "longDescription": null,
+    "userLinks": [
+      {
+        "key": "LinkedIn",
+        "value": "https://fr.linkedin.com/in/anne-matray-389084105"
+      }
+    ],
+    "interests": [],
+    "sessions": [
+      3072
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/6692"
+      }
+    ]
+  },
+  {
+    "idMember": 6952,
+    "login": "102136203774663344902",
+    "firstname": "Julien",
+    "lastname": "PAFFUMI",
+    "company": "Stormshield",
+    "logo": null,
+    "hash": "9ea6c1163e9e7475490d45c808ba04f4",
+    "sessionType": null,
+    "shortDescription": "Product Marketing Manager chez [Stormshield](https://www.stormshield.eu), éditeur européen de solutions de cybersécurité",
+    "longDescription": "Passionné de jeux en tous genres, lecteur insatiable, hyper-connecté et ultra-curieux",
+    "userLinks": [
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/jpaffumi"
+      },
+      {
+        "key": "LinkedIn",
+        "value": "https://fr.linkedin.com/in/julien-paffumi-7655991"
+      }
+    ],
+    "interests": [],
+    "sessions": [
+      3072
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/6952"
+      }
+    ]
+  },
+  {
+    "idMember": 7922,
+    "login": "jguilloux",
+    "firstname": "Jérôme",
+    "lastname": "GUILLOUX",
+    "company": "Stormshield",
+    "logo": null,
+    "hash": "b04f180f4e903d46b151264d5295d983",
+    "sessionType": null,
+    "shortDescription": "Product Leader",
+    "longDescription": null,
+    "userLinks": [],
+    "interests": [],
+    "sessions": [
+      3072
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/7922"
+      }
+    ]
+  },
+  {
+    "idMember": 40,
+    "login": "NicoRuffel",
+    "firstname": "Nicolas",
+    "lastname": "RUFFEL",
+    "company": "Tennaxia",
+    "logo": null,
+    "hash": "1025925472aace679689108086fa64a2",
+    "sessionType": null,
+    "shortDescription": "Responsable R&D piloté par la satisfaction client et la mise en place d'un écosystème durable dans l'entreprise.",
+    "longDescription": "Manager d'équipe de développement depuis 16 ans, ex-développeur, j'ai découvert eXtreme Programming en 2003. Mon objectif quotidien est d'obtenir le meilleur équilibre possible entre la qualité des logiciels et la qualité de vie de mes équipes.",
+    "userLinks": [
+      {
+        "key": "Twitter",
+        "value": "http://www.twitter.com/NicoRuffel"
+      }
+    ],
+    "interests": [
+      "eXtrem Programming",
+      "Hibernate",
+      "Java",
+      "Agilité",
+      "Management",
+      "Coaching",
+      "Git",
+      "TDD",
+      "DevOps",
+      "Kanban",
+      "Ergonomie",
+      "System Thinking",
+      "Scrum",
+      "Transition vers l'agilité",
+      "Recherche",
+      "Lean Startup",
+      "Deming"
+    ],
+    "sessions": [
+      3082
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/40"
+      }
+    ]
+  },
+  {
+    "idMember": 530,
+    "login": "Charles Bouttaz",
+    "firstname": "Charles",
+    "lastname": "BOUTTAZ",
+    "company": "Tennaxia",
+    "logo": null,
+    "hash": "bd0f602050b2f95901199d3a3789eb56",
+    "sessionType": null,
+    "shortDescription": "Developer, Craftsman, Agile, Learner @LyonJUG leader",
+    "longDescription": "Charles Bouttaz est développeur Java & Web depuis 8 ans.\nDepuis qu'il est tombé dans la marmite de l’agilité et du craftsmanship il est devenu accroc.\nSes domaines de prédilection : la qualité du code, du design (OO) et les tests.\nGros consommateur de conférences et de meetups il est également coorganisateur des communautés lyonnaises [Java User Group](http://www.lyonjug.org/) et [Software Craftsmanship](http://www.meetup.com/fr-FR/Software-Craftsmanship-Lyon/).",
+    "userLinks": [
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/CharlesBouttaz"
+      }
+    ],
+    "interests": [
+      "Java",
+      "TDD",
+      "DDD",
+      "Agilité",
+      "Craftsmanship"
+    ],
+    "sessions": [
+      3082
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/530"
+      }
+    ]
+  },
+  {
+    "idMember": 6992,
+    "login": "frederic.mixit",
+    "firstname": "Frederic",
+    "lastname": "RODRIGUEZ",
+    "company": "Coach Facilitateur et Formateur",
+    "logo": null,
+    "hash": "54186fdee02482093196fc99675d0715",
+    "sessionType": null,
+    "shortDescription": "Frédéric RODRIGUEZ est coach facilitateur et formateur. Il a travaillé pendant plus de 20 ans dans le domaine IT et dans les sociétés Esselte et Checkpoint Systems. Il a mené de nombreux projets de taille diverses dans différents environnements.",
+    "longDescription": "Frédéric crée son activité en 2008. Il croit à la créativité collective et l’émergence des compétences et du changement, ensemble.\n\nIl a participé à l’élaboration de jeux sérieux pour l’enseignement de l’Agilité et a été un des premiers acteurs à intégrer l’Agilité dans les cursus de formation de Management Par Projet en France et son rapport avec la vision traditionnelle.\n\nAujourd’hui, Il intervient dans des conférences pour des institutions comme le PMI®, la Société Suisse de Management de Projet à Lausanne, les Agiles Play Ground et participe en co-organisation à l’Agile Tour de Montpellier.\n\nIl propose aux organisations du coaching, de la formation, ou des conférences à destination des équipes, des managers et managers de projets, pour un état d’esprit Agile et son intégration adaptée.",
+    "userLinks": [
+      {
+        "key": "LinkedIn",
+        "value": "https://fr.linkedin.com/in/frederic-rodriguez-a5082016"
+      }
+    ],
+    "interests": [
+      "Agile Management",
+      "Projet",
+      "Agilité",
+      "Organisation",
+      "Scrum",
+      "management agile"
+    ],
+    "sessions": [
+      3092
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/6992"
+      }
+    ]
+  },
+  {
+    "idMember": 5862,
+    "login": "116917682933277334027",
+    "firstname": "Goulven",
+    "lastname": "CHAMPENOIS",
+    "company": "",
+    "logo": null,
+    "hash": "c10372fa185fe953f9546de18cc3ef0c",
+    "sessionType": null,
+    "shortDescription": "Développeur tantôt back et tantôt front, et plus car affinités.",
+    "longDescription": "Concepteur-développeur-intégrateur et curieux du reste, j'adore co-concevoir puis concrétiser des projets utiles et éthiques dans une équipe enthousiaste. \n\nSouvent responsable de l'ambiance musicale au bureau, j'interviens également dans le domaine des calembours ainsi que dans la réflexion sociologique et philosophique.",
+    "userLinks": [
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/goulvench"
+      },
+      {
+        "key": "Blog",
+        "value": "http://userland.fr"
+      }
+    ],
+    "interests": [
+      "Ergonomie",
+      "Accessibilité",
+      "Performances",
+      "Photographie",
+      "Féminisme",
+      "Humanisme",
+      "Permaculture",
+      "Mobile"
+    ],
+    "sessions": [
+      3112
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/5862"
+      }
+    ]
+  },
+  {
+    "idMember": 6922,
+    "login": "111550012264996175828",
+    "firstname": "Marie-cécile",
+    "lastname": "PACCARD",
+    "company": "Marie-Cécile Paccard",
+    "logo": null,
+    "hash": "50750c4b08fb46fc26fc8547fccee54c",
+    "sessionType": null,
+    "shortDescription": "Problem solver, visual builder, color lover.",
+    "longDescription": "Web designer de formation, diplômée d’arts appliqués à Lyon, Marie-Cécile a élargi son panel de compétences pour exercer dans la direction artistique et l’accompagnement de projets, depuis la formalisation de la première idée jusqu’au dernier détail de sa réalisation. Ses domaines de prédilection : l’utilisabilité des interfaces et la communication sur le web.\n\nMarie-Cécile est également une citoyenne investie dans la vie lyonnaise, notamment au travers d'initiatives sur les réseaux sociaux autour des transports en commun et du réseau Only Lyon.",
+    "userLinks": [
+      {
+        "key": "Site web",
+        "value": "http://mcpaccard.com"
+      },
+      {
+        "key": "Twitter",
+        "value": "http://twitter.com/mcpaccard"
+      }
+    ],
+    "interests": [],
+    "sessions": [
+      3112
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/6922"
+      }
+    ]
+  },
+  {
+    "idMember": 1016,
+    "login": "fchabanois",
+    "firstname": "Florence",
+    "lastname": "CHABANOIS",
+    "company": "Car & Boat Media",
+    "logo": null,
+    "hash": "2168f37bb0b5cd95a32f9e6094bc053c",
+    "sessionType": null,
+    "shortDescription": "Florence Chabanois exerce dans le milieu agile depuis une dizaine d'années. Sa forme de tête ni ronde ni carré lui a permis d'endosser des casquettes en tissus différents : développeur, coach, ScrumMaster, manager, product owner.",
+    "longDescription": "Aujourd'hui, elle est Product Owner chez Car & Boat Média, qui publie des petites annonces de véhicules sur Internet.  L'entreprise est le leader du marché avec les sites LaCentrale.fr, Caradisiac.com, Promoneuve.fr et AnnoncesBateau.com.",
+    "userLinks": [
+      {
+        "key": "Blog",
+        "value": "http://www.devsnotebook.fr"
+      }
+    ],
+    "interests": [
+      "Lean",
+      "Clean Code",
+      "Agile User Experience",
+      "Agilité",
+      "Bash",
+      "développement",
+      "Agile Testing",
+      "Responsive Web Design",
+      "épanouissement personnel",
+      "Lean Startup",
+      "Best Practices",
+      "Fest Assert",
+      "Auto-coaching",
+      "Apprentissage",
+      "Entrepreneuriat",
+      "behavior Driven Development",
+      "Coaching",
+      "Storytelling",
+      "CasperJS",
+      "CARA",
+      "analytics",
+      "Feedback",
+      "Rétrospective",
+      "Amélioration continue",
+      "code academy",
+      "design thinking",
+      "Agile"
+    ],
+    "sessions": [
+      3122,
+      423,
+      552
+    ],
+    "level": [
+      {
+        "key": "",
+        "value": null
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/1016"
+      }
+    ]
+  },
+  {
+    "idMember": 6852,
+    "login": "22896898",
+    "firstname": "Bertrand",
+    "lastname": "COCHET",
+    "company": "WAX Interactive",
+    "logo": null,
+    "hash": "0dc6d7d5557815f3652a5887aad90f0c",
+    "sessionType": null,
+    "shortDescription": "Directeur du Studio Digital Wax Interactive Lyon (SQLI Group), Lead UX designer, expert Accessiweb en évaluation et responsable de l'antenne lyonnaise FLUPA (UXPA).",
+    "longDescription": "Je porte un regard sur le monde qui m'engage à expérimenter de nouvelles voies, de nouvelles méthodes au profit de l'ouverture sur les autres. Mes orientations sociologiques et psychologiques m'amènent au travers de ma pratique à créer de nouvelles synergies entre professionnels (dév, strat, market...) et faire sauter certaines croyances limitantes. #universalUX",
+    "userLinks": [
+      {
+        "key": "Site web",
+        "value": "http://www.wax-interactive.com"
+      },
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/bcochet"
+      },
+      {
+        "key": "LinkedIn",
+        "value": "http://fr.linkedin.com/in/bcochet"
+      }
+    ],
+    "interests": [],
+    "sessions": [
+      3132
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/6852"
+      }
+    ]
+  },
+  {
+    "idMember": 6902,
+    "login": "110883641223381082460",
+    "firstname": "Jean-jacques",
+    "lastname": "GIRARDOT",
+    "company": "Ecole Nationale Supérieure des Mines de Saint-Etienne",
+    "logo": null,
+    "hash": "495ea9aa2914c9f174365204b0555565",
+    "sessionType": null,
+    "shortDescription": "Programmeur au long cours, mais aussi enseignant-chercheur en informatique, auteur de science-fiction, et compositeur de musique électroacoustique.",
+    "longDescription": "Jean-Jacques Girardot n'a pas cessé de programmer depuis 1969. Enseignant-Chercheur à l'Ecole des Mines de Saint-Etienne, il a été longtemps directeur du département \"Réseaux, Information, Multimédia\". Il a participé aux tous premiers déploiements de l'Internet en France, a écrit ou coécrit des systèmes d'exploitations pour plusieurs machines, a eu sur son bureau, en 1980-81, lors d'un long séjour au centre de recherche d'IBM à Yorktown Heights, l'un des premiers PC (et n'en a rien fait), a écrit nombre de logiciels passés dans le domaine publique, et, après plus d'un million de lignes de codes de C ou C++, n'est toujours pas lassé de cette activité. Membre de l'Inventaire, collectif des compositeurs de musique électroacoustique de la région Rhône-Alpes-Auvergne, il enseigne aujourd'hui le design sonore à l'Ecole des Mines, et, à l'occasion, au Conservatoire. Il écrit aussi parfois de la science-fiction, et fait partie du groupe \"Remparts\" des écrivains francophones de Science-Fiction, dont il a organisé sept des réunions annuelles.",
+    "userLinks": [
+      {
+        "key": "Site web",
+        "value": "http://nouvoson.radiofrance.fr/jean-jacques-girardot"
+      },
+      {
+        "key": "Site web",
+        "value": "http://kiwi.emse.fr/GSD/"
+      },
+      {
+        "key": "Site web",
+        "value": "https://fr.wikipedia.org/wiki/Jean-Jacques_Girardot"
+      }
+    ],
+    "interests": [],
+    "sessions": [
+      3142
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/6902"
+      }
+    ]
+  },
+  {
+    "idMember": 6772,
+    "login": "117947573231873585592",
+    "firstname": "Nicolas",
+    "lastname": "COINTE",
+    "company": "École Nationale Supérieure des Mines de Saint Étienne",
+    "logo": null,
+    "hash": "879ccefe04934d817d0fb1e750d1b246",
+    "sessionType": null,
+    "shortDescription": "Doctorant de l'École des Mines des Saint Étienne (Institut Henri Fayol), membre de l'équipe Connected Intelligence (Laboratoire Hubert Curien), et du Groupe de recherche en informatique, image, automatique et instrumentation de Caen (GREYC).",
+    "longDescription": "Doctorant de l'École des Mines des Saint Étienne ([Institut Henri Fayol](http://www.mines-stetienne.fr/temoignage/frederic-giraud/)), membre de l'équipe [Connected Intelligence](https://connected-intelligence.univ-st-etienne.fr/), (Laboratoire Hubert Curien) et du Groupe de recherche en informatique, image, automatique et instrumentation de Caen ([GREYC](https://www.greyc.fr/)). Actuellement en thèse de Doctorat, je travaille en intelligence artificielle, sur un modèle de jugement dans les systèmes multi-agent pour interagir et établir des éthiques collectives. Mes travaux de recherche se concentrent sur la conception et la réalisation d'agents autonomes dotés de facultés de raisonnement sur des notions de philosophie morale et d'éthique dans divers contextes applicatifs (médecine, finance, protection de la vie privée, transport, etc.).",
+    "userLinks": [
+      {
+        "key": "LinkedIn",
+        "value": "https://www.linkedin.com/in/nicolas-cointe-92833983"
+      }
+    ],
+    "interests": [
+      "Intelligence Artificielle"
+    ],
+    "sessions": [
+      3152
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/6772"
+      }
+    ]
+  },
+  {
+    "idMember": 6632,
+    "login": "jessbordeau",
+    "firstname": "Jessica",
+    "lastname": "BORDEAU",
+    "company": "Freelance",
+    "logo": null,
+    "hash": "2f38a64d06efd5433027cc5b04265fb0",
+    "sessionType": null,
+    "shortDescription": "Webdesign & Interactive Documentaries",
+    "longDescription": "Webdesign & Interactive Documentaries",
+    "userLinks": [
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/jessbordeau"
+      }
+    ],
+    "interests": [],
+    "sessions": [
+      3162
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/6632"
+      }
+    ]
+  },
+  {
+    "idMember": 4631,
+    "login": "fsechaud",
+    "firstname": "Florie",
+    "lastname": "SÉCHAUD",
+    "company": "TEA - the ebook alternative",
+    "logo": null,
+    "hash": "39745bfcf5728631c60120ad80d06150",
+    "sessionType": null,
+    "shortDescription": "Graphiste - développeur à tout faire chez TEA",
+    "longDescription": "Après un stage dans une grande web-agency, Florie a choisi de mettre ses compétences graphiques au service de l'éducation aux médias pendant quelques années.\nUne tentative en freelance et une formation en développement plus tard, elle a rejoint l'équipe technique de [TEA - the ebook alternative](http://www.tea-ebook.com/), en tant que développeur front-end et graphiste.",
+    "userLinks": [
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/FlorieSD"
+      }
+    ],
+    "interests": [],
+    "sessions": [
+      3172
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/4631"
+      }
+    ]
+  },
+  {
+    "idMember": 7132,
+    "login": "103162932700423659158",
+    "firstname": "Romain",
+    "lastname": "VIGNES",
+    "company": "Goood!",
+    "logo": null,
+    "hash": "165eaacc30b22244f3727577e1b9ecc5",
+    "sessionType": null,
+    "shortDescription": "Développeur d'agilité",
+    "longDescription": "J’évolue depuis pratiquement 20 ans dans l’industrie du software, principalement dans le domaine des télécoms. \nCurieux de nature, j’ai un profil polyvalent fait d’expériences complémentaires couvrant l’ensemble du cycle de vie du logiciel (développement, architecture & conception, management de projet et d’équipe, marketing produit, support avant-vente, entrepreneuriat).\nAprès une première mise en œuvre de pratiques agiles orientées ingénierie logiciel, j’accompagne depuis 5 ans des individus, des équipes et des organisations dans leur adoption de l’agilité.",
+    "userLinks": [
+      {
+        "key": "Blog",
+        "value": "http://romain.vignes.me"
+      },
+      {
+        "key": "LinkedIn",
+        "value": "https://fr.linkedin.com/in/rvignes"
+      },
+      {
+        "key": "Twitter",
+        "value": "http://twitter.com/rvignes"
+      }
+    ],
+    "interests": [],
+    "sessions": [
+      3182
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/7132"
+      }
+    ]
+  },
+  {
+    "idMember": 7112,
+    "login": "112771964238973990934",
+    "firstname": "Claire",
+    "lastname": "MORIN",
+    "company": "",
+    "logo": null,
+    "hash": "fbcbd68cdc17c9e5f86d627b093322e2",
+    "sessionType": null,
+    "shortDescription": "Product Owner, Coach Produit, Web analyste, User researcher... tout dépend du contexte !",
+    "longDescription": "Passionnée depuis toujours par les problématiques d'innovation,  je découvre l'Agilité dès ma première expérience de consultante. \nCe fût une révélation, parce que pour moi c'est à la fois une expérience humaine qui donne du sens à mon travail, et un retour aux sources avec les principes d'expérimentation qui m'avaient forgée lors de mes études en physique fondamentale.\n\nAujourd'hui je m'intéresse beaucoup aux dynamiques de groupes et à ce qui favorise l’émergence de la créativité au sein des équipes.\nJ'aime avant tout contribuer à rendre le travail passionnant pour tous les membres de l'équipe lorsque j'interviens comme coach. Et que ce soit en tant que Product Owner ou Coach, voir les idées et les innovations émerger.",
+    "userLinks": [
+      {
+        "key": "LinkedIn",
+        "value": "https://fr.linkedin.com/in/morinclaire"
+      },
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/clairemorin"
+      }
+    ],
+    "interests": [
+      "Product Owner",
+      "Web analyse",
+      "Agilité",
+      "User Experience",
+      "ATDD",
+      "créativité",
+      "design thinking",
+      "Lean Startup",
+      "dynamique de groupe"
+    ],
+    "sessions": [
+      3192,
+      3232
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/7112"
+      }
+    ]
+  },
+  {
+    "idMember": 21,
+    "login": "g.zoritchak",
+    "firstname": "Gaetan",
+    "lastname": "ZORITCHAK",
+    "company": "MonCoachFinance",
+    "logo": null,
+    "hash": "2799805396016e89df69d26d22c4445c",
+    "sessionType": null,
+    "shortDescription": "Plus craftsman qu'agile. Pragmatique, j'essaie de garder du recul sur le buzz sans que ça m'empêche de m'enflammer pour certaines technos.",
+    "longDescription": "Fondateur de MonCoachFinance, j'assure l'ensemble de la partie technique de l'entreprise: architecture, développement, déploiement, suivi des serveurs, ... Toujours à la recherche d'efficacité, j'essaie de profiter de mon expérience pour analyser la valeur réelle des nouveaux outils et frameworks. \n\nConquis dès le début par Kotlin, je l'ai mis en production en 2014. La majeure partie du chiffre d'affaire de notre société s'appuie sur ce langage.",
+    "userLinks": [
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/gz_k"
+      }
+    ],
+    "interests": [
+      "Lean",
+      "Cloud",
+      "Kotlin"
+    ],
+    "sessions": [
+      3202
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/21"
+      }
+    ]
+  },
+  {
+    "idMember": 7142,
+    "login": "100578619938900089909",
+    "firstname": "Horacio",
+    "lastname": "GONZALEZ",
+    "company": "Cityzen Data",
+    "logo": null,
+    "hash": "6f8d092fec403f766c734ce36e1eef93",
+    "sessionType": null,
+    "shortDescription": "Spaniard lost in Brittany, unconformist coder, Java craftsman, dreamer and all-around geek",
+    "longDescription": "Malgré ce que son accent espagnol bien prononcé peut suggérer, Horacio est arrivé en France il y a une quinzaine d'années déjà. Passionné d'informatique, dans laquelle il est tombé depuis tout petit, il a découvert Java en 1997 et depuis il n'a pas arrêté de bosser autour.\n\nAprès quelques années comme architecte technique au Crédit Mutuel Arkea, Horacio travaille actuellement à Cityzen Data, entreprise spécialisée dans le domaine du Big Data. Il est aussi leader et cofondateur du FinistJUG, le JUG francophone le plus proche de la Silicon Valley.",
+    "userLinks": [
+      {
+        "key": "Twitter",
+        "value": "https://twiiter.com/LostInBrittany"
+      }
+    ],
+    "interests": [],
+    "sessions": [
+      3212
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/7142"
+      }
+    ]
+  },
+  {
+    "idMember": 7092,
+    "login": "64759160",
+    "firstname": "Geoffroy",
+    "lastname": "COUPRIE",
+    "company": "Clever Cloud",
+    "logo": null,
+    "hash": "ed9901b9b80743c05aedf58b4f4926dd",
+    "sessionType": null,
+    "shortDescription": "QA et sécurité chez Clever Cloud. Consultant en sécurité logicielle, cryptographie et performance réseau",
+    "longDescription": "Geoffroy s'occupe de la sécurité sur la plateforme Clever Cloud, et effectue des recherches sur la fiabilité du code et les protocoles sûrs. Il développe principalement en Rust et travaille sur des parsers sûrs, notamment dans le cadre du projet VideoLAN.",
+    "userLinks": [
+      {
+        "key": "Site web",
+        "value": "https://www.clever-cloud.com"
+      },
+      {
+        "key": "Twitter",
+        "value": "https://www.twitter.com/gcouprie"
+      },
+      {
+        "key": "Blog",
+        "value": "http://unhandledexpression.com"
+      }
+    ],
+    "interests": [
+      "Cryptographie",
+      "performance"
+    ],
+    "sessions": [
+      3222,
+      3612
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/7092"
+      }
+    ]
+  },
+  {
+    "idMember": 6942,
+    "login": "111157796611312196567",
+    "firstname": "Nicolas",
+    "lastname": "VÉRITÉ",
+    "company": "Erlang Solutions",
+    "logo": null,
+    "hash": "96002804bafaa163bd21b0a2fb155a8c",
+    "sessionType": null,
+    "shortDescription": "Product Owner, dans le monde/univers du Instant/Mobile/Group Messaging, avec experience terrain Scrum/Kanban, avec un peu pratique de Lean Startup, et un soupçon de Design Thinking, surtout avec un gros background opensource",
+    "longDescription": "Principalement Product Owner, avec une bonne teinte de Scrum Master, un tout petit peu de coaching, et surtout OpenSource/Libre.\n\nAi évolué dans ce monde/univers, appelez-le comme vous voulez : Instant Messaging, Mobile Messaging, Group Messaging, Real-Time Messaging...\n\nUne experience terrain de quelques années et quelques équipes en Scrum/Kanban, montages et reprises d'équipes, silos et feature teams, souvent pluri-disciplinaires.\n\nUn peu de pratique de Lean Startup, une volonté de Design Thinking, aussi The Open Organisation et Management 3.0.",
+    "userLinks": [
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/nyconyco"
+      }
+    ],
+    "interests": [
+      "coaching agile",
+      "Kanban",
+      "ScrumMaster",
+      "libre",
+      "OpenSource",
+      "Scrum",
+      "leanstartup",
+      "DesignThinking",
+      "Agile"
+    ],
+    "sessions": [
+      3232
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/6942"
+      }
+    ]
+  },
+  {
+    "idMember": 5872,
+    "login": "103086746",
+    "firstname": "Katrina",
+    "lastname": "OWEN",
+    "company": "Exercism",
+    "logo": null,
+    "hash": "51ee7bed9ecbc33aec92517f1fbb6cc2",
+    "sessionType": null,
+    "shortDescription": "Ruby & Go developer. Creator of Exercism.io",
+    "longDescription": "Katrina accidentally became a developer while pursuing a degree in molecular biology. When programming, her focus is on automation, workflow optimization, and refactoring. She works primarily in Go and Ruby, contributes to several open source projects, and is the creator of exercism.io",
+    "userLinks": [
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/kytrinyx"
+      },
+      {
+        "key": "Site web",
+        "value": "http://kytrinyx.com/"
+      }
+    ],
+    "interests": [],
+    "sessions": [
+      3242
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/5872"
+      }
+    ]
+  },
+  {
+    "idMember": 5852,
+    "login": "savinola",
+    "firstname": "Laura",
+    "lastname": "SAVINO",
+    "company": "indépendente",
+    "logo": null,
+    "hash": "49caddf151f4fac963db0812653fc547",
+    "sessionType": null,
+    "shortDescription": "iOS developer & trainer and language enthusiast",
+    "longDescription": "I'm an iOS developer with a penchant for languages, travel, and education. I've worked on all sorts of client apps through mobile agencies, and most recently built apps to transform students' learning at Khan Academy. I now independently code, speak, and teach in Seattle.",
+    "userLinks": [
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/savinola"
+      }
+    ],
+    "interests": [
+      "localization",
+      "Mobil",
+      "accessibility",
+      "iOS",
+      "éducation"
+    ],
+    "sessions": [
+      3252
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/5852"
+      }
+    ]
+  },
+  {
+    "idMember": 7252,
+    "login": "hhariri",
+    "firstname": "Hadi",
+    "lastname": "HARIRI",
+    "company": "JetBrains",
+    "logo": null,
+    "hash": "c2072a8f90f9fe379ca21c3af39a3757",
+    "sessionType": null,
+    "shortDescription": "Developer, Speaker, Developer Advocacy Team Lead at JetBrains",
+    "longDescription": "Developer and creator of many things OSS, his passions includes Web Development and Software Architecture. Has authored a couple of books, a few courses and has been speaking at industry events for nearly 15 years. Currently at JetBrains leading the Developer Advocacy team. Spends as much time as he can writing code.",
+    "userLinks": [
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/hhariri"
+      },
+      {
+        "key": "Blog",
+        "value": "http://hadi.es"
+      }
+    ],
+    "interests": [],
+    "sessions": [
+      3272,
+      3262
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/7252"
+      }
+    ]
+  },
+  {
+    "idMember": 7262,
+    "login": "peterbourgon",
+    "firstname": "Peter",
+    "lastname": "BOURGON",
+    "company": "Weaveworks",
+    "logo": null,
+    "hash": "78ab1e45de2c357b8e36dc9bd70eeba2",
+    "sessionType": null,
+    "shortDescription": "n/a",
+    "longDescription": "n/a",
+    "userLinks": [
+      {
+        "key": "Twitter",
+        "value": "http://twitter.com/peterbourgon"
+      }
+    ],
+    "interests": [],
+    "sessions": [
+      3282
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/7262"
+      }
+    ]
+  },
+  {
+    "idMember": 6292,
+    "login": "1416940069",
+    "firstname": "Stephane",
+    "lastname": "MALDINI",
+    "company": "Pivotal",
+    "logo": null,
+    "hash": "28f1e1df33de53d322cf42f4e6aec5ac",
+    "sessionType": null,
+    "shortDescription": "4D Texture Designer @ Pivotal",
+    "longDescription": "Parce que le peuple mérite des API reactive qui font sens, et restent pragmatiques, nous nous battons et faisons face avec nos camarades du syndicat RxJava et la commission populaire Spring. Oui c'est douloureux cette transition vers les architectures \"reactive\" et beaucoup de monde en revient, mais c'est bien notre objectif, allier l'audace de ces systèmes avec un pragmatisme efficace.",
+    "userLinks": [
+      {
+        "key": "Project",
+        "value": "http://projectreactor.io"
+      }
+    ],
+    "interests": [],
+    "sessions": [
+      3442,
+      3292
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/6292"
+      }
+    ]
+  },
+  {
+    "idMember": 7392,
+    "login": "jjehl",
+    "firstname": "Julien",
+    "lastname": "JEHL",
+    "company": "Poppy",
+    "logo": null,
+    "hash": "372a8273b3ee71dc7304493e8e69869c",
+    "sessionType": null,
+    "shortDescription": "Avec Poppy, vous avez le choix de programmer des objets robotiques prêts à l’emploi ou que vous avez construits.",
+    "longDescription": "La plate-forme Poppy permet aux utilisateurs de créer et modifier facilement la forme du robots. Les créatures Poppy peuvent également être utilisées directement comme plates-formes expérimentales reproductibles et accessibles. \n\nGrâce à la simulation, on peut aussi étudier comment les compétences acquises par le robot dans la simulation, peuvent être transférés efficacement au robot physique.\nPoppy étant libre et accessible d’autres utilisateurs dans le monde seront en mesure de reproduire vos travaux, et de les étendre avec leurs propres idées. Grâce à la technologie d’impression 3D, permettant le prototypage rapide de pièce, et l’existence d’une véritable communauté open source, vous pouvez avoir des cycles de développement très courts, et votre recherche va plus vite.",
+    "userLinks": [
+      {
+        "key": "Site web",
+        "value": "https://www.poppy-project.org/"
+      },
+      {
+        "key": "Site web",
+        "value": "https://www.poppy-project.org/education/?lang=fr"
+      },
+      {
+        "key": "Site web",
+        "value": "http://www.poppy-prof.fr/"
+      },
+      {
+        "key": "Blog",
+        "value": "https://forum.poppy-project.org/"
+      }
+    ],
+    "interests": [
+      "robotique python snap impression 3D"
+    ],
+    "sessions": [
+      3302,
+      2682
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/7392"
+      }
+    ]
+  },
+  {
+    "idMember": 7612,
+    "login": "ribas",
+    "firstname": "Stephane",
+    "lastname": "RIBAS",
+    "company": "INRIA",
+    "logo": null,
+    "hash": "576278f45e80cd9b3bf9438b53095eb7",
+    "sessionType": null,
+    "shortDescription": "I am an expert engineer working at INRIA (DGDT). My mission is to help INRIA developers & scientists to create vibrant communities.\n\nSpecialties: Community building, Governance, Business models, Licenses, Project management.",
+    "longDescription": "I worked for several FLOSS projects around research, robotics & intelligent ambient.  I am currently working Poppy project (Humanoid robot), fOSSa conference & many other OSS initiatives.\n\nI teach at IAE about OSS history, models and beyond. \nI am also making \"research\" in the Community Management field and I have synthesis an approach to create and sustain OSS Communities. \nFinally, I try to do my best to be a good speaker (conference & university), network facilitator & FLOSS advisor!",
+    "userLinks": [
+      {
+        "key": "Site web",
+        "value": "http://poppy-project.org"
+      },
+      {
+        "key": "Site web",
+        "value": "http://fossa.inria.fr"
+      }
+    ],
+    "interests": [
+      "FLOSS",
+      "Community Building",
+      "Robotics",
+      "programmation",
+      "research"
+    ],
+    "sessions": [
+      3302
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/7612"
+      }
+    ]
+  },
+  {
+    "idMember": 7222,
+    "login": "266486772",
+    "firstname": "Tomasz",
+    "lastname": "NURKIEWICZ",
+    "company": "4Finance IT",
+    "logo": null,
+    "hash": "a0a3a4200899708103f7430d87d56e24",
+    "sessionType": null,
+    "shortDescription": "Java developer, co-author of \"Reactive Programming with RxJava\"",
+    "longDescription": "Spent half of his life on programming, for the last decade professionally in Java land. Loves back-end, tolerates JavaScript. Passionate about alternative JVM languages. Disappointed with the quality of software written these days (so often by himself!), hates long methods and hidden side effects. Interested in charting, data analysis and reporting. Believes that computers were invented so that developers can automate boring and repetitive tasks. Also their own.\n\nOn a daily basis works in financial sector. Involved in open-source, DZone’s Most Valuable Blogger, used to be very active on StackOverflow. Author, trainer, conference speaker, technical reviewer, runner. Claims that code not tested automatically is not a feature but just a rumour. Currently writing a book \"Reactive Programming with RxJava\" for O'Reilly.",
+    "userLinks": [
+      {
+        "key": "Blog",
+        "value": "http://www.nurkiewicz.com/"
+      },
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/tnurkiewicz"
+      }
+    ],
+    "interests": [
+      "functional programming",
+      "RxJava"
+    ],
+    "sessions": [
+      3342
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/7222"
+      }
+    ]
+  },
+  {
+    "idMember": 6532,
+    "login": "105233409871963019562",
+    "firstname": "Laure",
+    "lastname": "JOUTEAU",
+    "company": "Les Aventurières",
+    "logo": null,
+    "hash": "7f4e44353b899c8099f5cf28beaa05d0",
+    "sessionType": null,
+    "shortDescription": "Les Aventurières accompagnent les reconversions depuis la trouille de se planter, les idées de génie, jusqu'aux premiers clients.",
+    "longDescription": "Mi-trouillarde mi-rebelle, je suis passionnée par la créativité, le féminisme et ce qui fait changer les humains. Je suis obsédée par l'idée que le monde serait un immense terrain de jeu si chacun suivait ses passions au lieu de ses devoirs. \nJ'ai fait une carrière en sauts de mouton : j'ai commencé dans la communication puis le journalisme. Un peu désillusionnée à l'idée de passer mes journées devant un téléphone et un fil AFP, je suis partie dans le monde du conseil et des nouvelles technologies. Je suis devenue capable de lâcher des \"framework\" et \"commit\" dans des conversations l'air de rien et même de comprendre ce que ça voulait dire. Un nouveau saut de mouton m'a emmenée à Bruxelles où j'ai travaillé au Parlement Européen sur le changement climatique et les femmes (un sujet mystérieux et passionnant). Le dernier saut en date m'a emmenée à Lyon pour travailler dans une start-up, puis quitter cette startup pour monter les Aventurières.",
+    "userLinks": [
+      {
+        "key": "Site web",
+        "value": "http://www.lesaventurieres.com"
+      }
+    ],
+    "interests": [
+      "Reconversion",
+      "Entrepreneuriat",
+      "Féminisme",
+      "créativité"
+    ],
+    "sessions": [
+      3352
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/6532"
+      }
+    ]
+  },
+  {
+    "idMember": 7542,
+    "login": "100539348",
+    "firstname": "Robert",
+    "lastname": "KUBIS",
+    "company": "Google UK Ltd",
+    "logo": null,
+    "hash": "f0ac73d24f71363ff0f7b9a4c32f010e",
+    "sessionType": null,
+    "shortDescription": "@GoogleCloud Developer Advocate, Do-it mentality, Enthusiast. Enjoying #tech trends, #food, #travel, all kinds of outdoor activities,",
+    "longDescription": "Robert Kubis is a developer advocate for the Google Cloud Platform based in London, UK, specializing in container, storage, and scalable technologies.  Before joining Google, Robert collected over 10 years of experience in software development and architecture. He has driven multiple full-stack application developments at SAP with a passion for distributed systems, containers, databases, and performance optimization. In his spare time he enjoys following tech trends and good restaurants, traveling, and improving his photography skills.",
+    "userLinks": [
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/hostirosti"
+      },
+      {
+        "key": "Blog",
+        "value": "https://medium.com/@hostirosti"
+      },
+      {
+        "key": "LinkedIn",
+        "value": "https://www.linkedin.com/in/kubisrobert,"
+      }
+    ],
+    "interests": [
+      "Java",
+      "DevOps",
+      "containers",
+      "Big Data",
+      "iot",
+      "Kubernetes"
+    ],
+    "sessions": [
+      3362,
+      3372
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/7542"
+      }
+    ]
+  },
+  {
+    "idMember": 7872,
+    "login": "meteatamel",
+    "firstname": "Mete",
+    "lastname": "ATAMEL",
+    "company": "Google",
+    "logo": null,
+    "hash": "116f111c3534b2bd96f4df36b7708054",
+    "sessionType": null,
+    "shortDescription": "Developer Advocate at Google",
+    "longDescription": "I'm a Developer Advocate at Google, currently focused on helping developers with Google Cloud Platform. As a long-time Java and a recent C# developer, I like to compare the two ecosystems. Prior to Google, I worked at Microsoft, Skype, Adobe, EMC, and Nokia building apps and services on various web, mobile and cloud platforms. Originally from Cyprus, I currently live in Greenwich, not too far away from the prime meridian.",
+    "userLinks": [
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/meteatamel"
+      },
+      {
+        "key": "Blog",
+        "value": "https://meteatamel.wordpress.com/"
+      },
+      {
+        "key": "LinkedIn",
+        "value": "https://uk.linkedin.com/in/meteatamel"
+      }
+    ],
+    "interests": [],
+    "sessions": [
+      3372
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/7872"
+      }
+    ]
+  },
+  {
+    "idMember": 6222,
+    "login": "1326945522",
+    "firstname": "Emilie",
+    "lastname": "ESPOSITO",
+    "company": "Kuzzle",
+    "logo": null,
+    "hash": "9f13087e4a2d7eab22c131f297fbdfed",
+    "sessionType": null,
+    "shortDescription": "Product owner de [Kuzzle](http://kuzzle.io) - Facilitatrice - Coach'agile - Expérimentatrice - Joueuse - et humaine avant tout...",
+    "longDescription": "**Agiliste convaincue**, je vis et promeus l'agilité au quotidien au travail comme dans ma vie perso. Pour moi, **l'agilité, c'est un ensemble de valeurs**, bien plus qu'une méthode, des pratiques ou des outils. Après des années de *consulting agile*, j'anime l'équipe produit [Kuzzle](http://kuzzle.io), dont je suis aussi le product owner. J'ai la chance d'avoir l'autonomie suffisante pour mettre en place et maintenir une organisation agile dans l'équipe, telle que je la conçois. Et j'apprends chaque jour !\n\nL'agilité est ma *couleur* principale (professionnellement parlant), mais je ne me résume pas à cela. Mes études d'ingénieur en informatique m'ont donné le **goût de la technique**, et je me régale à contribuer à la conception d'une architecture solide et efficace avec l'équipe. Je m'intéresse notamment aux tests, à l'architecture modulaire, et plus généralement aux concepts et patterns d'architecture.\n\n**J'aime partager** avec la communauté agile, dans les conférences, les meet-up et les apéros agiles : en général, je repars avec un stock de nouvelles idées à expérimenter. Et comme je pense que la richesse naît de la différence, j'adore échanger avec des personnes venant d'univers éloignés du mien !\n\n**Alors, si le coeur vous en dit, n'hésitez pas à venir me parler :-)**\n\n**Quelques uns de mes surnoms** : Madame Post-it, la maman des projets, la spéléologue de la blague, le raton-laveur de Montpellier",
+    "userLinks": [
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/EmilieEsposito"
+      },
+      {
+        "key": "Site web",
+        "value": "http://kuzzle.io"
+      }
+    ],
+    "interests": [],
+    "sessions": [
+      3422
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/6222"
+      }
+    ]
+  },
+  {
+    "idMember": 6892,
+    "login": "104647572698013506461",
+    "firstname": "Maxime",
+    "lastname": "BONNET",
+    "company": "CGI",
+    "logo": null,
+    "hash": "7b2b39389e55078d65c09bf8c001ad4f",
+    "sessionType": null,
+    "shortDescription": "Geek, fan de Lego, Coach Agile, très joueur",
+    "longDescription": "L'informatique et moi, nous nous sommes rencontrés avec un Videopac dans les années 70. Ça date un peu.\nLe Bac en main, me voilà à Rennes pour suivre un cursus informatique à l'INSA.\nAprès un passage Erasmus en Angleterre, retour en France.\nDes débuts dans le domaine des télécoms avec Cap Gémini, une suite dans les univers Web et mobile avec Objet Direct / Viséo et me voilà coach agile chez CGI.\nJe travaille avec des équipes de tous types et toutes tailles pour implémenter des bonnes pratiques agiles et plus si affinité.\nJ'ai été formateur Innovation Games, Scrum, Recueil du besoin en mode agile.\nJe pratique beaucoup le serious gaming (innovation games, Lego Serious Play, Management 3.0, etc..)\nFormé à Management 3.0, j'accompagne aussi les managers dans les transformations agiles.",
+    "userLinks": [
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/maximebonnet"
+      }
+    ],
+    "interests": [],
+    "sessions": [
+      3432
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/6892"
+      }
+    ]
+  },
+  {
+    "idMember": 6672,
+    "login": "373619567",
+    "firstname": "Idalin",
+    "lastname": "BOBÉ",
+    "company": "ThoughtWorks, Inc.",
+    "logo": null,
+    "hash": "9820d958862530243ac90fe13736f2e7",
+    "sessionType": null,
+    "shortDescription": "21st Century Activists Need 21st Century Skillsets: Let's talk tech, race, class and our role as technologists to join the international struggle.",
+    "longDescription": "Imagine if the Black Panthers had a technology education program. That is the type of tech activism Idalin aims to bring to the table through her work. Her goal is to merge computer programming with political education so that black and brown people understand the impact technology and social structures have on their lives and possess the means to produce the fundamental change needed for social justice to be a reality. Idalin Bobé is an IT consultant at ThoughtWorks and a tech activist. Her passion is bridging the digital divide among hard-to-reach populations and creating more technical community-driven leaders. Originally from the North Side of Philadelphia, Idalin has impacted thousands of men, women and children globally with her work in tech literacy and empowerment.\n\nHer most recent work was supporting Ferguson, Missouri activists with technology tools through Hands Up United's \"Roy Clay Sr. Institute.\" The program trains young community leaders to gain 21st century skills, combining computer coding and political education. Other tech initiatives she spearheaded were: building a computer lab for a school in South India serving people of the lowest caste, building fundraising campaigns to teach 2,000 girls of color through Black Girls CODE and organizing social justice hackathons with Qeyno Labs Hackathons and #YesWeCode.\n\nStill under 35, Idalin is a rising social entrepreneur, whose work has positioned her at the forefront as an innovative leader in technology, activism and community development.",
+    "userLinks": [
+      {
+        "key": "LinkedIn",
+        "value": "https://www.linkedin.com/in/idalinbobe"
+      },
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/IdalinBobe"
+      }
+    ],
+    "interests": [
+      "Agile User Experience",
+      "Tech Education",
+      "Social Justice",
+      "Community Building",
+      "Data Security",
+      "design thinking",
+      "Human Center Design"
+    ],
+    "sessions": [
+      3452
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/6672"
+      }
+    ]
+  },
+  {
+    "idMember": 5352,
+    "login": "117142607049442069106",
+    "firstname": "Xavier",
+    "lastname": "NOPRE",
+    "company": "Indépendant",
+    "logo": null,
+    "hash": "96d381174efe41f85fc16f47b9921e05",
+    "sessionType": null,
+    "shortDescription": "Artisan développeur, Applications WEB & Mobile\nFormations développement WEB et développement agile",
+    "longDescription": "Passionné par le développement et par l'agilité, mes activités sont les suivantes :\n- Développement, notamment d'application WEB et mobiles, soit pour des clients finaux, soit en intégrant votre équipe pour l'aider à monter en compétences (technos, méthodes, développement agile) ou simplement en renfort ponctuel\n- Formations et accompagnements d'équipes de développeurs : développement agile, tests unitaires et TDD, outillages et automatisations, pair-programming et mob-programming, intégration continue, développement WEB et mobile (HTML, CSS, JavaScript, AngularJS, outillage WEB (NPM, Grunt, Bower ...), etc...)",
+    "userLinks": [
+      {
+        "key": "Blog",
+        "value": "http://xnopre.blogspot.fr/"
+      },
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/xnopre?lang=fr"
+      },
+      {
+        "key": "LinkedIn",
+        "value": "https://www.linkedin.com/in/xnopre"
+      },
+      {
+        "key": "Site web",
+        "value": "http://www.viadeo.com/p/0022exzi2kpeljcp/edit?viewType=main"
+      }
+    ],
+    "interests": [],
+    "sessions": [
+      3492
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/5352"
+      }
+    ]
+  },
+  {
+    "idMember": 7632,
+    "login": "2846534094",
+    "firstname": "Jean-charles",
+    "lastname": "DURAND",
+    "company": "Persistent Systems France",
+    "logo": null,
+    "hash": "d8b0b74f2928faac190d3e106126404b",
+    "sessionType": null,
+    "shortDescription": "Senior Software Engineer & Scrum Master",
+    "longDescription": null,
+    "userLinks": [
+      {
+        "key": "LinkedIn",
+        "value": "https://fr.linkedin.com/in/jean-charles-durand-86724915"
+      },
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/JcBuchu"
+      }
+    ],
+    "interests": [],
+    "sessions": [
+      3492
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/7632"
+      }
+    ]
+  },
+  {
+    "idMember": 7702,
+    "login": "thelor",
+    "firstname": "Franck",
+    "lastname": "RAGEADE",
+    "company": "Persistent Systems",
+    "logo": null,
+    "hash": "593c18ea25ef1171700928819c543fc6",
+    "sessionType": null,
+    "shortDescription": null,
+    "longDescription": null,
+    "userLinks": [
+      {
+        "key": "Blog",
+        "value": "http://thelor.com/"
+      },
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/thelor"
+      }
+    ],
+    "interests": [],
+    "sessions": [
+      3492
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/7702"
+      }
+    ]
+  },
+  {
+    "idMember": 7752,
+    "login": "113945295639561618801",
+    "firstname": "Matthieu",
+    "lastname": "GIRONNET",
+    "company": null,
+    "logo": null,
+    "hash": "4c75c9e12938f09b872013e04a048ef8",
+    "sessionType": null,
+    "shortDescription": null,
+    "longDescription": null,
+    "userLinks": [],
+    "interests": [],
+    "sessions": [
+      3492
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/7752"
+      }
+    ]
+  },
+  {
+    "idMember": 7212,
+    "login": "alexisjamet",
+    "firstname": "Alexis",
+    "lastname": "JAMET",
+    "company": "Bunkr",
+    "logo": null,
+    "hash": "3d7775715465f132769c43f50741e886",
+    "sessionType": null,
+    "shortDescription": "Co-founder & CEO at Bunkr",
+    "longDescription": "Bunkr helps companies to automate the process of presentation/report creation for their business.",
+    "userLinks": [
+      {
+        "key": "Site web",
+        "value": "https://bunkrapp.com/"
+      },
+      {
+        "key": "Blog",
+        "value": "https://medium.com/@bunkrapp"
+      },
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/bunkrapp"
+      }
+    ],
+    "interests": [],
+    "sessions": [
+      3502
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/7212"
+      }
+    ]
+  },
+  {
+    "idMember": 5522,
+    "login": "joel.spolsky",
+    "firstname": "Joel",
+    "lastname": "SPOLSKY",
+    "company": "http://www.joelonsoftware.com/",
+    "logo": null,
+    "hash": "346a8788078a658ec6608bb37a663324",
+    "sessionType": null,
+    "shortDescription": "Joel Spolsky is the CEO and co-founder of Stack Overflow, the place where millions of developers go to learn, share their knowledge and advance their careers.",
+    "longDescription": "Stack Overflow has become the most trusted developer resource on the Internet and currently serves more than 40 million programmers every month. Joel is also the founder of Fog Creek Software, Trello and previously worked at Microsoft - where he designed VBA as a member of the Excel team. \n\nJoel is also a world-­renowned speaker and has written four books, including *User Interface Design for Programmers* and *Smart and Gets Things Done: Joel Spolsky’s Concise Guide to Finding the Best Technical Talent*. His personal website, Joel on Software, has been popular with developers around the world since its inception in 2000 and has been translated into over 30 languages. Joel graduated from Yale University with a Computer Science degree.\n",
+    "userLinks": [
+      {
+        "key": "Blog",
+        "value": "http://www.joelonsoftware.com/"
+      },
+      {
+        "key": "Site web",
+        "value": "http://stackoverflow.com/"
+      },
+      {
+        "key": "Site web",
+        "value": "http://www.joelonsoftware.com/articles/fog0000000043.html"
+      },
+      {
+        "key": "Site web",
+        "value": "https://www.fogcreek.com/"
+      }
+    ],
+    "interests": [],
+    "sessions": [
+      3522
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/5522"
+      }
+    ]
+  },
+  {
+    "idMember": 277,
+    "login": "py.ricau",
+    "firstname": "Pierre-yves",
+    "lastname": "RICAU",
+    "company": "Siine Ltd",
+    "logo": null,
+    "hash": "06c6a07275076c6b525e2b14018ad78e",
+    "sessionType": null,
+    "shortDescription": "Clean Code & Android fanboy :)",
+    "longDescription": "",
+    "userLinks": [
+      {
+        "key": "GitHub",
+        "value": "https://github.com/pyricau"
+      },
+      {
+        "key": "AndroidAnnotations",
+        "value": "https://github.com/excilys/androidannotations"
+      },
+      {
+        "key": "VuzZz",
+        "value": "http://www.vuzzz.com"
+      },
+      {
+        "key": "Voxe",
+        "value": "http://www.voxe.org"
+      }
+    ],
+    "interests": [
+      "Unity3D",
+      "Human",
+      "Play! Framework",
+      "GWT",
+      "Guava",
+      "Tools",
+      "Réseau",
+      "i18n",
+      "Kotlin",
+      "jQuery",
+      "Web design",
+      "Photography",
+      "Jenkins",
+      "HTML5",
+      "Java8",
+      "Continuous Integration",
+      "OpenSource",
+      "System Thinking",
+      "Concurrence",
+      "API",
+      "Veille techno",
+      "Spring-data",
+      "Lean Startup",
+      "Jigsaw",
+      "Programmation Fonctionnelle",
+      "GitHub",
+      "Craftsmanship",
+      "Google App Engine",
+      "Java 8",
+      "relation clients",
+      "Spring Batch",
+      "Wizardy",
+      "Hibernate",
+      "Java",
+      "Stress",
+      "Spring",
+      "POO",
+      "Git",
+      "Web",
+      "UML",
+      "JavaEE",
+      "Game Development",
+      "Maven",
+      "Eclipse",
+      "Performances",
+      "Indie Game",
+      "NodeJS",
+      "SQLite",
+      "Sécurité informatique",
+      "TDD",
+      "SonarQube",
+      "recrutement",
+      "Partage et veille techno"
+    ],
+    "sessions": [
+      3532
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/277"
+      }
+    ]
+  },
+  {
+    "idMember": 5752,
+    "login": "matemaz",
+    "firstname": "Matteo",
+    "lastname": "MAZZERI",
+    "company": "Enalean",
+    "logo": null,
+    "hash": "0e487753f4c933d7e78ea41c8b2ba6be",
+    "sessionType": null,
+    "shortDescription": "FLOSS enthusiast, iotlabel.org founder, conference organiser, speaker and tech evangelist for Tuleap. Lived in several countries and speak 5 languages. Bridge maker and thought shaker, spreading curiosity & happiness for longterm positive impact",
+    "longDescription": "Cross pollination is the magic of our times.",
+    "userLinks": [
+      {
+        "key": "Blog",
+        "value": "http://matteo.mazzeri.net/blog"
+      },
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/matemaz"
+      },
+      {
+        "key": "Site web",
+        "value": "https://www.tuleap.org/"
+      },
+      {
+        "key": "LinkedIn",
+        "value": "http://linkedin.com/in/mazzeri"
+      }
+    ],
+    "interests": [
+      "happiness",
+      "continuous improvement",
+      "sharing knowledge",
+      "software engineering",
+      "iot",
+      "security"
+    ],
+    "sessions": [
+      3542
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/5752"
+      }
+    ]
+  },
+  {
+    "idMember": 7342,
+    "login": "mariemanceau",
+    "firstname": "Marie",
+    "lastname": "MANCEAU",
+    "company": null,
+    "logo": null,
+    "hash": "1fe5e5e6f7973d0589f90366cce9ac23",
+    "sessionType": null,
+    "shortDescription": null,
+    "longDescription": null,
+    "userLinks": [],
+    "interests": [],
+    "sessions": [
+      3562
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/7342"
+      }
+    ]
+  },
+  {
+    "idMember": 795,
+    "login": "vtourraine",
+    "firstname": "Vincent",
+    "lastname": "TOURRAINE",
+    "company": "Shazino",
+    "logo": null,
+    "hash": "74079210c61f36dff0a74f24da5727e7",
+    "sessionType": null,
+    "shortDescription": "Mobile + web developer.",
+    "longDescription": "I work at [Shazino](http://www.shazino.com), building mobile and desktop applications for researchers. I focus on iOS and OS X development, creating native apps for online services.",
+    "userLinks": [
+      {
+        "key": "vtourraine.net",
+        "value": "http://www.vtourraine.net"
+      }
+    ],
+    "interests": [],
+    "sessions": [
+      3592,
+      378
+    ],
+    "level": [
+      {
+        "key": "",
+        "value": null
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/795"
+      }
+    ]
+  },
+  {
+    "idMember": 7962,
+    "login": "timurban",
+    "firstname": "Tim",
+    "lastname": "URBAN",
+    "company": "Wait But Why",
+    "logo": null,
+    "hash": "cdaf873c33f051e535da2ccf39bae526",
+    "sessionType": null,
+    "shortDescription": "Like his writing, Urban’s talks span many topics, involve stick figures, and combine depth\nand impact with humor and entertainment to delight and inspire his audiences.",
+    "longDescription": "From a corporate keynote in Davos to the main stage at TED2016, Tim Urban is redefining the live speaking experience for the digital era. With head-spinning thinking, quirky graphics and his signature stick figures, he’s proving that complex and long form thinking can capture and captivate a short attention span world.\n\nAs the creative force behind the extremely popular Wait But Why blog, Tim has authored dozens of viral articles on subjects ranging from why we procrastinate to why we haven’t yet encountered alien life forms. Wait But Why has topped 10 million unique visitors during peak months and attracted thousands of patrons, including famous fans like Tesla CEO Elon Musk, TED Curator Chris Anderson and Twitter co-founder Evan Williams.\n\nKnown for delighting audiences with smart, fascinating and truly original content, Tim synthesizes complex concepts and presents them in a humorous, highly entertaining and memorable way. Follow his spellbinding train of thought to ignite your own insights and energize your thinking. Whatever the topic, Tim makes getting there more than half the fun.",
+    "userLinks": [
+      {
+        "key": "Blog",
+        "value": "http://waitbutwhy.com/"
+      },
+      {
+        "key": "Twitter",
+        "value": "https://twitter.com/waitbutwhy"
+      }
+    ],
+    "interests": [],
+    "sessions": [
+      3602
+    ],
+    "level": [],
+    "links": [
+      {
+        "rel": "self",
+        "href": "http://localhost:8081/api/member/7962"
+      }
+    ]
+  }
+]

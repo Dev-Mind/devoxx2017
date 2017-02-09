@@ -1,0 +1,51 @@
+CREATE TABLE IF NOT EXISTS member
+(
+    dtype VARCHAR(31) NOT NULL,
+    id BIGINT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    company VARCHAR(100),
+    email VARCHAR(250),
+    firstname VARCHAR(100),
+    lastname VARCHAR(100),
+    login VARCHAR(100) NOT NULL,
+    long_description LONGTEXT,
+    short_description VARCHAR(300),
+    hash VARCHAR(300),
+    token VARCHAR(255),
+    logo_Url VARCHAR(250),
+    version INT
+);
+
+CREATE TABLE IF NOT EXISTS session
+(
+    id BIGINT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    added_at timestamp,
+    summary VARCHAR(300),
+    title VARCHAR(100) NOT NULL,
+    level VARCHAR(255),
+    room VARCHAR(255),
+    max_attendees INTEGER,
+    description LONGTEXT NOT NULL,
+    start DATETIME,
+    end DATETIME,
+    version INT
+);
+
+CREATE TABLE IF NOT EXISTS session_speakers
+(
+    SESSIONS_ID BIGINT NOT NULL,
+    SPEAKERS_ID BIGINT NOT NULL,
+    PRIMARY KEY (SESSIONS_ID, SPEAKERS_ID),
+    FOREIGN KEY (SPEAKERS_ID) REFERENCES member (ID),
+    FOREIGN KEY (SESSIONS_ID) REFERENCES session (ID)
+);
+
+CREATE TABLE IF NOT EXISTS vote
+(
+    ID BIGINT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    VALUE BOOLEAN NOT NULL,
+    MEMBER_ID BIGINT,
+    SESSION_ID BIGINT,
+    FOREIGN KEY (MEMBER_ID) REFERENCES member (ID),
+    FOREIGN KEY (SESSION_ID) REFERENCES session (ID),
+    version INT
+);

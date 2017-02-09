@@ -1,0 +1,42 @@
+spring:
+  # JPA configuration
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:perf;DB_CLOSE_DELAY=-1
+    username: sa
+    password:
+
+  resources:
+    static-locations:
+        - file:perf-client/build/dist/
+    chain:
+      strategy:
+        content:
+          enabled: true
+          paths: /**
+
+  devtools:
+    restart:
+      additional-paths:
+        - perf-client/build/dist/
+      additional-exclude: "**/*.js, **/*.css, **/*.html, **/*.svg, **/*.png,, **/*.jpg"
+
+server:
+ ssl:
+   key-store: classpath:perf.jks
+   key-store-password: DevMind
+   key-password: DevMind
+   protocol: TLSv1.2
+ compression:
+   enabled: true
+   mime-types: application/json,text/html,text/css,application/javascript
+   min-response-size: 2048
+
+---
+spring:
+  profiles: prod
+
+  resources:
+    static-locations:
+      - classpath:/static/
+

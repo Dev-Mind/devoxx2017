@@ -1,0 +1,65 @@
+buildscript {
+    ext {
+        springBootVersion = '2.0.0.BUILD-SNAPSHOT'
+        springBootStarterWebVersion = '0.1.0.BUILD-SNAPSHOT'
+    }
+    repositories {
+        mavenCentral()
+        maven { url "https://plugins.gradle.org/m2/" }
+        maven { url "https://repo.spring.io/snapshot" }
+        maven { url "https://repo.spring.io/milestone" }
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+        classpath("com.moowork.gradle:gradle-node-plugin:1.1.1")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'com.moowork.node'
+apply plugin: 'com.moowork.gulp'
+
+jar {
+    baseName = 'devoxx2017-perfweb'
+    version = '0.0.1-SNAPSHOT'
+}
+
+node {
+    version = "6.9.4"
+    download = true
+}
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    maven { url "https://repo.spring.io/snapshot" }
+    maven { url "https://repo.spring.io/milestone" }
+}
+
+
+dependencies {
+    compile('org.springframework.boot:spring-boot-starter')
+    compile("org.springframework.boot:spring-boot-devtools")
+    compile "org.springframework.boot:spring-boot-starter-data-jpa"
+    compile "org.springframework.boot:spring-boot-starter-cache"
+    compile "org.springframework.boot:spring-boot-starter-actuator"
+    compile('org.springframework.boot:spring-boot-starter-web')
+    compile("com.h2database:h2")
+
+    testCompile('org.springframework.boot:spring-boot-starter-test')
+}
+
+task gulpBuild(type: GulpTask) {
+    dependsOn("yarn")
+    inputs.dir("src/main/sass")
+    inputs.dir("src/main/ts")
+    inputs.dir("src/main/images")
+    inputs.dir("build/.tmp")
+    outputs.dir("build/resources/main/static")
+    args = ['default']
+}
+
+processResources.dependsOn(gulpBuild)
