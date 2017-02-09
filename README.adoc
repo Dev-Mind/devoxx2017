@@ -14,7 +14,7 @@ Nous verrons les différentes étapes pour améliorer la rapidité d'une applica
 **Pour aller plus loin, vous pouvez suivre la https://www.dev-mind.fr/formation_optimiser.html[formation de Dev-Mind sur le sujet]. Cette session montre la théorie, la formation permet de mettre en pratique
 **
 
-[icon="src/main/images/logo/logo.svg", caption="Note"]
+[icon="src/main/images/logo/logo_450.png", caption="Note"]
 NOTE: This is my special note.
 
 
