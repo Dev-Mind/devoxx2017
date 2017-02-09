@@ -1,0 +1,16 @@
+*.iws
+*.iml
+*.ipr
+.gradle
+.idea
+.classpath
+.project
+.extract/
+.settings/
+.tmp/
+classes
+build
+dist
+target
+node_modules
+out
