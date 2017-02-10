@@ -71,7 +71,7 @@ public class Session {
         return id;
     }
 
-    public Session setId(Long id) {
+    public Session withId(Long id) {
         this.id = id;
         return this;
     }
@@ -80,7 +80,7 @@ public class Session {
         return title;
     }
 
-    public Session setTitle(String title) {
+    public Session withTitle(String title) {
         this.title = title;
         return this;
     }
@@ -89,7 +89,7 @@ public class Session {
         return summary;
     }
 
-    public Session setSummary(String summary) {
+    public Session withSummary(String summary) {
         this.summary = summary;
         return this;
     }
@@ -98,7 +98,7 @@ public class Session {
         return addedAt;
     }
 
-    public Session setAddedAt(Instant addedAt) {
+    public Session withAddedAt(Instant addedAt) {
         this.addedAt = addedAt;
         return this;
     }
@@ -107,7 +107,7 @@ public class Session {
         return maxAttendees;
     }
 
-    public Session setMaxAttendees(Integer maxAttendees) {
+    public Session withMaxAttendees(Integer maxAttendees) {
         this.maxAttendees = maxAttendees;
         return this;
     }
@@ -116,7 +116,7 @@ public class Session {
         return level;
     }
 
-    public Session setLevel(Level level) {
+    public Session withLevel(Level level) {
         this.level = level;
         return this;
     }
@@ -125,7 +125,7 @@ public class Session {
         return room;
     }
 
-    public Session setRoom(Room room) {
+    public Session withRoom(Room room) {
         this.room = room;
         return this;
     }
@@ -134,7 +134,7 @@ public class Session {
         return description;
     }
 
-    public Session setDescription(String description) {
+    public Session withDescription(String description) {
         this.description = description;
         return this;
     }
@@ -202,7 +202,7 @@ public class Session {
         return start;
     }
 
-    public Session setStart(LocalDateTime start) {
+    public Session withStart(LocalDateTime start) {
         this.start = start;
         return this;
     }
@@ -211,7 +211,7 @@ public class Session {
         return end;
     }
 
-    public Session setEnd(LocalDateTime end) {
+    public Session withEnd(LocalDateTime end) {
         this.end = end;
         return this;
     }
@@ -220,7 +220,7 @@ public class Session {
         return version;
     }
 
-    public Session setVersion(int version) {
+    public Session withVersion(int version) {
         this.version = version;
         return this;
     }

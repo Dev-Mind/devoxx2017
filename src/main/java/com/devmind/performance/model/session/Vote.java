@@ -37,7 +37,7 @@ public class Vote {
         return id;
     }
 
-    public Vote setId(Long id) {
+    public Vote withId(Long id) {
         this.id = id;
         return this;
     }
@@ -46,7 +46,7 @@ public class Vote {
         return session;
     }
 
-    public Vote setSession(Session session) {
+    public Vote withSession(Session session) {
         this.session = session;
         return this;
     }
@@ -55,7 +55,7 @@ public class Vote {
         return member;
     }
 
-    public Vote setMember(Member member) {
+    public Vote withMember(Member member) {
         this.member = member;
         return this;
     }
@@ -64,7 +64,7 @@ public class Vote {
         return value;
     }
 
-    public Vote setValue(Boolean value) {
+    public Vote withValue(Boolean value) {
         this.value = value;
         return this;
     }
@@ -73,7 +73,7 @@ public class Vote {
         return version;
     }
 
-    public Vote setVersion(int version) {
+    public Vote withVersion(int version) {
         this.version = version;
         return this;
     }

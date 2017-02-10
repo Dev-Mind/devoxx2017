@@ -60,7 +60,7 @@ public class Member<T extends Member> {
         return id;
     }
 
-    public T setId(Long id) {
+    public T withId(Long id) {
         this.id = id;
         return (T) this;
     }
@@ -69,7 +69,7 @@ public class Member<T extends Member> {
         return login;
     }
 
-    public T setLogin(String login) {
+    public T withLogin(String login) {
         this.login = login;
         return (T) this;
     }
@@ -78,7 +78,7 @@ public class Member<T extends Member> {
         return email;
     }
 
-    public T setEmail(String email) {
+    public T withEmail(String email) {
         this.email = lowercase(email);
         return (T) this;
     }
@@ -87,7 +87,7 @@ public class Member<T extends Member> {
         return firstname;
     }
 
-    public T setFirstname(String firstname) {
+    public T withFirstname(String firstname) {
         this.firstname = capitalize(lowercase(firstname));
         return (T) this;
     }
@@ -96,7 +96,7 @@ public class Member<T extends Member> {
         return lastname;
     }
 
-    public T setLastname(String lastname) {
+    public T withLastname(String lastname) {
         this.lastname = uppercase(lastname);
         return (T) this;
     }
@@ -105,7 +105,7 @@ public class Member<T extends Member> {
         return company;
     }
 
-    public T setCompany(String company) {
+    public T withCompany(String company) {
         this.company = company;
         return (T) this;
     }
@@ -114,7 +114,7 @@ public class Member<T extends Member> {
         return shortDescription;
     }
 
-    public T setShortDescription(String shortDescription) {
+    public T withShortDescription(String shortDescription) {
         this.shortDescription = shortDescription;
         return (T) this;
     }
@@ -123,7 +123,7 @@ public class Member<T extends Member> {
         return longDescription;
     }
 
-    public T setLongDescription(String longDescription) {
+    public T withLongDescription(String longDescription) {
         this.longDescription = longDescription;
         return (T) this;
     }
@@ -132,7 +132,7 @@ public class Member<T extends Member> {
         return token;
     }
 
-    public T setToken(String token) {
+    public T withToken(String token) {
         this.token = token;
         return (T) this;
     }
@@ -141,7 +141,7 @@ public class Member<T extends Member> {
         return logoUrl;
     }
 
-    public T setLogoUrl(String logoUrl) {
+    public T withLogoUrl(String logoUrl) {
         this.logoUrl = logoUrl;
         return (T) this;
     }
@@ -150,7 +150,7 @@ public class Member<T extends Member> {
         return hash;
     }
 
-    public T setHash(String hash) {
+    public T withHash(String hash) {
         this.hash = hash;
         return (T) this;
     }
@@ -159,7 +159,7 @@ public class Member<T extends Member> {
         return version;
     }
 
-    public T setVersion(Integer version) {
+    public T withVersion(Integer version) {
         this.version = version;
         return (T) this;
     }

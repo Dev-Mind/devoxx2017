@@ -49,20 +49,20 @@ public class SessionDto {
 
     public static SessionDto convert(Session session) {
         SessionDto dto = new SessionDto()
-                .setIdSession(session.getId())
-                .setDescription(session.getDescription())
-                .setSummary(session.getSummary())
-                .setRoom(session.getRoom() == null ? Room.Amphi1.getName() : session.getRoom().getName())
-                .setLevel(session.getLevel() == null ? null : session.getLevel().name())
-                .setTitle(session.getTitle())
-                .setEnd(session.getEnd() == null ? null : session.getEnd().format(DateTimeFormatter.ISO_DATE_TIME))
-                .setStart(session.getStart() == null ? null : session.getStart().format(DateTimeFormatter.ISO_DATE_TIME))
-                .setVersion(session.getVersion());
+                .withIdSession(session.getId())
+                .withDescription(session.getDescription())
+                .withSummary(session.getSummary())
+                .withRoom(session.getRoom() == null ? Room.Amphi1.getName() : session.getRoom().getName())
+                .withLevel(session.getLevel() == null ? null : session.getLevel().name())
+                .withTitle(session.getTitle())
+                .withEnd(session.getEnd() == null ? null : session.getEnd().format(DateTimeFormatter.ISO_DATE_TIME))
+                .withStart(session.getStart() == null ? null : session.getStart().format(DateTimeFormatter.ISO_DATE_TIME))
+                .withVersion(session.getVersion());
 
         List<Vote> votes = session.getVotes();
         if (!votes.isEmpty()) {
-            dto.setVotes(((Long) session.getVotes().stream().distinct().count()).intValue());
-            dto.setPositiveVotes(session.getPositiveVotes());
+            dto.withVotes(((Long) session.getVotes().stream().distinct().count()).intValue());
+            dto.withPositiveVotes(session.getPositiveVotes());
         }
         if (!session.getSpeakers().isEmpty()) {
             session.getSpeakers().forEach(s -> dto.addSpeaker(MemberDto.convert(s)));
@@ -72,22 +72,22 @@ public class SessionDto {
 
     public Session toSession() {
         return new Session()
-                .setId(idSession)
-                .setDescription(description)
-                .setSummary(summary)
-                .setTitle(title)
-                .setRoom(room != null ? Room.find(room) : null)
-                .setLevel(level != null ? Level.valueOf(level) : null)
-                .setEnd(end != null ? LocalDateTime.parse(end, DateTimeFormatter.ISO_DATE_TIME) : null)
-                .setStart(start != null ? LocalDateTime.parse(start, DateTimeFormatter.ISO_DATE_TIME) : null)
-                .setVersion(version);
+                .withId(idSession)
+                .withDescription(description)
+                .withSummary(summary)
+                .withTitle(title)
+                .withRoom(room != null ? Room.find(room) : null)
+                .withLevel(level != null ? Level.valueOf(level) : null)
+                .withEnd(end != null ? LocalDateTime.parse(end, DateTimeFormatter.ISO_DATE_TIME) : null)
+                .withStart(start != null ? LocalDateTime.parse(start, DateTimeFormatter.ISO_DATE_TIME) : null)
+                .withVersion(version);
     }
 
     public long getIdSession() {
         return idSession;
     }
 
-    public SessionDto setIdSession(long idSession) {
+    public SessionDto withIdSession(long idSession) {
         this.idSession = idSession;
         return this;
     }
@@ -96,12 +96,12 @@ public class SessionDto {
         return level;
     }
 
-    public SessionDto setLevel(String level) {
+    public SessionDto withLevel(String level) {
         this.level = level;
         return this;
     }
 
-    public SessionDto setRoom(String room) {
+    public SessionDto withRoom(String room) {
         this.room = room;
         return this;
     }
@@ -114,7 +114,7 @@ public class SessionDto {
         return start;
     }
 
-    public SessionDto setStart(String start) {
+    public SessionDto withStart(String start) {
         this.start = start;
         return this;
     }
@@ -123,7 +123,7 @@ public class SessionDto {
         return end;
     }
 
-    public SessionDto setEnd(String end) {
+    public SessionDto withEnd(String end) {
         this.end = end;
         return this;
     }
@@ -132,7 +132,7 @@ public class SessionDto {
         return votes;
     }
 
-    public SessionDto setVotes(int votes) {
+    public SessionDto withVotes(int votes) {
         this.votes = votes;
         return this;
     }
@@ -141,7 +141,7 @@ public class SessionDto {
         return positiveVotes;
     }
 
-    public SessionDto setPositiveVotes(int positiveVotes) {
+    public SessionDto withPositiveVotes(int positiveVotes) {
         this.positiveVotes = positiveVotes;
         return this;
     }
@@ -150,7 +150,7 @@ public class SessionDto {
         return nbConsults;
     }
 
-    public SessionDto setNbConsults(long nbConsults) {
+    public SessionDto withNbConsults(long nbConsults) {
         this.nbConsults = nbConsults;
         return this;
     }
@@ -159,7 +159,7 @@ public class SessionDto {
         return lang;
     }
 
-    public SessionDto setLang(String lang) {
+    public SessionDto withLang(String lang) {
         this.lang = lang;
         return this;
     }
@@ -168,12 +168,12 @@ public class SessionDto {
         return format;
     }
 
-    public SessionDto setFormat(String format) {
+    public SessionDto withFormat(String format) {
         this.format = format;
         return this;
     }
 
-    public SessionDto setVersion(int version) {
+    public SessionDto withVersion(int version) {
         this.version = version;
         return this;
     }
@@ -182,7 +182,7 @@ public class SessionDto {
         return title;
     }
 
-    public SessionDto setTitle(String title) {
+    public SessionDto withTitle(String title) {
         this.title = title;
         return this;
     }
@@ -191,7 +191,7 @@ public class SessionDto {
         return summary;
     }
 
-    public SessionDto setSummary(String summary) {
+    public SessionDto withSummary(String summary) {
         this.summary = summary;
         return this;
     }
@@ -200,7 +200,7 @@ public class SessionDto {
         return description;
     }
 
-    public SessionDto setDescription(String description) {
+    public SessionDto withDescription(String description) {
         this.description = description;
         return this;
     }
@@ -209,7 +209,7 @@ public class SessionDto {
         return ideaForNow;
     }
 
-    public SessionDto setIdeaForNow(String ideaForNow) {
+    public SessionDto withIdeaForNow(String ideaForNow) {
         this.ideaForNow = ideaForNow;
         return this;
     }
@@ -218,7 +218,7 @@ public class SessionDto {
         return year;
     }
 
-    public SessionDto setYear(String year) {
+    public SessionDto withYear(String year) {
         this.year = year;
         return this;
     }

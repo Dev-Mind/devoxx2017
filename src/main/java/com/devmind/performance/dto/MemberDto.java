@@ -36,53 +36,53 @@ public class MemberDto {
 
     public static <T extends Member<T>> MemberDto convert(T member) {
         return new MemberDto()
-                .setIdMember(member.getId())
-                .setLogin(member.getLogin())
-                .setFirstname(member.getFirstname())
-                .setLastname(member.getLastname())
-                .setCompany(member.getCompany())
-                .setHash(member.getHash())
-                .setLogo(member.getLogoUrl())
-                .setShortDescription(member.getShortDescription())
-                .setLongDescription(member.getLongDescription())
-                .setVersion(member.getVersion());
+                .withIdMember(member.getId())
+                .withLogin(member.getLogin())
+                .withFirstname(member.getFirstname())
+                .withLastname(member.getLastname())
+                .withCompany(member.getCompany())
+                .withHash(member.getHash())
+                .withLogo(member.getLogoUrl())
+                .withShortDescription(member.getShortDescription())
+                .withLongDescription(member.getLongDescription())
+                .withVersion(member.getVersion());
     }
 
     public Speaker toSpeaker() {
         return new Speaker()
-                .setId(idMember)
-                .setHash(hash)
-                .setLogin(login)
-                .setFirstname(firstname)
-                .setLastname(lastname)
-                .setToken(firstname)
-                .setCompany(company)
-                .setLogoUrl(logo)
-                .setShortDescription(shortDescription)
-                .setLongDescription(longDescription)
-                .setVersion(version);
+                .withId(idMember)
+                .withHash(hash)
+                .withLogin(login)
+                .withFirstname(firstname)
+                .withLastname(lastname)
+                .withToken(firstname)
+                .withCompany(company)
+                .withLogoUrl(logo)
+                .withShortDescription(shortDescription)
+                .withLongDescription(longDescription)
+                .withVersion(version);
     }
 
     public Sponsor toSponsor() {
         return new Sponsor()
-                .setId(idMember)
-                .setHash(hash)
-                .setLogin(login)
-                .setFirstname(firstname)
-                .setLastname(lastname)
-                .setToken(firstname)
-                .setCompany(company)
-                .setLogoUrl(logo)
-                .setShortDescription(shortDescription)
-                .setLongDescription(longDescription)
-                .setVersion(version);
+                .withId(idMember)
+                .withHash(hash)
+                .withLogin(login)
+                .withFirstname(firstname)
+                .withLastname(lastname)
+                .withToken(firstname)
+                .withCompany(company)
+                .withLogoUrl(logo)
+                .withShortDescription(shortDescription)
+                .withLongDescription(longDescription)
+                .withVersion(version);
     }
 
     public Long getIdMember() {
         return idMember;
     }
 
-    public MemberDto setIdMember(Long idMember) {
+    public MemberDto withIdMember(Long idMember) {
         this.idMember = idMember;
         return this;
     }
@@ -91,7 +91,7 @@ public class MemberDto {
         return login;
     }
 
-    public MemberDto setLogin(String login) {
+    public MemberDto withLogin(String login) {
         this.login = login;
         return this;
     }
@@ -100,7 +100,7 @@ public class MemberDto {
         return logo;
     }
 
-    public MemberDto setLogo(String logo) {
+    public MemberDto withLogo(String logo) {
         this.logo = logo;
         return this;
     }
@@ -109,7 +109,7 @@ public class MemberDto {
         return firstname;
     }
 
-    public MemberDto setFirstname(String firstname) {
+    public MemberDto withFirstname(String firstname) {
         this.firstname = firstname;
         return this;
     }
@@ -118,7 +118,7 @@ public class MemberDto {
         return lastname;
     }
 
-    public MemberDto setLastname(String lastname) {
+    public MemberDto withLastname(String lastname) {
         this.lastname = lastname;
         return this;
     }
@@ -127,7 +127,7 @@ public class MemberDto {
         return company;
     }
 
-    public MemberDto setCompany(String company) {
+    public MemberDto withCompany(String company) {
         this.company = company;
         return this;
     }
@@ -136,7 +136,7 @@ public class MemberDto {
         return shortDescription;
     }
 
-    public MemberDto setShortDescription(String shortDescription) {
+    public MemberDto withShortDescription(String shortDescription) {
         this.shortDescription = shortDescription;
         return this;
     }
@@ -145,7 +145,7 @@ public class MemberDto {
         return longDescription;
     }
 
-    public MemberDto setLongDescription(String longDescription) {
+    public MemberDto withLongDescription(String longDescription) {
         this.longDescription = longDescription;
         return this;
     }
@@ -154,7 +154,7 @@ public class MemberDto {
         return hash;
     }
 
-    public MemberDto setHash(String hash) {
+    public MemberDto withHash(String hash) {
         this.hash = hash;
         return this;
     }
@@ -163,7 +163,7 @@ public class MemberDto {
         return version;
     }
 
-    public MemberDto setVersion(int version) {
+    public MemberDto withVersion(int version) {
         this.version = version;
         return this;
     }
