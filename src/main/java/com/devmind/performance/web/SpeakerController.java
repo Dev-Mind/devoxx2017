@@ -23,7 +23,7 @@ public class SpeakerController {
     SpeakerRepository speakerRepository;
 
     @GetMapping("/{id}")
-    public ResponseEntity<MemberDto> getMember(@PathVariable("id") Long id) {
+    public ResponseEntity<MemberDto> findOne(@PathVariable("id") Long id) {
         return ResponseEntity
                 .ok()
                 .body(MemberDto.convert(speakerRepository.findOne(id)));
@@ -31,7 +31,7 @@ public class SpeakerController {
 
     @GetMapping
     @JsonView(MemberDto.MemberList.class)
-    public List<MemberDto> getAllMembers() {
+    public List<MemberDto> findAll() {
         return speakerRepository
                 .findAllSpeakers()
                 .stream()

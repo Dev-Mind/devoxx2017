@@ -22,7 +22,7 @@ public class SponsorController {
     SponsorRepository sponsorRepository;
 
     @GetMapping("/{id}")
-    public ResponseEntity<MemberDto> getMember(@PathVariable("id") Long id) {
+    public ResponseEntity<MemberDto> findOne(@PathVariable("id") Long id) {
         MemberDto sponsor = MemberDto.convert(sponsorRepository.findOne(id));
         return ResponseEntity
                 .ok()
@@ -30,7 +30,7 @@ public class SponsorController {
     }
 
     @GetMapping
-    public ResponseEntity<List<MemberDto>> getAllSponsors() {
+    public ResponseEntity<List<MemberDto>> findAll() {
         List<MemberDto> sponsors = sponsorRepository.findAllSponsor().stream()
                 .map(MemberDto::convert)
                 .collect(Collectors.toList());

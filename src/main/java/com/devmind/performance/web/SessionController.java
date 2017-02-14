@@ -27,7 +27,7 @@ public class SessionController {
     SessionRepository sessionRepository;
 
     @GetMapping("/{id}")
-    public ResponseEntity<SessionDto> getSession(@PathVariable("id") Long id) {
+    public ResponseEntity<SessionDto> findOne(@PathVariable("id") Long id) {
         return ResponseEntity
                 .ok()
                 .body(SessionDto.convert(sessionRepository.findOne(id)));
@@ -35,7 +35,7 @@ public class SessionController {
 
     @GetMapping
     @JsonView(SessionDto.SessionList.class)
-    public List<SessionDto> getAllSessions() {
+    public List<SessionDto> findAll() {
         return sessionRepository.findAllSessions().stream()
                 .filter(session -> Objects.nonNull(session.getStart()))
                 .sorted(Comparator.comparing(Session::getStart))

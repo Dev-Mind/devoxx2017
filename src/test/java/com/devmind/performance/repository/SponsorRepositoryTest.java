@@ -34,6 +34,7 @@ public class SponsorRepositoryTest {
                 .withLogin("guillaume")
                 .withCompany("Dev-Mind")
                 .withHash("monhash")
+                .withFirstname("Guillaume")
                 .withEmail("guillaume@dev-mind.fr"));
     }
 
