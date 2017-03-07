@@ -48,10 +48,9 @@ gulp.task('images-min', () =>
     }))
     .pipe($.size({title: 'images', showFiles: true}))
     .pipe(gulp.dest(`${paths.tmp}/images`))
-    .pipe(gulp.dest(`${paths.dist}/img`))
 );
 
-gulp.task('images', ['images-min'], () =>
+gulp.task('images', () =>
   gulp.src(`${paths.tmp}/images/**/*.{png,jpg}`)
     .pipe($.webp())
     .pipe($.size({title: 'images'}))
@@ -103,6 +102,7 @@ gulp.task('scripts', () =>
     .pipe(gulp.dest(`${paths.dist}`))
 );
 
+
 // Copy over the scripts that are used in importScripts as part of the generate-service-worker task.
 gulp.task('vendors', () => {
   gulp.src(paths.vendors).pipe(gulp.dest(`${paths.dist}/vendors`));
@@ -150,7 +150,7 @@ gulp.task('html', () => {
 });
 
 gulp.task('copy', () => {
-  return gulp.src([`${paths.main}/resources.static/**/*.*`])
+  return gulp.src([`${paths.main}/resources/static/**/*.*`])
     .pipe(gulp.dest(paths.dist));
 });
 
@@ -159,6 +159,11 @@ gulp.task('copy-sw-scripts', () => {
   return gulp.src(['node_modules/sw-toolbox/sw-toolbox.js', `${paths.main}/sw/runtime-caching.js`])
     .pipe(gulp.dest(`${paths.dist}/scripts/sw`));
 });
+
+gulp.task('copy-images', () =>
+  gulp.src(`${paths.tmp}/images/**/*.{svg,png,jpg}`)
+    .pipe(gulp.dest(`${paths.dist}/img`))
+);
 
 // See http://www.html5rocks.com/en/tutorials/service-worker/introduction/ for
 // an in-depth explanation of what service workers are and why you should care.
@@ -201,7 +206,9 @@ gulp.task('watch', ['default'], () => {
 gulp.task('build', cb =>
   runSequence(
     'styles',
-    ['lint', 'html', 'html-template', 'vendors', 'scripts', 'images', 'copy'],
+    'images-min',
+    ['lint', 'html', 'html-template', 'vendors', 'scripts', 'images'],
+    ['copy', 'copy-images'],
     'package-service-worker',
     cb
   )
