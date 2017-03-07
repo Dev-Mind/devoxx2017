@@ -7,8 +7,8 @@ spring:
     password:
 
   resources:
-#    static-locations:
-#        - file:perf-client/build/dist/
+    static-locations:
+        - file:build/resources/main/static
     chain:
       strategy:
         content:
@@ -17,8 +17,8 @@ spring:
 
   devtools:
     restart:
-#      additional-paths:
-#        - perf-client/build/dist/
+      additional-paths:
+        - build/resources/main/static
       additional-exclude: "**/*.js, **/*.css, **/*.html, **/*.svg, **/*.png,, **/*.jpg"
 
 server:

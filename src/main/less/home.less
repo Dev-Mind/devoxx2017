@@ -1,0 +1,16 @@
+.dm_img__inbackground{
+  min-height: 8em;
+  background-size: cover;
+  filter: grayscale(100%);
+  color: white;
+
+  @media only screen and (min-width: 0) {
+    background-image: url("/img/mixit/mixit-amphi2_640.jpg");
+  }
+  @media only screen and (min-width: 641px) and (max-width: 1024px) {
+    background-image: url("/img/mixit/mixit-amphi2_1024.jpg");
+  }
+  @media only screen and (min-width: 1025px) {
+    background-image: url("/img/mixit/mixit-amphi2_2048.jpg");
+  }
+}

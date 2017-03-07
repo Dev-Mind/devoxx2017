@@ -1,12 +1,9 @@
 package com.devmind.performance.repository;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.Assert.*;
 
 import com.devmind.performance.model.member.Member;
-import com.devmind.performance.model.member.Speaker;
 import com.devmind.performance.model.member.Sponsor;
-import com.devmind.performance.model.session.Session;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
