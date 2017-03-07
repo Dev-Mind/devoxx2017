@@ -43,7 +43,7 @@
 
 
     <script>var app;
-      System.import('./components/app.js').then(function (module) {
+      System.import('./app.js').then(function (module) {
       app = new module.Application();
       console.log('App is loaded');
       window.addEventListener('hashchange', app.locationHashChanged.bind(app));
@@ -59,10 +59,10 @@
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <button type="button" class="navbar-toggle collapsed" onclick="app.collapseMenu()" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar">..</span>
-                    <span class="icon-bar">..</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="#home" onClick="app.go('home')">
@@ -71,7 +71,7 @@
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="navbar-collapse" id="navbar1">
                 <ul class="nav navbar-nav">
                     <li id="nav__session"><a href="#session" onClick="app.go('session')">Sessions</a></li>
                     <li id="nav__speaker"><a href="#speaker" onClick="app.go('speaker')">Speakers</a></li>

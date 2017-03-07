@@ -29,6 +29,8 @@ export class Application {
     this._registerComponent('sponsor', '(sponsor)', new SponsorCtrl(), 'sponsor/sponsor.html');
 
     this._initUrl();
+    this.collapse = true;
+    this.collapseMenu();
   }
 
   /**
@@ -129,6 +131,9 @@ export class Application {
     this._activeElement(`nav__${action}`, true);
     this._displayContent(action, 'dmContent', options);
     this._displayContent('sponsor', 'dmSponsor', options);
+    if(this.collapse){
+      this.collapseMenu();
+    }
   }
 
   /**
@@ -164,5 +169,14 @@ export class Application {
         element.classList.remove('active');
       }
     }
+  }
+
+  /**
+   * Collapse the menu on mobile
+   */
+  collapseMenu() {
+    this.collapse = !this.collapse;
+    document.getElementById('navbar1').style.visibility = this.collapse ? 'visible': 'hidden';
+    document.getElementById('navbar1').style.height = this.collapse ? '8em': '0';
   }
 }

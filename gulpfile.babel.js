@@ -99,7 +99,6 @@ gulp.task('scripts', () =>
     .pipe($.uglify({preserveComments: 'none'}))
     .pipe($.size({title: 'scripts'}))
     .pipe($.sourcemaps.write('.'))
-    .pipe(gulp.dest(`${paths.dist}`))
 );
 
 
@@ -157,12 +156,17 @@ gulp.task('copy', () => {
 // Copy over the scripts that are used in importScripts as part of the generate-service-worker task.
 gulp.task('copy-sw-scripts', () => {
   return gulp.src(['node_modules/sw-toolbox/sw-toolbox.js', `${paths.main}/sw/runtime-caching.js`])
-    .pipe(gulp.dest(`${paths.dist}/scripts/sw`));
+    .pipe(gulp.dest(`${paths.dist}/sw`));
 });
 
 gulp.task('copy-images', () =>
   gulp.src(`${paths.tmp}/images/**/*.{svg,png,jpg}`)
     .pipe(gulp.dest(`${paths.dist}/img`))
+);
+
+gulp.task('copy-js', ['scripts'], () =>
+  gulp.src(`${paths.tmp}/scripts/**/*.js`)
+    .pipe(gulp.dest(`${paths.dist}`))
 );
 
 // See http://www.html5rocks.com/en/tutorials/service-worker/introduction/ for
@@ -199,7 +203,7 @@ gulp.task('clean', () => del([paths.dist], {dot: true}));
 gulp.task('watch', ['default'], () => {
   gulp.watch([`${paths.main}/**/*.html`], ['html-template', 'html']);
   gulp.watch([`${paths.main}/**/*.less`], ['styles']);
-  gulp.watch([`${paths.main}/**/*.js`], ['lint', 'scripts']);
+  gulp.watch([`${paths.main}/**/*.js`], ['lint', 'copy-js']);
   gulp.watch([`${paths.main}/**/*.{png,webp,svg,gif,jpg}`], ['images']);
 });
 
@@ -208,7 +212,7 @@ gulp.task('build', cb =>
     'styles',
     'images-min',
     ['lint', 'html', 'html-template', 'vendors', 'scripts', 'images'],
-    ['copy', 'copy-images'],
+    ['copy', 'copy-images', 'copy-js'],
     'package-service-worker',
     cb
   )
