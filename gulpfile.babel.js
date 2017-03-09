@@ -41,18 +41,18 @@ gulp.task('lint', () =>
 gulp.task('images-min', () =>
   gulp.src(`${paths.main}/images/**/*.{svg,png,jpg}`)
     .pipe($.newer(`${paths.tmp}/images`))
-    .pipe(imagemin([imagemin.gifsicle(), imageminMozjpeg(), imagemin.optipng(), imagemin.svgo()], {
-      progressive: true,
-      interlaced: true,
-      arithmetic: true,
-    }))
+    // .pipe(imagemin([imagemin.gifsicle(), imageminMozjpeg(), imagemin.optipng(), imagemin.svgo()], {
+    //   progressive: true,
+    //   interlaced: true,
+    //   arithmetic: true,
+    // }))
     .pipe($.size({title: 'images', showFiles: true}))
     .pipe(gulp.dest(`${paths.tmp}/images`))
 );
 
 gulp.task('images', () =>
   gulp.src(`${paths.tmp}/images/**/*.{png,jpg}`)
-    .pipe($.webp())
+    //.pipe($.webp())
     .pipe($.size({title: 'images'}))
     .pipe(gulp.dest(`${paths.dist}/img`))
 );
@@ -80,7 +80,7 @@ gulp.task('styles', () => {
     .pipe($.if('*.css', $.uncss({
       html: [`${paths.main}/*.html`, `${paths.main}/es6/**/*.html`, `${paths.main}/es6/**/*.js`]
     })))
-    .pipe($.if('*.css', $.cssnano()))
+    //.pipe($.if('*.css', $.cssnano()))
     .pipe($.size({title: 'styles'}))
     .pipe($.sourcemaps.write('./'))
     .pipe(gulp.dest(`${paths.dist}/styles`));
@@ -96,7 +96,7 @@ gulp.task('scripts', () =>
     }))
     .pipe($.sourcemaps.write())
     .pipe(gulp.dest(`${paths.tmp}/scripts`))
-    .pipe($.uglify({preserveComments: 'none'}))
+    //.pipe($.uglify({preserveComments: 'none'}))
     .pipe($.size({title: 'scripts'}))
     .pipe($.sourcemaps.write('.'))
 );
@@ -109,7 +109,7 @@ gulp.task('vendors', () => {
   return gulp.src(paths.vendorsToMinify)
     .pipe($.newer(`${paths.tmp}/vendors`))
     .pipe($.sourcemaps.init())
-    .pipe($.uglify({preserveComments: 'none'}))
+    //.pipe($.uglify({preserveComments: 'none'}))
     .pipe($.sourcemaps.write())
     .pipe(gulp.dest(`${paths.tmp}/vendors`))
     .pipe($.sourcemaps.write('.'))
@@ -132,7 +132,7 @@ const HTML_MINIFIER_CONFIG = {
 // Scan your HTML for assets & optimize them
 gulp.task('html-template', () => {
   return gulp.src(`${paths.main}/es6/**/*.html`)
-    .pipe($.htmlmin(HTML_MINIFIER_CONFIG))
+    //.pipe($.htmlmin(HTML_MINIFIER_CONFIG))
     .pipe(gulp.dest(`${paths.tmp}`));
 });
 
@@ -143,7 +143,7 @@ gulp.task('html', () => {
       searchPath: `{${paths.tmp},${paths.main}/es6}`,
       noAssets: true
     }))
-    .pipe($.if('*.html', $.htmlmin(HTML_MINIFIER_CONFIG)))
+    //.pipe($.if('*.html', $.htmlmin(HTML_MINIFIER_CONFIG)))
     .pipe($.if('*.html', $.size({title: 'html', showFiles: true})))
     .pipe(gulp.dest(paths.dist));
 });
@@ -213,7 +213,7 @@ gulp.task('build', cb =>
     'images-min',
     ['lint', 'html', 'html-template', 'vendors', 'scripts', 'images'],
     ['copy', 'copy-images', 'copy-js'],
-    'package-service-worker',
+    //'package-service-worker',
     cb
   )
 );

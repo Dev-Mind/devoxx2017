@@ -17,15 +17,15 @@ public class MemberDto {
     public interface MemberList {
     }
 
-    @JsonView(MemberList.class)
+    //@JsonView(MemberList.class)
     private Long idMember;
-    @JsonView({MemberList.class, SessionDto.SessionList.class})
+    //@JsonView({MemberList.class, SessionDto.SessionList.class})
     private String firstname;
-    @JsonView({MemberList.class, SessionDto.SessionList.class})
+    //@JsonView({MemberList.class, SessionDto.SessionList.class})
     private String lastname;
-    @JsonView(MemberList.class)
+    //@JsonView(MemberList.class)
     private String hash;
-    @JsonView(MemberList.class)
+    //@JsonView(MemberList.class)
     private String shortDescription;
     private String logo;
     private String login;
