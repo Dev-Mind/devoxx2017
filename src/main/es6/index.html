@@ -41,15 +41,7 @@
     <script src="vendors/bootstrap.min.js"></script>
     <script src="vendors/moment.min.js"></script>
 
-
-    <script>var app;
-      System.import('./app.js').then(function (module) {
-      app = new module.Application();
-      console.log('App is loaded');
-      window.addEventListener('hashchange', app.locationHashChanged.bind(app));
-    }, function (e) {
-      console.error('Error on loading', e);
-    });</script>
+    <script src="./app.bundle.js"></script>
 
 </head>
 <body>
@@ -57,7 +49,6 @@
 <header>
     <nav class="navbar dm_navbar">
         <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" onclick="app.collapseMenu()" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
@@ -66,18 +57,16 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="#home" onClick="app.go('home')">
-                    <img src="img/logo/logo_long.svg">
+                    <img src="img/logo/logo-mixit.svg">
                 </a>
             </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="navbar-collapse" id="navbar1">
+            <div class="navbar-collapse dm-navbar-collapse" id="navbar1">
                 <ul class="nav navbar-nav">
                     <li id="nav__session"><a href="#session" onClick="app.go('session')">Sessions</a></li>
                     <li id="nav__speaker"><a href="#speaker" onClick="app.go('speaker')">Speakers</a></li>
                 </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
+            </div>
+        </div>
     </nav>
 </header>
 

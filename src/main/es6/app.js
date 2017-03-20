@@ -7,6 +7,26 @@ import {SessionDetailCtrl} from './session/session-detail.js';
 import {SpeakerCtrl} from './speaker/speaker.js';
 import {SpeakerDetailCtrl} from './speaker/speaker-detail.js';
 import {SponsorCtrl} from './sponsor/sponsor.js';
+import {Fake1_1_Ctrl} from './fake/1/fake1.js';
+import {Fake1_2_Ctrl} from './fake/1/fake2.js'
+import {Fake1_3_Ctrl} from './fake/1/fake3.js'
+import {Fake1_4_Ctrl} from './fake/1/fake4.js'
+import {Fake1_5_Ctrl} from './fake/1/fake5.js'
+import {Fake2_1_Ctrl} from './fake/2/fake1.js';
+import {Fake2_2_Ctrl} from './fake/2/fake2.js';
+import {Fake2_3_Ctrl} from './fake/2/fake3.js';
+import {Fake2_4_Ctrl} from './fake/2/fake4.js';
+import {Fake2_5_Ctrl} from './fake/2/fake5.js';
+import {Fake3_1_Ctrl} from './fake/3/fake1.js';
+import {Fake3_2_Ctrl} from './fake/3/fake2.js';
+import {Fake3_3_Ctrl} from './fake/3/fake3.js';
+import {Fake3_4_Ctrl} from './fake/3/fake4.js';
+import {Fake3_5_Ctrl} from './fake/3/fake5.js';
+import {Fake4_1_Ctrl} from './fake/4/fake1.js';
+import {Fake4_2_Ctrl} from './fake/4/fake2.js';
+import {Fake4_3_Ctrl} from './fake/4/fake3.js';
+import {Fake4_4_Ctrl} from './fake/4/fake4.js';
+import {Fake4_5_Ctrl} from './fake/4/fake5.js';
 
 /* eslint-env browser */
 export class Application {
@@ -179,4 +199,10 @@ export class Application {
     document.getElementById('navbar1').style.visibility = this.collapse ? 'visible': 'hidden';
     document.getElementById('navbar1').style.height = this.collapse ? '8em': '0';
   }
+}
+
+window.onload = () => {
+  window.app = new Application();
+  console.log('App is loaded');
+  window.addEventListener('hashchange', app.locationHashChanged.bind(app));
 }

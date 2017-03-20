@@ -8,7 +8,7 @@
 @import "sponsor";
 @import "speaker";
 
-@color_primary: #90A4AE;
+@color_primary: #2c233d;
 @color_dark: #2a2730;
 @color_hover: #ECEFF1;
 
@@ -28,6 +28,27 @@ html, body {
 header {
   flex: 0 0 54px;
 
+  .dm_navbar_container_lg{
+    visibility: hidden;
+    min-height: 0;
+    height: 0;
+    border: 1px solid red;
+    @media (min-width: @grid-float-breakpoint) {
+      visibility: visible;
+      min-height: @navbar-height;
+    }
+  }
+  .dm_navbar_container_xs{
+    visibility: visible;
+    min-height: @navbar-height;
+    border: 1px solid blue;
+    @media (min-width: @grid-float-breakpoint) {
+      visibility: hidden;
+      min-height: 0;
+      height: 0;
+    }
+  }
+
   .dm_navbar{
     .dm_shadow();
     margin-bottom: 0;
@@ -37,16 +58,12 @@ header {
   }
 
   .navbar-brand > img, .navbar-brand > svg {
-    max-height: 150% !important;
+    max-height: 100% !important;
     width: auto;
   }
 
-  .dm_navbar_collapse{
-    background-color: red !important;
-  }
-
   .icon-bar {
-    background-color: #455A64;
+    background-color: white;
   }
 
   .navbar-nav {
@@ -60,6 +77,10 @@ header {
         background-color: @color_primary;
       }
     }
+  }
+
+  .navbar-toggle{
+    color: white;
   }
 
   a {

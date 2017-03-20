@@ -34,7 +34,7 @@ public class SessionController {
     }
 
     @GetMapping
-    @JsonView(SessionDto.SessionList.class)
+    //@JsonView(SessionDto.SessionList.class)
     public List<SessionDto> findAll() {
         return sessionRepository.findAllSessions().stream()
                 .filter(session -> Objects.nonNull(session.getStart()))
