@@ -22,7 +22,6 @@ const paths = {
     'node_modules/babel-polyfill/dist/polyfill.min.js',
     'node_modules/jquery/dist/jquery.slim.min.js',
     'node_modules/bootstrap/dist/js/bootstrap.min.js',
-    'node_modules/systemjs/dist/system.js',
     'node_modules/moment/min/moment.min.js'
   ],
   vendorsToMinify: [
@@ -90,24 +89,8 @@ gulp.task('styles', () => {
 });
 
 // Concatenate and minify JavaScript. Optionally transpiles ES2015 code to ES5.
-// gulp.task('scripts', () =>
-//   gulp.src(`${paths.main}/es6/**/*.js`)
-//     .pipe($.newer(`${paths.tmp}/scripts`))
-//     .pipe($.sourcemaps.init())
-//     .pipe($.babel({
-//       "plugins": ["transform-es2015-modules-systemjs"]
-//     }))
-//     .pipe($.sourcemaps.write())
-//     .pipe(gulp.dest(`${paths.tmp}/scripts`))
-//     //.pipe($.uglify({preserveComments: 'none'}))
-//     .pipe($.size({title: 'scripts'}))
-//     .pipe($.sourcemaps.write('.'))
-// );
-
-// Concatenate and minify JavaScript. Optionally transpiles ES2015 code to ES5.
 gulp.task('scripts', () =>
   gulp.src(`${paths.main}/es6/**/*.js`)
-    //.pipe($.sourcemaps.init())
     .pipe(webpackStream({
       output: {
         filename: "app.bundle.js"
@@ -123,51 +106,11 @@ gulp.task('scripts', () =>
               options: { presets: ['es2015'] }
             }],
           },
-
-          // Loaders for other file types can go here
         ],
-      },
-      // plugins: [
-      //   new webpack2.optimize.UglifyJsPlugin()
-      // ],
+      }
     }, webpack2))
-    //.pipe($.babel())
-    // .pipe(webpack({
-    //   output: {
-    //     // Make sure to use [name] or [id] in output.filename
-    //     //  when using multiple entry points
-    //     filename: "app.bundle.js"
-    //   },
-    //   plugins: [
-    //     new webpack.optimize.UglifyJsPlugin({
-    //       compress: {
-    //         screw_ie8: true,
-    //         warnings: false
-    //       }
-    //     })
-    //   ]
-    //   // plugins: [
-    //   //   new UglifyJSPlugin({
-    //   //     compress: { warnings: false,sourceMap: false,
-    //   //       mangle: false }
-    //   //   })
-    //   // ]
-    // }))
-   // .pipe($.sourcemaps.write())
-    //.pipe($.uglify({preserveComments: 'none'}))
     .pipe($.size({title: 'scripts'}))
     .pipe(gulp.dest(`${paths.tmp}/scripts`))
-  // gulp.src(`${paths.main}/es6/**/*.js`)
-  //   .pipe($.newer(`${paths.tmp}/scripts`))
-  //   .pipe($.sourcemaps.init())
-  //   .pipe($.babel({
-  //     "plugins": ["transform-es2015-modules-systemjs"]
-  //   }))
-  //   .pipe($.sourcemaps.write())
-  //   .pipe(gulp.dest(`${paths.tmp}/scripts`))
-  //   //.pipe($.uglify({preserveComments: 'none'}))
-  //   .pipe($.size({title: 'scripts'}))
-  //   .pipe($.sourcemaps.write('.'))
 );
 
 // Copy over the scripts that are used in importScripts as part of the generate-service-worker task.
@@ -233,8 +176,8 @@ gulp.task('copy-images', () =>
 );
 
 gulp.task('copy-js', ['scripts'], () =>
-  gulp.src(`${paths.tmp}/scripts/**/*.js`)
-    .pipe($.uglify({preserveComments: 'none'}))
+  gulp.src([`${paths.tmp}/scripts/app.bundle.js`, `${paths.tmp}/scripts/**/*.map`])
+    //.pipe($.if('*.js', $.uglify({preserveComments: 'none'})))
     .pipe($.size({title: 'scripts'}))
     .pipe(gulp.dest(`${paths.dist}`))
 );
