@@ -79,9 +79,9 @@ gulp.task('styles', () => {
     .pipe($.less())
     .pipe($.autoprefixer(AUTOPREFIXER_BROWSERS))
     .pipe(gulp.dest(`${paths.tmp}/styles`))
-    .pipe($.if('*.css', $.uncss({
-      html: [`${paths.main}/*.html`, `${paths.main}/es6/**/*.html`, `${paths.main}/es6/**/*.js`]
-    })))
+    // .pipe($.if('*.css', $.uncss({
+    //   html: [`${paths.main}/*.html`, `${paths.main}/es6/**/*.html`, `${paths.main}/es6/**/*.js`]
+    // })))
     //.pipe($.if('*.css', $.cssnano()))
     .pipe($.size({title: 'styles'}))
     .pipe($.sourcemaps.write('./'))

@@ -37,10 +37,10 @@ public class SponsorController {
 
         return ResponseEntity
                 .ok()
-                .cacheControl(CacheControl.maxAge(2, TimeUnit.DAYS))
-                .eTag(String.valueOf(sponsors.size() +
-                        sponsors.stream()
-                                .collect(Collectors.summingInt(MemberDto::getVersion))))
+                //.cacheControl(CacheControl.maxAge(2, TimeUnit.DAYS))
+                //.eTag(String.valueOf(sponsors.size() +
+                //        sponsors.stream()
+                //                .collect(Collectors.summingInt(MemberDto::getVersion))))
                 .body(sponsors);
     }
 }
