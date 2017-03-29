@@ -6,6 +6,7 @@ import java.util.stream.Collectors;
 
 import com.devmind.performance.dto.MemberDto;
 import com.devmind.performance.repository.SponsorRepository;
+import com.fasterxml.jackson.annotation.JsonView;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.CacheControl;
 import org.springframework.http.ResponseEntity;
@@ -30,6 +31,7 @@ public class SponsorController {
     }
 
     @GetMapping
+    @JsonView(MemberDto.MemberList.class)
     public ResponseEntity<List<MemberDto>> findAll() {
         List<MemberDto> sponsors = sponsorRepository.findAllSponsor().stream()
                 .map(MemberDto::convert)

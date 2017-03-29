@@ -13,7 +13,7 @@ import org.springframework.data.repository.CrudRepository;
  */
 public interface SessionRepository extends CrudRepository<Session, Long> {
 
-    //@Cacheable(WpCacheConfig.CACHE_SESSION)
+    @Cacheable(WpCacheConfig.CACHE_SESSION)
     @Query(value = "SELECT DISTINCT s FROM Session s left join fetch s.speakers sp left join fetch s.votes")
     List<Session> findAllSessions();
 }

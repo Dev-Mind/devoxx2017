@@ -30,7 +30,7 @@ public class SpeakerController {
     }
 
     @GetMapping
-    //@JsonView(MemberDto.MemberList.class)
+    @JsonView(MemberDto.MemberList.class)
     public List<MemberDto> findAll() {
         return speakerRepository
                 .findAllSpeakers()

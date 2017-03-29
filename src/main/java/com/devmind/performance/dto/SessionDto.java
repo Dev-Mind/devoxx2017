@@ -22,19 +22,19 @@ public class SessionDto {
     public interface SessionList {
     }
 
-    //JsonView(SessionList.class)
+    @JsonView(SessionList.class)
     private long idSession;
-    //@JsonView(SessionList.class)
+    @JsonView(SessionList.class)
     public String title;
-    //@JsonView(SessionList.class)
+    @JsonView(SessionList.class)
     public String summary;
-    //@JsonView(SessionList.class)
+    @JsonView(SessionList.class)
     public String start;
-    //@JsonView(SessionList.class)
+    @JsonView(SessionList.class)
     public String end;
-    //@JsonView(SessionList.class)
+    @JsonView(SessionList.class)
     public String room;
-    //@JsonView(SessionList.class)
+    @JsonView(SessionList.class)
     public List<MemberDto> speakers = new ArrayList<>();
     public int votes = 0;
     public int positiveVotes = 0;

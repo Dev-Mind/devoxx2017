@@ -11,6 +11,7 @@ const imagemin = require('gulp-imagemin');
 const imageminMozjpeg = require('imagemin-mozjpeg');
 var webpackStream = require('webpack-stream');
 var webpack2 = require('webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const $ = gulpLoadPlugins();
 
@@ -21,6 +22,7 @@ const paths = {
   vendors: [
     'node_modules/babel-polyfill/dist/polyfill.min.js',
     'node_modules/jquery/dist/jquery.slim.min.js',
+    'node_modules/zepto/dist/zepto.min.js',
     'node_modules/bootstrap/dist/js/bootstrap.min.js',
     'node_modules/moment/min/moment.min.js'
   ],
@@ -42,19 +44,20 @@ gulp.task('lint', () =>
 // Optimize images
 gulp.task('images-min', () =>
   gulp.src(`${paths.main}/images/**/*.{svg,png,jpg}`)
-    .pipe($.newer(`${paths.tmp}/images`))
-    // .pipe(imagemin([imagemin.gifsicle(), imageminMozjpeg(), imagemin.optipng(), imagemin.svgo()], {
-    //   progressive: true,
-    //   interlaced: true,
-    //   arithmetic: true,
-    // }))
-    .pipe($.size({title: 'images', showFiles: true}))
+    //.pipe($.size({title: 'images-min', showFiles: true}))
+    //.pipe($.newer(`${paths.tmp}/images`))
+    .pipe(imagemin([imagemin.gifsicle(), imageminMozjpeg(), imagemin.optipng(), imagemin.svgo()], {
+      progressive: true,
+      interlaced: true,
+      arithmetic: true,
+    }))
+    .pipe($.size({title: 'images-min', showFiles: true}))
     .pipe(gulp.dest(`${paths.tmp}/images`))
 );
 
-gulp.task('images', () =>
+gulp.task('images', ['images-min'], () =>
   gulp.src(`${paths.tmp}/images/**/*.{png,jpg}`)
-    //.pipe($.webp())
+    .pipe($.webp())
     .pipe($.size({title: 'images'}))
     .pipe(gulp.dest(`${paths.dist}/img`))
 );
@@ -79,10 +82,10 @@ gulp.task('styles', () => {
     .pipe($.less())
     .pipe($.autoprefixer(AUTOPREFIXER_BROWSERS))
     .pipe(gulp.dest(`${paths.tmp}/styles`))
-    // .pipe($.if('*.css', $.uncss({
-    //   html: [`${paths.main}/*.html`, `${paths.main}/es6/**/*.html`, `${paths.main}/es6/**/*.js`]
-    // })))
-    //.pipe($.if('*.css', $.cssnano()))
+    .pipe($.if('*.css', $.uncss({
+      html: [`${paths.main}/*.html`, `${paths.main}/es6/**/*.html`, `${paths.main}/es6/**/*.js`]
+     })))
+    .pipe($.if('*.css', $.cssnano()))
     .pipe($.size({title: 'styles'}))
     .pipe($.sourcemaps.write('./'))
     .pipe(gulp.dest(`${paths.dist}/styles`));
@@ -108,6 +111,10 @@ gulp.task('scripts', () =>
           },
         ],
       }
+      //,
+      // plugins: [
+      //   new HtmlWebpackPlugin({ title: 'Tree-shaking' })
+      // ]
     }, webpack2))
     .pipe($.size({title: 'scripts'}))
     .pipe(gulp.dest(`${paths.tmp}/scripts`))
@@ -120,7 +127,7 @@ gulp.task('vendors', () => {
   return gulp.src(paths.vendorsToMinify)
     .pipe($.newer(`${paths.tmp}/vendors`))
     .pipe($.sourcemaps.init())
-    //.pipe($.uglify({preserveComments: 'none'}))
+    .pipe($.uglify({preserveComments: 'none'}))
     .pipe($.sourcemaps.write())
     .pipe(gulp.dest(`${paths.tmp}/vendors`))
     .pipe($.sourcemaps.write('.'))
@@ -143,7 +150,7 @@ const HTML_MINIFIER_CONFIG = {
 // Scan your HTML for assets & optimize them
 gulp.task('html-template', () => {
   return gulp.src(`${paths.main}/es6/**/*.html`)
-    //.pipe($.htmlmin(HTML_MINIFIER_CONFIG))
+    .pipe($.htmlmin(HTML_MINIFIER_CONFIG))
     .pipe(gulp.dest(`${paths.tmp}`));
 });
 
@@ -154,7 +161,7 @@ gulp.task('html', () => {
       searchPath: `{${paths.tmp},${paths.main}/es6}`,
       noAssets: true
     }))
-    //.pipe($.if('*.html', $.htmlmin(HTML_MINIFIER_CONFIG)))
+    .pipe($.if('*.html', $.htmlmin(HTML_MINIFIER_CONFIG)))
     .pipe($.if('*.html', $.size({title: 'html', showFiles: true})))
     .pipe(gulp.dest(paths.dist));
 });
@@ -177,7 +184,7 @@ gulp.task('copy-images', () =>
 
 gulp.task('copy-js', ['scripts'], () =>
   gulp.src([`${paths.tmp}/scripts/app.bundle.js`, `${paths.tmp}/scripts/**/*.map`])
-    //.pipe($.if('*.js', $.uglify({preserveComments: 'none'})))
+    .pipe($.if('*.js', $.uglify({preserveComments: 'none'})))
     .pipe($.size({title: 'scripts'}))
     .pipe(gulp.dest(`${paths.dist}`))
 );
@@ -223,7 +230,6 @@ gulp.task('watch', ['default'], () => {
 gulp.task('build', cb =>
   runSequence(
     'styles',
-    'images-min',
     ['lint', 'html', 'html-template', 'vendors', 'scripts', 'images'],
     ['copy', 'copy-images', 'copy-js'],
     //'package-service-worker',

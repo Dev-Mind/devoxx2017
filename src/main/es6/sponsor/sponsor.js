@@ -32,12 +32,12 @@ export class SponsorCtrl {
     this.data.forEach(sponsor => {
       lines += `
         <div class="dm_sponsor__container">
-          <!--<picture>
+          <picture>
             <source srcset="img/${this._getWebPUrl(sponsor.logo)}" type="image/webp" class="dm_sponsor__img img-responsive">
             <source srcset="img/${sponsor.logo}" class="dm_sponsor__img img-responsive">
             <img src="img/${sponsor.logo}" class="dm_sponsor__img img-responsive">
-          </picture>-->
-          <img src="img/${sponsor.logo}" class="dm_sponsor__img img-responsive">
+          </picture>
+          <!--<img src="img/${sponsor.logo}" class="dm_sponsor__img img-responsive">-->
         </div>`;
     });
     lines += '</div>';

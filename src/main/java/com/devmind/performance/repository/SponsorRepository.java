@@ -13,7 +13,7 @@ import org.springframework.data.repository.CrudRepository;
  */
 public interface SponsorRepository extends CrudRepository<Sponsor, Long> {
 
-    //@Cacheable(WpCacheConfig.CACHE_SPONSOR)
+    @Cacheable(WpCacheConfig.CACHE_SPONSOR)
     @Query(value = "SELECT DISTINCT m FROM Sponsor m")
     List<Sponsor> findAllSponsor();
 }
