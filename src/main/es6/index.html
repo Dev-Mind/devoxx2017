@@ -1,6 +1,14 @@
 <!doctype html>
 <html lang="fr">
 <head>
+    <link rel="prefetch" href="https://fonts.googleapis.com/css?family=Roboto:400" onload="this.rel='stylesheet'">
+    <link rel="preload" href="styles/app.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" href="/session/session.html" as="document">
+    <link rel="preload" href="/sponsor/sponsor.html" as="document">
+    <link rel="preload" href="/app.bundle.js" as="script">
+
+    <!--<link rel="prefetch" href="https://fonts.googleapis.com/css?family=Roboto:400">-->
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="">
@@ -31,10 +39,14 @@
     <!-- Color the status bar on mobile devices -->
     <meta name="theme-color" content="#2F3BA2">
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="styles/app.css">
+    <!--<link href="https://fonts.googleapis.com/css?family=Roboto:400" rel="stylesheet">-->
+    <!--<link rel="stylesheet" href="styles/app.css">-->
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
+
+
+    <!--<link rel="prefetch" url="/session/session.html">-->
+    <!--<link rel="prefetch" url="/sponsor/sponsor.html">-->
 </head>
 <body>
 
@@ -75,12 +87,20 @@
 
 
 <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
-<!--<script src="vendors/polyfill.min.js"></script>-->
+    <!--<script src="vendors/polyfill.min.js"></script>-->
 <script src="vendors/jquery.slim.min.js"></script>
-<script src="vendors/zepto.min.js"></script>
 <script src="vendors/bootstrap.min.js"></script>
 <script src="vendors/moment.min.js"></script>
 
-<script src="./app.bundle.js"></script>
+<script src="/app.bundle.js"></script>
+
+<!--<script>-->
+  <!--var font = new FontFace("Roboto", "url(https://fonts.googleapis.com/css?family=Roboto)", {});-->
+  <!--font.load().then(function() {-->
+    <!--document.fonts.add(font);-->
+    <!--document.body.style.fontFamily = "Roboto, Arial, sans-serif";-->
+  <!--});-->
+<!--</script>-->
+
 </body>
 </html>

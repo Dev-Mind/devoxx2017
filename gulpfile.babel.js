@@ -1,6 +1,5 @@
 'use strict';
 
-import path from 'path';
 import gulp from 'gulp';
 import del from 'del';
 import runSequence from 'run-sequence';
@@ -171,12 +170,6 @@ gulp.task('copy', () => {
     .pipe(gulp.dest(paths.dist));
 });
 
-// Copy over the scripts that are used in importScripts as part of the generate-service-worker task.
-gulp.task('copy-sw-scripts', () => {
-  return gulp.src(['node_modules/sw-toolbox/sw-toolbox.js', `${paths.main}/sw/runtime-caching.js`])
-    .pipe(gulp.dest(`${paths.dist}/sw`));
-});
-
 gulp.task('copy-images', () =>
   gulp.src(`${paths.tmp}/images/**/*.{svg,png,jpg}`)
     .pipe(gulp.dest(`${paths.dist}/img`))
@@ -189,21 +182,27 @@ gulp.task('copy-js', ['scripts'], () =>
     .pipe(gulp.dest(`${paths.dist}`))
 );
 
-// See http://www.html5rocks.com/en/tutorials/service-worker/introduction/ for
-// an in-depth explanation of what service workers are and why you should care.
-gulp.task('generate-service-worker', ['copy-sw-scripts'], () => {
-  const filepath = path.join(paths.tmp, 'service-worker.js');
+gulp.task('generate-service-worker', function(callback) {
+  let config = {
+    cacheId: 'dev-mind',
+    // Determines whether the fetch event handler is included in the generated service worker code. It is useful to
+    // set this to false in development builds, to ensure that features like live reload still work. Otherwise, the content
+    // would always be served from the service worker cache.
+    handleFetch: true,
+    runtimeCaching: [{
+      urlPattern: '/(.*)',
+      handler: 'fastest',
+      options : {
+        networkTimeoutSeconds: 3,
+        maxAgeSeconds: 43200
+      }
+    }],
+    staticFileGlobs: [ `${paths.dist}/**/*.{js,html,css,png,jpg,json,gif,svg,webp,eot,ttf,woff,woff2}`],
+    stripPrefix: `${paths.dist}/`,
+    verbose: true
+  };
 
-  return swPrecache.write(filepath, {
-    cacheId: 'dev-mind_1.0.0',
-    // sw-toolbox.js needs to be listed first. It sets up methods used in runtime-caching.js.
-    importScripts: [
-      'scripts/sw/sw-toolbox.js',
-      'scripts/sw/runtime-caching.js'
-    ],
-    staticFileGlobs: [ paths.dist + '/**/*.{js,html,css,png,jpg,json,gif,svg,webp,eot,ttf,woff,woff2}'],
-    stripPrefix: paths.dist + '/'
-  });
+  swPrecache.write(`${paths.tmp}/service-worker.js`, config, callback);
 });
 
 gulp.task('package-service-worker', ['generate-service-worker'], () =>
@@ -232,7 +231,7 @@ gulp.task('build', cb =>
     'styles',
     ['lint', 'html', 'html-template', 'vendors', 'scripts', 'images'],
     ['copy', 'copy-images', 'copy-js'],
-    //'package-service-worker',
+    'package-service-worker',
     cb
   )
 );
