@@ -36,14 +36,14 @@ public class SponsorControllerTest {
     public void findAll() throws Exception {
 
         given(this.sponsorRepository.findAllSponsor()).willReturn(Arrays.asList(
-                new Sponsor().withCompany("Dev-Mind"),
-                new Sponsor().withCompany("MiXiT")
+                new Sponsor().withLastname("Dev-Mind"),
+                new Sponsor().withLastname("MiXiT")
         ));
 
         this.mvc.perform(
                 get("/api/sponsors"))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$..company", containsInAnyOrder("Dev-Mind", "MiXiT")));
+                .andExpect(jsonPath("$..lastname", containsInAnyOrder("DEV-MIND", "MIXIT")));
     }
 
     @Test
