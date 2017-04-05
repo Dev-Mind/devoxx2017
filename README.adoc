@@ -1,6 +1,6 @@
 = DevoxxFr 2017 - Optimiser les performances d'une webapp
 
-image:https://travis-ci.org/Dev-Mind/devoxx2017.svg?branch=master
+image:https://travis-ci.org/Dev-Mind/devoxx2017.svg?branch=master[Travis]
 
 image:src/main/images/logo/logo_1500.png[Dev-Mind]
 
