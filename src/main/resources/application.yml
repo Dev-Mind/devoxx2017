@@ -7,8 +7,8 @@ spring:
     password:
 
   resources:
-#    static-locations:
-#        - file:perf-client/build/dist/
+    static-locations:
+        - file:build/resources/main/static
     chain:
       strategy:
         content:
@@ -17,16 +17,16 @@ spring:
 
   devtools:
     restart:
-#      additional-paths:
-#        - perf-client/build/dist/
+      additional-paths:
+        - build/resources/main/static
       additional-exclude: "**/*.js, **/*.css, **/*.html, **/*.svg, **/*.png,, **/*.jpg"
 
 server:
-# ssl:
-#   key-store: classpath:perf.jks
-#   key-store-password: DevMind
-#   key-password: DevMind
-#   protocol: TLSv1.2
+ ssl:
+   key-store: classpath:perf.jks
+   key-store-password: DevMind
+   key-password: DevMind
+   protocol: TLSv1.2
  compression:
    enabled: true
    mime-types: application/json,text/html,text/css,application/javascript

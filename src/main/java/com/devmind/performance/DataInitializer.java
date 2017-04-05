@@ -13,6 +13,7 @@ import com.devmind.performance.repository.SponsorRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.type.TypeFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.ResourceLoader;
 import org.springframework.stereotype.Component;
@@ -37,15 +38,13 @@ public class DataInitializer {
     private SponsorRepository sponsorRepository;
 
     protected <T> List<T> fromJson(String filename, Class<T> className) {
-        Resource file = resourceLoader.getResource("classpath:raw/" + filename);
-
         try {
+            Resource file = new ClassPathResource("raw/" + filename);
             TypeFactory typeFactory = objectMapper.getTypeFactory();
-            return objectMapper.readValue(file.getFile(), typeFactory.constructCollectionType(List.class, className));
+            return objectMapper.readValue(file.getInputStream(), typeFactory.constructCollectionType(List.class, className));
         }
         catch (IOException e) {
-            e.printStackTrace();
-            return null;
+            throw new RuntimeException("Impossible to init data");
         }
     }
 

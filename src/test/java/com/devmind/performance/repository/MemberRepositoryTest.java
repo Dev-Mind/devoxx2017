@@ -3,7 +3,6 @@ package com.devmind.performance.repository;
 import static org.assertj.core.api.Assertions.assertThat;
 
 import com.devmind.performance.model.member.Member;
-import com.devmind.performance.model.member.Speaker;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

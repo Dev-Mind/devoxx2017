@@ -27,6 +27,7 @@ public class MemberDto {
     private String hash;
     @JsonView(MemberList.class)
     private String shortDescription;
+    @JsonView(MemberList.class)
     private String logo;
     private String login;
     private String company;

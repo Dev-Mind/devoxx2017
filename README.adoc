@@ -1,5 +1,3 @@
-https://travis-ci.org/mix-it/mixit[image:https://api.travis-ci.org/mix-it/mixit.svg?branch=master[Travis CI]]
-
 = DevoxxFr 2017 - Optimiser les performances d'une webapp
 
 image:src/main/images/logo/logo_1500.png[Dev-Mind]

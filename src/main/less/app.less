@@ -1,0 +1,128 @@
+// Default I take all the elements
+@import "../../../node_modules/bootstrap/less/bootstrap";
+
+// In the real life these files should be downloaded by the components
+@import "font";
+@import "home";
+@import "session";
+@import "sponsor";
+@import "speaker";
+
+@color_primary: #2c233d;
+@color_dark: #2a2730;
+@color_hover: #ECEFF1;
+
+.dm_shadow(){
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+
+html, body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-height: 100vh;
+  margin: 0;
+}
+
+header {
+  flex: 0 0 54px;
+
+  .dm_navbar_container_lg{
+    visibility: hidden;
+    min-height: 0;
+    height: 0;
+    border: 1px solid red;
+    @media (min-width: @grid-float-breakpoint) {
+      visibility: visible;
+      min-height: @navbar-height;
+    }
+  }
+  .dm_navbar_container_xs{
+    visibility: visible;
+    min-height: @navbar-height;
+    border: 1px solid blue;
+    @media (min-width: @grid-float-breakpoint) {
+      visibility: hidden;
+      min-height: 0;
+      height: 0;
+    }
+  }
+
+  .dm_navbar{
+    .dm_shadow();
+    margin-bottom: 0;
+    border-radius: 0px;
+    background-color: @color_primary;
+    border-color: @color_primary;
+  }
+
+  .navbar-brand > img, .navbar-brand > svg {
+    max-height: 100% !important;
+    width: auto;
+  }
+
+  .icon-bar {
+    background-color: white;
+  }
+
+  .navbar-nav {
+
+    > .active > a {
+      &,
+      &:hover,
+      &:focus {
+        font-weight: bold;
+        color: white;
+        background-color: @color_primary;
+      }
+    }
+  }
+
+  .navbar-toggle{
+    color: white;
+  }
+
+  a {
+    color: white;
+  }
+}
+
+.dm_messsage {
+  display: none;
+  margin-top: 1em;
+}
+
+main {
+  flex: 1 1 auto;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+footer {
+  flex: 0 1 40px;
+  background-color: @color_dark;
+  color: #eeeeee;
+
+  > div{
+    text-align: center;
+    padding: 4px;
+  }
+}
+
+.dm_list {
+  .dm_shadow();
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dm_list__item {
+  padding: 1em;
+  border-bottom: 1px solid #eeeeee;
+  margin: 0.5em;
+}
+
+.dm_list__item:hover {
+  background-color: @color_hover;
+}

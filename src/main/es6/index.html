@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <link rel="prefetch" href="https://fonts.googleapis.com/css?family=Roboto:400" onload="this.rel='stylesheet'">
+    <link rel="preload" href="styles/app.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" href="/session/session.html" as="document">
+    <link rel="preload" href="/sponsor/sponsor.html" as="document">
+    <link rel="preload" href="/app.bundle.js" as="script">
+
+    <!--<link rel="prefetch" href="https://fonts.googleapis.com/css?family=Roboto:400">-->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dev-Mind</title>
+
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <!-- Web Application Manifest -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Web Starter Kit">
+    <link rel="icon" sizes="192x192" href="img/touch/chrome-touch-icon-192x192.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Dev-Mind">
+    <link rel="apple-touch-icon" href="img/touch/apple-touch-icon.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="img/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#2F3BA2">
+
+    <!-- Color the status bar on mobile devices -->
+    <meta name="theme-color" content="#2F3BA2">
+
+    <!--<link href="https://fonts.googleapis.com/css?family=Roboto:400" rel="stylesheet">-->
+    <!--<link rel="stylesheet" href="styles/app.css">-->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+
+
+    <!--<link rel="prefetch" url="/session/session.html">-->
+    <!--<link rel="prefetch" url="/sponsor/sponsor.html">-->
+</head>
+<body>
+
+<header>
+    <nav class="navbar dm_navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" onclick="app.collapseMenu()" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#home" onClick="app.go('home')">
+                    <img src="img/logo/logo-mixit.svg">
+                </a>
+            </div>
+            <div class="navbar-collapse dm-navbar-collapse" id="navbar1">
+                <ul class="nav navbar-nav">
+                    <li id="nav__session"><a href="#session" onClick="app.go('session')">Sessions</a></li>
+                    <li id="nav__speaker"><a href="#speaker" onClick="app.go('speaker')">Speakers</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <div class="container-fluid">
+        <div id="dmMessage" class="alert alert-info dm_messsage"></div>
+        <div id="dmContent">Application is loaded...</div>
+        <div id="dmSponsor"></div>
+    </div>
+</main>
+<footer>
+    <div class="container-fluid">All right reserved - @2016 Guillaume EHRET</div>
+</footer>
+
+
+<script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+    <!--<script src="vendors/polyfill.min.js"></script>-->
+<script src="vendors/jquery.slim.min.js"></script>
+<script src="vendors/bootstrap.min.js"></script>
+<script src="vendors/moment.min.js"></script>
+
+<script src="/app.bundle.js"></script>
+
+<!--<script>-->
+  <!--var font = new FontFace("Roboto", "url(https://fonts.googleapis.com/css?family=Roboto)", {});-->
+  <!--font.load().then(function() {-->
+    <!--document.fonts.add(font);-->
+    <!--document.body.style.fontFamily = "Roboto, Arial, sans-serif";-->
+  <!--});-->
+<!--</script>-->
+
+</body>
+</html>

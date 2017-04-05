@@ -1,0 +1,8 @@
+= ALPN
+
+The TLS Application Layer Protocol Negotiation (ALPN) Extension, which provides the means to negotiate an application protocol for a TLS connection will be integrated in Java 9 (see http://openjdk.java.net/jeps/244)
+
+If you use JAva 8 you need to include the ALPN pecific to your JDK in the bootClasspath
+See http://www.eclipse.org/jetty/documentation/current/alpn-chapter.html#alpn-versions
+
+alpn-boot-8.1.11.v20170118.jar correspond au JDK 8 u121
