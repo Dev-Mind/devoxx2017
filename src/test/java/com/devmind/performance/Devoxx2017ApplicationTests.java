@@ -11,6 +11,7 @@ public class Devoxx2017ApplicationTests {
 
 	@Test
 	public void contextLoads() {
-	}
 
+	}
 }
+

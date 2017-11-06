@@ -26,7 +26,7 @@ jar {
 }
 
 node {
-    version = "6.9.4"
+    version = "8.4.0"
     download = true
 }
 
@@ -79,6 +79,7 @@ task gulpClean(type: GulpTask) {
     outputs.dir("build/resources/main/static")
     args = ['clean']
 }
+
 
 processResources.dependsOn(gulpBuild)
 clean.dependsOn(gulpClean)
